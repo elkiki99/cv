@@ -29,16 +29,13 @@
     <!-- Navigation -->
     <flux:header
         class="flex flex-row items-center justify-center !px-2 md:!px-6 max-w-xl mx-6 mt-6 mr-auto bg-zinc-100 rounded-full md:mx-auto dark:bg-zinc-800">
-        <flux:modal.trigger name="open-sidebar">
-            <flux:sidebar.toggle class="md:hidden" icon="bars-2" />
-            {{-- <flux:button class="md:hidden" icon="bars-2"></flux:button> --}}
-        </flux:modal.trigger>
+        <flux:sidebar.toggle class="md:hidden hover:rounded-full" icon="bars-2" />
 
         <flux:navbar class="max-md:hidden">
-            <flux:navbar.item icon="home" href="/">Home</flux:navbar.item>
-            <flux:navbar.item icon="inbox" badge="12" href="#">Inbox</flux:navbar.item>
-            <flux:navbar.item icon="document-text" href="#">Documents</flux:navbar.item>
-            <flux:navbar.item icon="calendar" href="#">Calendar</flux:navbar.item>
+            <flux:navbar.item href="/">Home</flux:navbar.item>
+            <flux:navbar.item href="#">About</flux:navbar.item>
+            <flux:navbar.item href="#">Portfolio</flux:navbar.item>
+            <flux:navbar.item href="#">Resume</flux:navbar.item>
         </flux:navbar>
 
         <!-- Dark mode button -->
@@ -52,28 +49,23 @@
 
     <!-- Dark mode button -->
     <flux:header class="flex md:hidden !px-2 ml-auto mt-6 dark:bg-zinc-800 bg-zinc-100 rounded-full mx-6">
-        <flux:button class="dark:hidden" x-data x-on:click="$flux.dark = ! $flux.dark" icon="moon" variant="subtle"
-            aria-label="Toggle dark mode" />
-        <flux:button class="hidden dark:flex" x-data x-on:click="$flux.dark = ! $flux.dark" icon="sun"
-            variant="subtle" aria-label="Toggle light mode" />
+        <flux:button class="dark:hidden hover:rounded-full" x-data x-on:click="$flux.dark = ! $flux.dark" icon="moon"
+            variant="subtle" aria-label="Toggle dark mode" />
+        <flux:button class="hidden dark:flex hover:rounded-full" x-data x-on:click="$flux.dark = ! $flux.dark"
+            icon="sun" variant="subtle" aria-label="Toggle light mode" />
     </flux:header>
 
-    <flux:modal name="open-sidebar" class="space-y-6 md:hidden">
-        <div>
-            <flux:heading size="lg">Update profile</flux:heading>
-            <flux:subheading>Make changes to your personal details.</flux:subheading>
-        </div>
+    <flux:sidebar stashable sticky
+        class="border-r md:hidden bg-zinc-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-700">
+        <flux:sidebar.toggle class="md:hidden" icon="x-mark" />
 
-        <flux:input label="Name" placeholder="Your name" />
-
-        <flux:input label="Date of birth" type="date" />
-
-        <div class="flex">
-            <flux:spacer />
-
-            <flux:button type="submit" variant="primary">Save changes</flux:button>
-        </div>
-    </flux:modal>
+        <flux:navlist>
+            <flux:navlist.item icon="home" href="/">Home</flux:navlist.item>
+            <flux:navlist.item icon="user" href="#">About</flux:navlist.item>
+            <flux:navlist.item icon="briefcase" href="#">Portfolio</flux:navlist.item>
+            <flux:navlist.item icon="book-open" href="#">Resume</flux:navlist.item>
+        </flux:navlist>
+    </flux:sidebar>
 
     <!-- Main -->
     <flux:main container class="mx-auto max-w-7xl">
