@@ -27,15 +27,15 @@
 
 <body class="min-h-screen font-sans antialiased bg-white dark:bg-zinc-900">
     <!-- Navigation -->
-    <flux:header
-        class="flex flex-row items-center justify-center !px-2 md:!px-6 max-w-xl mx-6 mt-6 mr-auto bg-zinc-100 rounded-full md:mx-auto dark:bg-zinc-800">
+    <flux:header container
+        class="flex flex-row items-center justify-center !px-2 md:!px-6 mx-6 mt-6 mr-auto bg-zinc-100 rounded-full md:mx-auto dark:bg-zinc-800">
         <flux:sidebar.toggle class="md:hidden hover:rounded-full" icon="bars-2" />
 
         <flux:navbar class="max-md:hidden">
             <flux:navbar.item href="/">Home</flux:navbar.item>
-            <flux:navbar.item href="#">About</flux:navbar.item>
-            <flux:navbar.item href="#">Portfolio</flux:navbar.item>
-            <flux:navbar.item href="#">Resume</flux:navbar.item>
+            <flux:navbar.item href="/about">About</flux:navbar.item>
+            <flux:navbar.item href="/portfolio">Portfolio</flux:navbar.item>
+            <flux:navbar.item href="/resume">Resume</flux:navbar.item>
         </flux:navbar>
 
         <!-- Dark mode button -->
@@ -68,9 +68,18 @@
     </flux:sidebar>
 
     <!-- Main -->
-    <flux:main container class="mx-auto max-w-7xl">
+    <flux:main container>
         {{ $slot }}
     </flux:main>
+
+    <flux:footer container>
+       <div class="flex justify-between">
+            <flux:link wire:navigate href="/">Home</flux:link>
+            <flux:link wire:navigate href="/about">About</flux:link>
+            <flux:link wire:navigate href="/portfolio">Portfolio</flux:link>
+            <flux:link wire:navigate href="/resume">Resume</flux:link>
+        </div> 
+    </flux:footer>
 
     @fluxScripts
 

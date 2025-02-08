@@ -23,6 +23,11 @@
             <a href="#">
                 <flux:icon.linkedin variant="mini" />
             </a>
+            <a href="#">
+                <flux:icon.youtube variant="mini" />
+            </a>
         </div>
+
+        @include('components.marquee')
     </section>
 </x-app-layout>
