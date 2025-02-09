@@ -25,17 +25,17 @@
     @fluxStyles
 </head>
 
-<body class="min-h-screen font-sans antialiased bg-white dark:bg-zinc-900">
+<body class="font-sans antialiased bg-white dark:bg-zinc-900">
     <!-- Navigation -->
     <flux:header
-        class="flex flex-row items-center justify-center !px-2 md:!px-6 mx-6 mt-6 mr-auto bg-zinc-100 rounded-full md:mx-auto dark:bg-zinc-800">
+        class="flex flex-row items-center justify-center !px-2 md:!px-6 mx-6 mt-6 mb-0 md:mb-6 mr-auto bg-zinc-100 rounded-full md:mx-auto dark:bg-zinc-800">
         <flux:sidebar.toggle class="md:hidden hover:rounded-full" icon="bars-2" />
 
         <flux:navbar class="max-md:hidden">
-            <flux:navbar.item href="/">Home</flux:navbar.item>
-            <flux:navbar.item href="/about">About</flux:navbar.item>
-            <flux:navbar.item href="/portfolio">Portfolio</flux:navbar.item>
-            <flux:navbar.item href="/resume">Resume</flux:navbar.item>
+            <flux:navbar.item wire:navigate href="/">Home</flux:navbar.item>
+            <flux:navbar.item wire:navigate href="/about">About</flux:navbar.item>
+            <flux:navbar.item wire:navigate href="/portfolio">Portfolio</flux:navbar.item>
+            <flux:navbar.item wire:navigate href="/resume">Resume</flux:navbar.item>
         </flux:navbar>
 
         <!-- Dark mode button -->
@@ -60,19 +60,19 @@
         <flux:sidebar.toggle class="md:hidden" icon="x-mark" />
 
         <flux:navlist>
-            <flux:navlist.item icon="home" href="/">Home</flux:navlist.item>
-            <flux:navlist.item icon="user" href="/about">About</flux:navlist.item>
-            <flux:navlist.item icon="briefcase" href="/portfolio">Portfolio</flux:navlist.item>
-            <flux:navlist.item icon="book-open" href="/resume">Resume</flux:navlist.item>
+            <flux:navlist.item icon="home" wire:navigate href="/">Home</flux:navlist.item>
+            <flux:navlist.item icon="user" wire:navigate href="/about">About</flux:navlist.item>
+            <flux:navlist.item icon="briefcase" wire:navigate href="/portfolio">Portfolio</flux:navlist.item>
+            <flux:navlist.item icon="book-open" wire:navigate href="/resume">Resume</flux:navlist.item>
         </flux:navlist>
     </flux:sidebar>
 
     <!-- Main -->
-    <flux:main container>
+    <flux:main container class="mt-6 md:mt-0">
         {{ $slot }}
     </flux:main>
 
-    <flux:footer container>
+    <flux:footer class="mt-6" container>
        <div class="flex justify-between">
             <flux:link wire:navigate href="/">Home</flux:link>
             <flux:link wire:navigate href="/about">About</flux:link>
