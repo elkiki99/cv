@@ -27,7 +27,7 @@
 
 <body class="min-h-screen font-sans antialiased bg-white dark:bg-zinc-900">
     <!-- Navigation -->
-    <flux:header container
+    <flux:header
         class="flex flex-row items-center justify-center !px-2 md:!px-6 mx-6 mt-6 mr-auto bg-zinc-100 rounded-full md:mx-auto dark:bg-zinc-800">
         <flux:sidebar.toggle class="md:hidden hover:rounded-full" icon="bars-2" />
 
@@ -61,9 +61,9 @@
 
         <flux:navlist>
             <flux:navlist.item icon="home" href="/">Home</flux:navlist.item>
-            <flux:navlist.item icon="user" href="#">About</flux:navlist.item>
-            <flux:navlist.item icon="briefcase" href="#">Portfolio</flux:navlist.item>
-            <flux:navlist.item icon="book-open" href="#">Resume</flux:navlist.item>
+            <flux:navlist.item icon="user" href="/about">About</flux:navlist.item>
+            <flux:navlist.item icon="briefcase" href="/portfolio">Portfolio</flux:navlist.item>
+            <flux:navlist.item icon="book-open" href="/resume">Resume</flux:navlist.item>
         </flux:navlist>
     </flux:sidebar>
 

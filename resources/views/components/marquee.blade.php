@@ -12,50 +12,34 @@
         </div>
         <div x-ref="content" class="flex animate-marquee">
             <div x-ref="item"
-                class="flex items-center justify-around flex-shrink-0 w-full py-2 space-x-6 md:space-x-4 text-zinc-700 dark:text-white">
-                <flux:icon.laravel class="size-12" />
+                class="flex items-center justify-around flex-shrink-0 w-full py-2 space-x-6 md:space-x-4 text-zinc-800 dark:text-white">
+                <flux:icon.laravel class="size-10" />
 
-                <flux:icon.tailwind class="size-12" />
+                <flux:icon.tailwind class="size-10" />
 
-                <flux:icon.livewire class="size-12" />
+                <flux:icon.livewire class="size-10" />
 
-                <flux:icon.alpine class="size-12" />
+                <flux:icon.alpine class="size-10" />
 
-                <flux:icon.react class="size-12" />
+                <flux:icon.php class="size-10" />
+                
+                <flux:icon.javascript class="size-10" />
+                
+                <flux:icon.react class="size-10 hidden md:block" />
 
-                <flux:icon.php class="size-12" />
+                <flux:icon.sqlite class="size-10 hidden md:block" />
+                
+                <flux:icon.fly class="size-10 hidden md:block" />
+                
+                <flux:icon.framer class="size-10 hidden md:block" />
 
-                <flux:icon.javascript class="size-12" />
+                <flux:icon.stripe class="size-10 hidden md:block" />
 
-                <flux:icon.framer class="size-12" />
-
-                {{-- <flux:icon.mysql class="size-12" /> --}}
-
-                <flux:icon.sqlite class="size-12" />
-
-                {{-- <flux:icon.udemy class="size-12" /> --}}
-
-                <flux:icon.fly class="size-12" />
-
-                {{-- <flux:icon.css class="size-12" /> --}}
-
-                {{-- <flux:icon.spotify class="size-12" /> --}}
-
-                <flux:icon.stripe class="size-12" />
-
-                <flux:icon.mercadopago class="size-12" />
-
-                <flux:icon.docker class="size-12" />
+                <flux:icon.docker class="size-10 hidden md:block" />
 
                 <div class="pr-6 md:pr-4">
-                    <flux:icon.git class=" size-12" />
+                    <flux:icon.git class="size-10" />
                 </div>
-
-                {{-- <flux:icon.obs class="size-12" /> --}}
-
-                {{-- <flux:icon.vscode class="size-12" />
-
-                <flux:icon.windows class="mr-8" class="size-12" /> --}}
             </div>
         </div>
     </div>
