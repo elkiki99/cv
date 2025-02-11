@@ -12,33 +12,33 @@
         </div>
         <div x-ref="content" class="flex animate-marquee">
             <div x-ref="item"
-                class="flex items-center justify-around flex-shrink-0 w-full py-2 space-x-6 md:space-x-4 text-zinc-800 dark:text-white">
-                <flux:icon.laravel class="size-10" />
+                class="flex items-center justify-around flex-shrink-0 w-full py-2 space-x-6 md:space-x-4 text-zinc-700 dark:text-white/80">
+                <flux:icon.laravel class="size-8" />
 
-                <flux:icon.tailwind class="size-10" />
+                <flux:icon.tailwind class="size-8" />
 
-                <flux:icon.livewire class="size-10" />
+                <flux:icon.livewire class="hidden size-8 sm:block" />
 
-                <flux:icon.alpine class="size-10" />
+                <flux:icon.alpine class="hidden size-8 sm:block" />
 
-                <flux:icon.php class="size-10" />
+                <flux:icon.php class="size-8" />
                 
-                <flux:icon.javascript class="size-10" />
+                <flux:icon.javascript class="size-8" />
                 
-                <flux:icon.react class="size-10 hidden md:block" />
+                <flux:icon.react class="hidden size-8 md:block" />
 
-                <flux:icon.sqlite class="size-10 hidden md:block" />
+                <flux:icon.sqlite class="hidden size-8 md:block" />
                 
-                <flux:icon.fly class="size-10 hidden md:block" />
+                <flux:icon.fly class="hidden size-8 md:block !transition-none" />
                 
-                <flux:icon.framer class="size-10 hidden md:block" />
+                <flux:icon.framer class="hidden size-8 md:block" />
 
-                <flux:icon.stripe class="size-10 hidden md:block" />
+                <flux:icon.stripe class="hidden size-8 md:block" />
 
-                <flux:icon.docker class="size-10 hidden md:block" />
+                <flux:icon.docker class="hidden size-8 md:block" />
 
                 <div class="pr-6 md:pr-4">
-                    <flux:icon.git class="size-10" />
+                    <flux:icon.git class="size-8" />
                 </div>
             </div>
         </div>

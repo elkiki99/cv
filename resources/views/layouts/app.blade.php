@@ -9,7 +9,7 @@
     <title>{{ config('app.name', 'Bruno Rossani') }}</title>
 
     <!-- Fonts -->
-    <link rel="icon" href="{{ asset('favicon.png') }}" />
+    <link rel="icon" href="{{ asset('faviconbr.png') }}" />
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=inter:400,500,600&display=swap" rel="stylesheet" />
 

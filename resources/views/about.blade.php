@@ -1,5 +1,5 @@
 <x-app-layout class="space-y-12">
-    <section class="flex flex-col-reverse min-h-screen gap-16 mt-12 space-y-6 md:flex-row">
+    <section class="flex flex-col-reverse min-h-screen gap-16 mt-0 space-y-6 md:mt-12 md:flex-row">
         <div class="w-full space-y-12 md:w-3/5">
             <div class="space-y-6">
                 <div class="space-y-3">
@@ -58,20 +58,20 @@
 
                 <flux:subheading size="lg"
                     class="relative pl-5 before:content-['•'] before:absolute before:left-0">
-                    <span class="font-bold">UTEC IT Technologist Career</span> - Focused on software development,
+                    <flux:link class="pointer-events-none">UTEC IT Technologist Career</flux:link> - Focused on software development,
                     databases, and emerging technologies to build scalable and efficient applications. Currently
                     studying.
                 </flux:subheading>
 
                 <flux:subheading size="lg"
                     class="relative pl-5 before:content-['•'] before:absolute before:left-0">
-                    <span class="font-bold">Gato Dumas Institute</span> - Specialized in culinary techniques, flavor
+                    <flux:link class="pointer-events-none">Gato Dumas Institute</flux:link> - Specialized in culinary techniques, flavor
                     combinations, and professional kitchen management.
                 </flux:subheading>
 
                 <flux:subheading size="lg"
                     class="relative pl-5 before:content-['•'] before:absolute before:left-0">
-                    <span class="font-bold">Fine Arts Faculty of UdelaR</span> - Studied musical theory, interpretation,
+                    <flux:link class="pointer-events-none">Fine Arts Faculty of UdelaR</flux:link> - Studied musical theory, interpretation,
                     and composition, exploring a wide range of classical repertoires.
                 </flux:subheading>
             </div>
