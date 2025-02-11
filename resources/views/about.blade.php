@@ -1,5 +1,5 @@
 <x-app-layout class="space-y-12">
-    <section class="flex flex-col-reverse min-h-screen gap-16 mt-0 space-y-6 md:mt-12 md:flex-row">
+    <section class="flex flex-col-reverse min-h-screen gap-16 mt-0 mb-6 space-y-6 md:mt-12 md:flex-row">
         <div class="w-full space-y-12 md:w-3/5">
             <div class="space-y-6">
                 <div class="space-y-3">
@@ -20,7 +20,7 @@
                     </flux:subheading>
                 </div>
 
-                <div class="flex gap-6 dark:text-white text-zinc-800">
+                <div class="flex gap-6 dark:text-white/70 text-zinc-500">
                     <a href="#">
                         <flux:icon.twitter variant="mini" />
                     </a>

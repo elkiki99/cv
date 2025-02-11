@@ -49,7 +49,7 @@
 
             <div class="grid max-w-xl grid-cols-1 gap-8 lg:max-w-full lg:grid-cols-2">
                 <flux:card
-                    class="!border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-[hover] duration-200">
+                    class="!border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-none hover:transition-colors duration-200">
                     <div class="flex gap-4">
                         <flux:icon.tailwind />
                         <div class="">
@@ -65,7 +65,7 @@
                 </flux:card>
 
                 <flux:card
-                    class="!border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-[hover] duration-200">
+                    class="!border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-none hover:transition-colors duration-200">
                     <div class="flex gap-4">
                         <flux:icon.alpine />
                         <div class="">
@@ -82,7 +82,7 @@
                 </flux:card>
 
                 <flux:card
-                    class="!border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-[hover] duration-200">
+                    class="!border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-none hover:transition-colors duration-200">
                     <div class="flex gap-4">
                         <flux:icon.livewire />
                         <div class="">
@@ -100,7 +100,7 @@
                 </flux:card>
 
                 <flux:card
-                    class="!border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-[hover] duration-200">
+                    class="!border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-none hover:transition-colors duration-200">
                     <div class="flex gap-4">
                         <flux:icon.laravel />
                         <div class="">
@@ -115,7 +115,7 @@
                 </flux:card>
 
                 <flux:card
-                    class="!border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-[hover] duration-200">
+                    class="!border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-none hover:transition-colors duration-200">
                     <div class="flex gap-4">
                         <flux:icon.sqlite />
                         <div class="">
@@ -130,7 +130,7 @@
                 </flux:card>
 
                 <flux:card
-                    class="!border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-[hover] duration-200">
+                    class="!border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-none hover:transition-colors duration-200">
                     <div class="flex gap-4">
                         <flux:icon.fly />
                         <div class="">
@@ -160,7 +160,7 @@
 
             <a target="_blank" href="https://github.com/elkiki99/wevelopers" rel="noopener noreferrer">
                 <flux:card
-                    class="max-w-xl space-y-3 !border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-[hover] duration-200">
+                    class="max-w-xl space-y-3 !border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-none hover:transition-colors duration-200">
                     <div class="flex items-center gap-2">
                         <flux:heading level="3" size="lg">Wevelopers</flux:heading>
                         <flux:icon.arrow-right variant="micro" />

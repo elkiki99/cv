@@ -1,5 +1,5 @@
 <x-app-layout class="space-y-12">
-    <section class="flex flex-col min-h-screen mt-0 md:mt-12">
+    <section class="flex flex-col min-h-screen mt-0 mb-6 md:mt-12">
         <div class="space-y-6">
             <div class="space-y-3">
                 <flux:heading level="1" class="!text-4xl font-black">Things I've made trying to leave<br
@@ -11,7 +11,7 @@
 
             <div class="grid max-w-xl grid-cols-1 gap-8 pt-6 md:max-w-full md:grid-cols-2 lg:max-w-full lg:grid-cols-3">
                 <flux:card
-                    class="!border-none hover:cursor-pointer !bg-transparent group transition-[hover] duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
+                    class="!border-none hover:cursor-pointer !bg-transparent group transition-none hover:transition-colors duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
                     <a rel="noreferrer noopener" target="_blank" href="https://github.com/elkiki99/wevelopers">
                         <div class="flex flex-col h-full space-y-6">
                             <flux:icon.wevelopers class="size-10" />
@@ -39,7 +39,7 @@
 
                             <div class="flex items-center gap-2 mt-auto">
                                 <flux:icon.link variant="micro" />
-                                <p class="inline font-medium underline-offset-[6px] transition duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
+                                <p class="inline font-medium underline-offset-[6px] transition-none hover:transition-colors duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
                                     class="!text-sm">
                                     github.com/elkiki99/wevelopers</p>
                                 <div class="bg-green-500 rounded-full size-1.5 pulse"></div>
@@ -49,7 +49,7 @@
                 </flux:card>
 
                 <flux:card
-                    class="!border-none hover:cursor-pointer !bg-transparent group transition-[hover] duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
+                    class="!border-none hover:cursor-pointer !bg-transparent group transition-none hover:transition-colors duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
                     <a rel="noreferrer noopener" target="_blank" href="https://github.com/elkiki99/digizen">
                         <div class="flex flex-col h-full space-y-6">
                             <flux:icon.digizen class="size-10" />
@@ -73,7 +73,7 @@
                             </div>
                             <div class="flex items-center gap-2 mt-auto">
                                 <flux:icon.link variant="micro" />
-                                <p class="inline font-medium underline-offset-[6px] transition duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
+                                <p class="inline font-medium underline-offset-[6px] transition-none hover:transition-colors duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
                                     class="!text-sm">
                                     github.com/elkiki99/digizen</p>
                                 <div class="bg-green-500 rounded-full size-1.5 pulse"></div>
@@ -83,7 +83,7 @@
                 </flux:card>
 
                 <flux:card
-                    class="!border-none hover:cursor-pointer !bg-transparent group transition-[hover] duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
+                    class="!border-none hover:cursor-pointer !bg-transparent group transition-none hover:transition-colors duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
                     <a rel="noreferrer noopener" target="_blank"
                         href="https://github.com/elkiki99/flux-volt-starter-kit">
                         <div class="flex flex-col h-full space-y-6">
@@ -111,7 +111,7 @@
 
                             <div class="flex items-center gap-2 mt-auto">
                                 <flux:icon.link variant="micro" />
-                                <p class="inline font-medium underline-offset-[6px] transition duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
+                                <p class="inline font-medium underline-offset-[6px] transition-none hover:transition-colors duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
                                     class="!text-sm">
                                     github.com/elkiki99/flux-volt-starter-kit</p>
                                 <div class="bg-green-500 rounded-full size-1.5 pulse"></div>
@@ -121,7 +121,7 @@
                 </flux:card>
 
                 <flux:card
-                    class="!border-none hover:cursor-pointer !bg-transparent group transition-[hover] duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
+                    class="!border-none hover:cursor-pointer !bg-transparent group transition-none hover:transition-colors duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
                     <a rel="noreferrer noopener" target="_blank" href="https://github.com/elkiki99/baloloba">
                         <div class="flex flex-col h-full space-y-6">
                             <flux:icon.baloloba class="size-10" />
@@ -149,7 +149,7 @@
 
                             <div class="flex items-center gap-2 mt-auto">
                                 <flux:icon.link variant="micro" />
-                                <p class="inline font-medium underline-offset-[6px] transition duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
+                                <p class="inline font-medium underline-offset-[6px] transition-none hover:transition-colors duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
                                     class="!text-sm">
                                     github.com/elkiki99/baloloba</p>
                                 <div class="bg-green-500 rounded-full size-1.5 pulse"></div>
@@ -159,7 +159,7 @@
                 </flux:card>
 
                 <flux:card
-                    class="!border-none hover:cursor-pointer !bg-transparent group transition-[hover] duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
+                    class="!border-none hover:cursor-pointer !bg-transparent group transition-none hover:transition-colors duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
                     <a rel="noreferrer noopener" target="_blank" href="https://github.com/elkiki99/laraflix">
                         <div class="flex flex-col h-full space-y-6">
                             <flux:icon.laraflix class="size-10" />
@@ -186,7 +186,7 @@
 
                             <div class="flex items-center gap-2 mt-auto">
                                 <flux:icon.link variant="micro" />
-                                <p class="inline font-medium underline-offset-[6px] transition duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
+                                <p class="inline font-medium underline-offset-[6px] transition-none hover:transition-colors duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
                                     class="!text-sm">
                                     github.com/elkiki99/laraflix</p>
                                 <div class="bg-green-500 rounded-full size-1.5 pulse"></div>
@@ -196,7 +196,7 @@
                 </flux:card>
 
                 <flux:card
-                    class="!border-none hover:cursor-pointer !bg-transparent group transition-[hover] duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
+                    class="!border-none hover:cursor-pointer !bg-transparent group transition-none hover:transition-colors duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
                     <a rel="noreferrer noopener" target="_blank" href="https://github.com/elkiki99/Chat">
                         <div class="flex flex-col h-full space-y-6">
                             <flux:icon.chat-app class="size-10" />
@@ -222,7 +222,7 @@
                             </div>
                             <div class="flex items-center gap-2 mt-auto">
                                 <flux:icon.link variant="micro" />
-                                <p class="inline font-medium underline-offset-[6px] transition duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
+                                <p class="inline font-medium underline-offset-[6px] transition-none hover:transition-colors duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
                                     class="!text-sm">
                                     github.com/elkiki99/chat</p>
                                 <div class="bg-green-500 rounded-full size-1.5 pulse"></div>
@@ -232,7 +232,7 @@
                 </flux:card>
 
                 <flux:card
-                    class="!border-none hover:cursor-pointer !bg-transparent group transition-[hover] duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
+                    class="!border-none hover:cursor-pointer !bg-transparent group transition-none hover:transition-colors duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
                     <a rel="noreferrer noopener" target="_blank" href="https://github.com/elkiki99/jobs">
                         <div class="flex flex-col h-full space-y-6">
                             <flux:icon.jobs class="size-10" />
@@ -258,7 +258,7 @@
                             </div>
                             <div class="flex items-center gap-2 mt-auto">
                                 <flux:icon.link variant="micro" />
-                                <p class="inline font-medium underline-offset-[6px] transition duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
+                                <p class="inline font-medium underline-offset-[6px] transition-none hover:transition-colors duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
                                     class="!text-sm">
                                     github.com/elkiki99/jobs</p>
                                 <div class="bg-green-500 rounded-full size-1.5 pulse"></div>
@@ -268,7 +268,7 @@
                 </flux:card>
 
                 <flux:card
-                    class="!border-none hover:cursor-pointer !bg-transparent group transition-[hover] duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
+                    class="!border-none hover:cursor-pointer !bg-transparent group transition-none hover:transition-colors duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
                     <a rel="noreferrer noopener" target="_blank"
                         href="https://github.com/elkiki99/The-Edifice-Gazette">
                         <div class="flex flex-col h-full space-y-6">
@@ -297,7 +297,7 @@
                             </div>
                             <div class="flex items-center gap-2 mt-auto">
                                 <flux:icon.link variant="micro" />
-                                <p class="inline font-medium underline-offset-[6px] transition duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
+                                <p class="inline font-medium underline-offset-[6px] transition-none hover:transition-colors duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
                                     class="!text-sm">
                                     github.com/elkiki99/The-Edifice-Gazette</p>
                                 <div class="bg-green-500 rounded-full size-1.5 pulse"></div>
@@ -307,7 +307,7 @@
                 </flux:card>
 
                 <flux:card
-                    class="!border-none hover:cursor-pointer !bg-transparent group transition-[hover] duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
+                    class="!border-none hover:cursor-pointer !bg-transparent group transition-none hover:transition-colors duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800">
                     <a rel="noreferrer noopener" target="_blank" href="https://github.com/elkiki99/devwebcamp">
                         <div class="flex flex-col h-full space-y-6">
                             <flux:icon.devwebcamp class="size-10" />
@@ -334,7 +334,7 @@
 
                             <div class="flex items-center gap-2 mt-auto">
                                 <flux:icon.link variant="micro" />
-                                <p class="inline font-medium underline-offset-[6px] transition duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
+                                <p class="inline font-medium underline-offset-[6px] transition-none hover:transition-colors duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
                                     class="!text-sm">
                                     github.com/elkiki99/devwebcamp</p>
                                 <div class="bg-green-500 rounded-full size-1.5 pulse"></div>
