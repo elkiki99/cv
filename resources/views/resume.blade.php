@@ -1,72 +1,75 @@
 <x-app-layout>
-    <div class="flex flex-col max-w-3xl min-h-screen mx-auto mt-0 space-y-6 md:mt-12">
+    <div
+        class="flex flex-col max-w-3xl min-h-screen mx-auto space-y-6 print-adjust-spacing print-adjust-width print-adjust-h md:mt-6">
         <!-- Header -->
         <section>
             <div class="flex gap-16">
-                <div class="space-y-3">
-                    <div>
-                        <flux:heading level="1" class="mb-2" size="xl">Bruno Rossani</flux:heading>
-                        <p class="text-sm text-zinc-500 dark:text-zinc-300">Full Stack developer with +2 years of
-                            experience, specializing in Laravel and
-                            Back
-                            End
-                            solutions. I am driven by building robust web applications and solutions that provide great
-                            user
-                            experiences.</p>
-                    </div>
+                <div class="space-y-2">
+                    <flux:heading level="1" class="mb-2" size="xl">Bruno Rossani</flux:heading>
+                    <p class="text-sm text-zinc-500 dark:text-zinc-300">Full Stack Developer with 2+ years of
+                        experience, specializing in Laravel and Back-End solutions. Passionate about building robust
+                        web applications that deliver great user experiences.</p>
                     <div class="flex items-center gap-2">
                         <flux:icon.globe-americas variant="micro" />
                         <flux:subheading>Montevideo, Uruguay</flux:subheading>
                     </div>
-                    <div class="flex gap-2">
-                        <flux:button size="sm" as="link" wire:navigate href="/" icon="globe-alt">
-                        </flux:button>
-                        <flux:button size="sm" as="link" href="mailto:brossani23@gmail.com" target="_blank"
-                            rel="noopener noreferrer" icon="envelope"></flux:button>
-                        <flux:button size="sm" as="link" href="https://github.com/elkiki99" target="_blank"
-                            rel="noopener noreferrer" icon="github"></flux:button>
-                        <flux:button size="sm" as="link" href="https://www.linkedin.com/in/brunorossani/"
-                            target="_blank" rel="noopener noreferrer" icon="linkedin"></flux:button>
-                    </div>
+
+                    {{-- <div class="pt-1"> --}}
+                        <div class="flex gap-2 mt-1 no-print">
+                            <flux:button size="sm" as="link" wire:navigate href="/" icon="globe-alt">
+                            </flux:button>
+                            <flux:button size="sm" as="link" href="mailto:brossani23@gmail.com"
+                                icon="envelope">
+                            </flux:button>
+                            <flux:button size="sm" as="link" href="https://github.com/elkiki99"
+                                target="_blank" rel="noopener noreferrer" icon="github"></flux:button>
+                            <flux:button size="sm" as="link" href="https://www.linkedin.com/in/brunorossani"
+                                target="_blank" rel="noopener noreferrer" icon="linkedin"></flux:button>
+                            <flux:button size="sm" as="link" href="tel:+59891845585" icon="phone">
+                            </flux:button>
+                            <flux:button size="sm" onclick="window.print()" icon="printer">
+                            </flux:button>
+                        </div>
+
+                        <div class="hidden gap-2 py-1 text-sm print">
+                            <flux:link class="relative pr-5 after:content-['|'] after:absolute after:right-0"
+                                href="/">brunorossani.me</flux:link>
+                            <flux:link class="relative pr-5 after:content-['|'] after:absolute after:right-0"
+                                href="mailto:brossani23@gmail.com">brossani23@gmail.com</flux:link>
+                            <flux:link href="tel:+59891845585">+598 91 845 585</flux:link>
+                        </div>
+                    {{-- </div> --}}
                 </div>
 
-                <img src="{{ asset('me.webp') }}" class="rounded-lg size-24">
+                <img src="{{ asset('me.webp') }}" class="rounded-lg size-28">
             </div>
         </section>
 
         <!-- About -->
         <section>
-            <flux:heading class="mb-3" size="lg">About</flux:heading>
+            <flux:heading class="mb-2" size="lg">About</flux:heading>
             <p class="text-sm text-zinc-500 dark:text-zinc-300">
-                I am a meticulous and highly motivated Full Stack Developer with a strong commitment to delivering
-                high-quality software solutions. With over two years of hands-on experience, I have primarily focused on
-                Back-End development using PHP and the Laravel framework. My passion lies in designing and developing
-                sophisticated web applications that provide seamless user experiences and drive business success. I am
-                dedicated to continuous learning and improvement, always striving to refine my skills and stay up to
-                date with the latest technological advancements to ensure efficient, scalable, and secure solutions.
+                I'm a highly motivated Full Stack Developer focused on Back-End development with PHP and Laravel. I
+                design and build sophisticated web applications that provide seamless user experiences. I'm committed to
+                continuous learning and staying updated with the latest technologies.
             </p>
         </section>
 
         <!-- Work experience -->
         <section>
-            <flux:heading class="mb-3" size="lg">Work Experience</flux:heading>
+            <flux:heading class="mb-2" size="lg">Work Experience</flux:heading>
             <div class="space-y-6">
                 <div>
                     <div class="flex items-center gap-1 mb-2">
-                        <flux:subheading class="!text-zinc-700 dark:!text-white/90 mr-2">Freelance Developer
+                        <flux:subheading class="mr-2 text-zinc-700 dark:text-white/90">Freelance Developer
                         </flux:subheading>
-                        <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">PHP</flux:badge>
-                        <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Laravel</flux:badge>
-                        <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Web Development
+                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">PHP</flux:badge>
+                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">Laravel</flux:badge>
+                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">Web Development
                         </flux:badge>
                         <flux:spacer />
-                        <flux:subheading class="!text-zinc-700 dark:!text-white/90">2022 - Present</flux:subheading>
+                        <flux:subheading class="text-zinc-700 dark:text-white/90">2023 - Present</flux:subheading>
                     </div>
-                    <p
-                        class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['•'] before:absolute before:left-0">
-                        Designed, developed, and deployed modern web applications utilizing Laravel, JavaScript, and
-                        MySQL to create high-performance and maintainable software solutions.
-                    </p>
                     <p
                         class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['•'] before:absolute before:left-0">
                         Built and optimized custom administration panels, streamlining content management, user
@@ -86,32 +89,27 @@
 
                 <div>
                     <div class="flex items-center gap-1 mb-2">
-                        <flux:subheading class="!text-zinc-700 dark:!text-white/90 mr-2">Store Manager - eDrinks
+                        <flux:subheading class="mr-2 text-zinc-700 dark:text-white/90">Store Manager - eDrinks
                         </flux:subheading>
-                        <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">E-commerce</flux:badge>
-                        <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Retail</flux:badge>
-                        <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Operations</flux:badge>
+                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">E-commerce</flux:badge>
+                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">Retail</flux:badge>
+                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">Operations</flux:badge>
                         <flux:spacer />
-                        <flux:subheading class="!text-zinc-700 dark:!text-white/90">2024 - Present</flux:subheading>
+                        <flux:subheading class="text-zinc-700 dark:text-white/90">2024 - Present</flux:subheading>
                     </div>
                     <p
                         class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['•'] before:absolute before:left-0">
-                        Supervised and optimized daily store operations, ensuring smooth workflow, accurate inventory
+                        Supervise and optimize daily store operations, ensuring smooth workflow, accurate inventory
                         control, and streamlined sales processes to maximize efficiency and profitability.
                     </p>
                     <p
                         class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['•'] before:absolute before:left-0">
-                        Implemented strategic e-commerce initiatives, enhancing online visibility, customer engagement,
-                        and sales performance through targeted marketing and promotional efforts.
-                    </p>
-                    <p
-                        class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['•'] before:absolute before:left-0">
-                        Led customer service improvements, focusing on user experience and satisfaction by refining
+                        Lead customer service improvements, focusing on user experience and satisfaction by refining
                         support protocols and response strategies to maintain high retention rates.
                     </p>
                     <p
                         class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['•'] before:absolute before:left-0">
-                        Coordinated with suppliers, logistics teams, and vendors to optimize procurement processes,
+                        Coordinate with suppliers, logistics teams, and vendors to optimize procurement processes,
                         ensuring timely deliveries and cost-effective supply chain management.
                     </p>
                 </div>
@@ -120,48 +118,44 @@
 
         <!-- Education -->
         <section>
-            <flux:heading class="mb-3" size="lg">Education</flux:heading>
+            <flux:heading class="mb-2" size="lg">Education</flux:heading>
             <div class="space-y-6">
                 <div>
                     <div class="flex items-center gap-2 mb-2">
-                        <flux:subheading class="!text-zinc-700 dark:!text-white/90">UTEC IT Technologist Career
+                        <flux:subheading class="text-zinc-700 dark:text-white/90">UTEC IT Technologist Career
                         </flux:subheading>
                         <flux:spacer />
-                        <flux:subheading class="!text-zinc-700 dark:!text-white/90">2025 - Present</flux:subheading>
+                        <flux:subheading class="text-zinc-700 dark:text-white/90">2025 - Present</flux:subheading>
                     </div>
                     <p class="text-sm text-zinc-500 dark:text-zinc-300">
-                        Pursuing a degree in IT Technologist with a comprehensive focus on software development, system
-                        architecture, and database management. This program equips me with the technical expertise
-                        necessary to design, develop, and optimize scalable and high-performance applications while
-                        staying at the forefront of emerging technologies.
+                        Currently pursuing a degree in IT at UTEC, focusing on software development, system
+                        architecture, and database management.
                     </p>
                 </div>
 
                 <div>
                     <div class="flex items-center gap-2 mb-2">
-                        <flux:subheading class="!text-zinc-700 dark:!text-white/90">Fine Arts Faculty of UdelaR
+                        <flux:subheading class="text-zinc-700 dark:text-white/90">Fine Arts Faculty of Udelar
                         </flux:subheading>
                         <flux:spacer />
-                        <flux:subheading class="!text-zinc-700 dark:!text-white/90">2022 - Present</flux:subheading>
+                        <flux:subheading class="text-zinc-700 dark:text-white/90">2019 - 2023</flux:subheading>
                     </div>
                     <p class="text-sm text-zinc-500 dark:text-zinc-300">
-                        Studying applied musical analysis and performance, developing strong technical proficiency in
-                        instrumental execution and an exceptional ability for sight-reading music. My experience in
-                        advanced technical development and artistic interpretation has allowed me to cultivate a deep
-                        appreciation for precision, discipline, and continuous improvement, qualities that translate
-                        into my approach to problem-solving.
+                        Studyied applied musical analysis and instrumental performance, developed advanced technical
+                        skills and problem-solving abilities.
                     </p>
                 </div>
             </div>
         </section>
 
         <!-- Side projects -->
-        <section>
-            <flux:heading class="mb-3" size="lg">Side projects</flux:heading>
+        <section class="no-print">
+            <flux:heading class="mb-2" size="lg">Side projects</flux:heading>
 
             <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
                 <div>
-                    <flux:card class="!bg-transparent !p-4 space-y-3 h-full flex flex-col">
+                    <flux:card
+                        class="!bg-transparent !p-4 space-y-3 h-full flex flex-col print-remove-b print-adjust-p">
                         <div class="flex-1">
                             <div class="flex items-center gap-2 mb-2">
                                 <flux:link href="https://github.com/elkiki99/wevelopers" rel="noopener noreferrer"
@@ -174,19 +168,21 @@
                         </div>
 
                         <div class="flex flex-wrap w-full gap-1 mt-auto">
-                            <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/10 !bg-zinc-400/5">Side project
+                            <flux:badge size="sm" variant="pill" class="print-adjust-bg">Side
+                                project
                             </flux:badge>
-                            <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/10 !bg-zinc-400/5">PHP
+                            <flux:badge size="sm" variant="pill" class="print-adjust-bg">PHP
                             </flux:badge>
-                            <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/10 !bg-zinc-400/5">Javascript
+                            <flux:badge size="sm" variant="pill" class="print-adjust-bg">
+                                Javascript
                             </flux:badge>
-                            <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/10 !bg-zinc-400/5">
+                            <flux:badge size="sm" variant="pill" class="print-adjust-bg">
                                 Education</flux:badge>
                         </div>
                     </flux:card>
                 </div>
 
-                <flux:card class="!bg-transparent !p-4 space-y-3 h-full flex flex-col">
+                <flux:card class="!bg-transparent !p-4 space-y-3 h-full flex flex-col print-remove-b print-adjust-p">
                     <div class="flex-1">
                         <div class="flex items-center gap-2 mb-2">
                             <flux:link href="https://github.com/elkiki99/baloloba" rel="noopener noreferrer"
@@ -197,20 +193,21 @@
                     </div>
 
                     <div class="flex flex-wrap w-full gap-1 mt-auto">
-                        <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/10 !bg-zinc-400/5">Freelance
+                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">
+                            Freelance
                             job
                         </flux:badge>
-                        <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/10 !bg-zinc-400/5">Laravel
+                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">Laravel
                         </flux:badge>
-                        <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/10 !bg-zinc-400/5">Admin
+                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">Admin
                             panel
                         </flux:badge>
-                        <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/10 !bg-zinc-400/5">
+                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">
                             Mercadopago</flux:badge>
                     </div>
                 </flux:card>
 
-                <flux:card class="!bg-transparent !p-4 space-y-3 h-full flex flex-col">
+                <flux:card class="!bg-transparent !p-4 space-y-3 h-full flex flex-col print-remove-b print-adjust-p">
                     <div class="flex-1">
                         <div class="flex items-center gap-2 mb-2">
                             <flux:link href="https://github.com/elkiki99/devwebcamp" rel="noopener noreferrer"
@@ -223,14 +220,15 @@
                     </div>
 
                     <div class="flex flex-wrap w-full gap-1 mt-auto">
-                        <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/10 !bg-zinc-400/5">Side
+                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">Side
                             project
                         </flux:badge>
-                        <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/10 !bg-zinc-400/5">CSS
+                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">CSS
                         </flux:badge>
-                        <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/10 !bg-zinc-400/5">Javascript
+                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">
+                            Javascript
                         </flux:badge>
-                        <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/10 !bg-zinc-400/5">Event
+                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">Event
                             website
                         </flux:badge>
                     </div>
@@ -240,26 +238,22 @@
 
         <!-- Skills -->
         <section>
-            <flux:heading class="mb-3" size="lg">Skills</flux:heading>
+            <flux:heading class="mb-2" size="lg">Skills</flux:heading>
             <div class="flex flex-wrap w-full gap-1 mt-auto">
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Laravel</flux:badge>
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Livewire</flux:badge>
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Tailwind CSS</flux:badge>
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">PHP</flux:badge>
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">MySQL</flux:badge>
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">API Development</flux:badge>
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">UX/UI Design</flux:badge>
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Git</flux:badge>
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">SEO</flux:badge>
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Native spanish</flux:badge>
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Fluent english</flux:badge>
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Javascript/Alpine.js</flux:badge>
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">React</flux:badge>
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">SQLite</flux:badge>
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">AWS</flux:badge>
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Performance Optimization</flux:badge>
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Fly.io</flux:badge>
-                <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Problem solving</flux:badge>
+                <flux:badge size="sm" variant="pill" class="print-adjust-bg">Laravel</flux:badge>
+                <flux:badge size="sm" variant="pill" class="print-adjust-bg">Livewire</flux:badge>
+                <flux:badge size="sm" variant="pill" class="print-adjust-bg">Tailwind CSS</flux:badge>
+                <flux:badge size="sm" variant="pill" class="print-adjust-bg">PHP</flux:badge>
+                <flux:badge size="sm" variant="pill" class="print-adjust-bg">MySQL</flux:badge>
+                <flux:badge size="sm" variant="pill" class="print-adjust-bg">UX/UI Design</flux:badge>
+                <flux:badge size="sm" variant="pill" class="print-adjust-bg">Git</flux:badge>
+                <flux:badge size="sm" variant="pill" class="print-adjust-bg">SEO</flux:badge>
+                <flux:badge size="sm" variant="pill" class="print-adjust-bg">Javascript/Alpine.js</flux:badge>
+                <flux:badge size="sm" variant="pill" class="print-adjust-bg">React</flux:badge>
+                <flux:badge size="sm" variant="pill" class="print-adjust-bg">SQLite</flux:badge>
+                <flux:badge size="sm" variant="pill" class="print-adjust-bg">AWS</flux:badge>
+                <flux:badge size="sm" variant="pill" class="print-adjust-bg">Fly.io</flux:badge>
+                <flux:badge size="sm" variant="pill" class="print-adjust-bg">Problem solving</flux:badge>
             </div>
         </section>
     </div>

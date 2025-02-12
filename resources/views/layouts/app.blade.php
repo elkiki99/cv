@@ -28,10 +28,10 @@
 <body class="font-sans antialiased bg-white dark:bg-zinc-900">
     <!-- Navigation -->
     <flux:header
-        class="flex flex-row items-center justify-center !px-2 md:!px-6 mx-6 mt-6 mb-0 md:mb-6 mr-auto bg-zinc-100 rounded-full md:mx-auto dark:bg-zinc-800">
-        <flux:sidebar.toggle class="md:hidden hover:rounded-full" icon="bars-2" />
+        class="flex flex-row items-center justify-center !px-2 md:!px-6 mx-6 mt-6 mb-0 md:mb-6 mr-auto bg-zinc-100 rounded-full md:mx-auto dark:bg-zinc-800 no-print">
+        <flux:sidebar.toggle class="md:hidden hover:rounded-full no-print" icon="bars-2" />
 
-        <flux:navbar class="max-md:hidden">
+        <flux:navbar class="max-md:hidden no-print">
             <flux:navbar.item wire:navigate href="/">Home</flux:navbar.item>
             <flux:navbar.item wire:navigate href="/about">About</flux:navbar.item>
             <flux:navbar.item wire:navigate href="/portfolio">Portfolio</flux:navbar.item>
@@ -39,7 +39,7 @@
         </flux:navbar>
 
         <!-- Dark mode button -->
-        <div class="hidden md:flex">
+        <div class="hidden md:flex no-print">
             <flux:button class="dark:hidden" x-data x-on:click="$flux.dark = ! $flux.dark" icon="moon"
                 variant="subtle" aria-label="Toggle dark mode" />
             <flux:button class="hidden dark:flex" x-data x-on:click="$flux.dark = ! $flux.dark" icon="sun"
@@ -48,7 +48,7 @@
     </flux:header>
 
     <!-- Dark mode button -->
-    <flux:header class="flex md:hidden !px-2 ml-auto mt-6 dark:bg-zinc-800 bg-zinc-100 rounded-full mx-6">
+    <flux:header class="flex md:hidden !px-2 ml-auto mt-6 dark:bg-zinc-800 bg-zinc-100 rounded-full mx-6 no-print">
         <flux:button class="dark:hidden hover:rounded-full" x-data x-on:click="$flux.dark = ! $flux.dark" icon="moon"
             variant="subtle" aria-label="Toggle dark mode" />
         <flux:button class="hidden dark:flex hover:rounded-full" x-data x-on:click="$flux.dark = ! $flux.dark"
@@ -56,7 +56,7 @@
     </flux:header>
 
     <flux:sidebar stashable sticky
-        class="border-r md:hidden bg-zinc-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-700">
+        class="border-r md:hidden bg-zinc-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-700 no-print">
         <flux:sidebar.toggle class="md:hidden" icon="x-mark" />
 
         <flux:navlist>
@@ -72,7 +72,7 @@
         {{ $slot }}
     </flux:main>
 
-    <flux:footer class="mt-6" container>
+    <flux:footer class="mt-6 no-print" container>
        <div class="flex justify-between">
             <flux:link wire:navigate href="/">Home</flux:link>
             <flux:link wire:navigate href="/about">About</flux:link>
