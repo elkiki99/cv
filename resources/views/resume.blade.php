@@ -14,34 +14,31 @@
                         <flux:subheading>Montevideo, Uruguay</flux:subheading>
                     </div>
 
-                    {{-- <div class="pt-1"> --}}
-                        <div class="flex gap-2 mt-1 no-print">
-                            <flux:button size="sm" as="link" wire:navigate href="/" icon="globe-alt">
-                            </flux:button>
-                            <flux:button size="sm" as="link" href="mailto:brossani23@gmail.com"
-                                icon="envelope">
-                            </flux:button>
-                            <flux:button size="sm" as="link" href="https://github.com/elkiki99"
-                                target="_blank" rel="noopener noreferrer" icon="github"></flux:button>
-                            <flux:button size="sm" as="link" href="https://www.linkedin.com/in/brunorossani"
-                                target="_blank" rel="noopener noreferrer" icon="linkedin"></flux:button>
-                            <flux:button size="sm" as="link" href="tel:+59891845585" icon="phone">
-                            </flux:button>
-                            <flux:button size="sm" onclick="window.print()" icon="printer">
-                            </flux:button>
-                        </div>
+                    <div class="flex gap-2 pt-1 no-print">
+                        <flux:button size="sm" as="link" wire:navigate href="/" icon="globe-alt">
+                        </flux:button>
+                        <flux:button size="sm" as="link" href="mailto:brossani23@gmail.com" icon="envelope">
+                        </flux:button>
+                        <flux:button size="sm" as="link" href="https://github.com/elkiki99" target="_blank"
+                            rel="noopener noreferrer" icon="github"></flux:button>
+                        <flux:button size="sm" as="link" href="https://www.linkedin.com/in/brunorossani"
+                            target="_blank" rel="noopener noreferrer" icon="linkedin"></flux:button>
+                        <flux:button size="sm" as="link" href="tel:+59891845585" icon="phone">
+                        </flux:button>
+                        <flux:button size="sm" onclick="window.print()" icon="printer">
+                        </flux:button>
+                    </div>
 
-                        <div class="hidden gap-2 py-1 text-sm print">
-                            <flux:link class="relative pr-5 after:content-['|'] after:absolute after:right-0"
-                                href="/">brunorossani.me</flux:link>
-                            <flux:link class="relative pr-5 after:content-['|'] after:absolute after:right-0"
-                                href="mailto:brossani23@gmail.com">brossani23@gmail.com</flux:link>
-                            <flux:link href="tel:+59891845585">+598 91 845 585</flux:link>
-                        </div>
-                    {{-- </div> --}}
+                    <div class="hidden gap-2 py-1 text-sm print">
+                        <flux:link class="relative pr-5 after:content-['|'] after:absolute after:right-0"
+                            href="/">brunorossani.me</flux:link>
+                        <flux:link class="relative pr-5 after:content-['|'] after:absolute after:right-0"
+                            href="mailto:brossani23@gmail.com">brossani23@gmail.com</flux:link>
+                        <flux:link href="tel:+59891845585">+598 91 845 585</flux:link>
+                    </div>
                 </div>
 
-                <img src="{{ asset('me.webp') }}" class="rounded-lg size-28">
+                <img src="{{ asset('me.webp') }}" class="rounded-lg size-20 md:size-28">
             </div>
         </section>
 
@@ -60,55 +57,62 @@
             <flux:heading class="mb-2" size="lg">Work Experience</flux:heading>
             <div class="space-y-6">
                 <div>
-                    <div class="flex items-center gap-1 mb-2">
-                        <flux:subheading class="mr-2 text-zinc-700 dark:text-white/90">Freelance Developer
+                    <div class="flex items-center gap-4 mb-2">
+                        <flux:subheading class="text-zinc-700 dark:text-white/90">Freelance Developer
                         </flux:subheading>
-                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">PHP</flux:badge>
-                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">Laravel</flux:badge>
-                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">Web Development
-                        </flux:badge>
+                        <div class="hidden gap-1 md:flex">
+                            <flux:badge size="sm" variant="pill" class="print-adjust-bg">PHP</flux:badge>
+                            <flux:badge size="sm" variant="pill" class="print-adjust-bg">Laravel</flux:badge>
+                            <flux:badge size="sm" variant="pill" class="print-adjust-bg">Web Development
+                            </flux:badge>
+                        </div>
                         <flux:spacer />
                         <flux:subheading class="text-zinc-700 dark:text-white/90">2023 - Present</flux:subheading>
                     </div>
                     <p
-                        class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                        class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                         Built and optimized custom administration panels, streamlining content management, user
                         interactions, and data processing for enhanced operational efficiency.
                     </p>
                     <p
-                        class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                        class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                         Integrated secure payment processing systems, including PayPal, Stripe and MercadoPago, ensuring
                         financial transactions through authentication mechanisms.
                     </p>
                     <p
-                        class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                        class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                         Enhanced web application performance through lazy loading, caching strategies, and optimization,
                         improving user experience and system responsiveness.
                     </p>
                 </div>
 
                 <div>
-                    <div class="flex items-center gap-1 mb-2">
-                        <flux:subheading class="mr-2 text-zinc-700 dark:text-white/90">Store Manager - eDrinks
+                    <div class="flex items-center gap-4 mb-2">
+                        <flux:subheading class="text-zinc-700 dark:text-white/90">Store Manager - eDrinks
                         </flux:subheading>
-                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">E-commerce</flux:badge>
-                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">Retail</flux:badge>
-                        <flux:badge size="sm" variant="pill" class="print-adjust-bg">Operations</flux:badge>
+                        <div class="hidden gap-1 md:flex">
+                            <flux:badge size="sm" variant="pill" class="print-adjust-bg">E-commerce
+                            </flux:badge>
+                            <flux:badge size="sm" variant="pill" class="print-adjust-bg">Retail
+                            </flux:badge>
+                            <flux:badge size="sm" variant="pill" class="print-adjust-bg">Operations
+                            </flux:badge>
+                        </div>
                         <flux:spacer />
                         <flux:subheading class="text-zinc-700 dark:text-white/90">2024 - Present</flux:subheading>
                     </div>
                     <p
-                        class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                        class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                         Supervise and optimize daily store operations, ensuring smooth workflow, accurate inventory
                         control, and streamlined sales processes to maximize efficiency and profitability.
                     </p>
                     <p
-                        class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                        class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                         Lead customer service improvements, focusing on user experience and satisfaction by refining
                         support protocols and response strategies to maintain high retention rates.
                     </p>
                     <p
-                        class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                        class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                         Coordinate with suppliers, logistics teams, and vendors to optimize procurement processes,
                         ensuring timely deliveries and cost-effective supply chain management.
                     </p>
@@ -253,7 +257,7 @@
                 <flux:badge size="sm" variant="pill" class="print-adjust-bg">SQLite</flux:badge>
                 <flux:badge size="sm" variant="pill" class="print-adjust-bg">AWS</flux:badge>
                 <flux:badge size="sm" variant="pill" class="print-adjust-bg">Fly.io</flux:badge>
-                <flux:badge size="sm" variant="pill" class="print-adjust-bg">Problem solving</flux:badge>
+                <flux:badge size="sm" variant="pill" class="print-adjust-bg">Github</flux:badge>
             </div>
         </section>
     </div>

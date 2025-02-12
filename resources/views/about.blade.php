@@ -49,7 +49,7 @@
                 <flux:heading size="xl" level="2">Studies</flux:heading>
 
                 <p
-                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                     <flux:link class="pointer-events-none">
                         UTEC IT Technologist Career</flux:link> - Focused on software development,
                     databases, and emerging technologies to build scalable and efficient applications. Currently
@@ -57,12 +57,12 @@
                 </p>
 
                 <p
-                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                     <flux:link class="pointer-events-none">Gato Dumas Institute</flux:link> - Completed courses in local gastronomy and pasta making.
                 </p>
 
                 <p
-                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                     <flux:link class="pointer-events-none">Fine Arts Faculty of Udelar</flux:link> - Studied musical
                     theory, classical guitar interpretation,
                     and composition, exploring a wide range of repertoires.
@@ -74,7 +74,7 @@
                     <flux:heading size="xl" level="2">Side projects</flux:heading>
 
                     <p
-                        class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                        class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                         <flux:link target="_blank" href="https://github.com/elkiki99/wevelopers"
                             rel="noopener noreferrer">
                             Wevelopers</flux:link> is a web development learning platform designed
@@ -84,7 +84,7 @@
                     </p>
 
                     <p
-                        class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                        class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                         A powerful <flux:link target="_blank" href="https://github.com/elkiki99/flux-volt-starter-kit"
                             rel="noopener noreferrer">starter kit</flux:link> for building web applications with
                         Laravel,
@@ -93,7 +93,7 @@
                     </p>
 
                     <p
-                        class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                        class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                         Photography portfolio for <flux:link target="_blank" href="https://github.com/elkiki99/baloloba"
                             rel="noopener noreferrer">Balo Loba</flux:link> - independent photographer brand. It
                         features an
@@ -109,37 +109,37 @@
                 <flux:heading size="xl" level="2">Youtubers I follow</flux:heading>
 
                 <p
-                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                     <flux:link target="_blank" href="https://www.youtube.com/@veritasium" rel="noopener noreferrer">
                         Veritasium</flux:link>
                 </p>
 
                 <p
-                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                     <flux:link target="_blank" href="https://www.youtube.com/@MalewiczHype" rel="noopener noreferrer">
                         Malewicz</flux:link>
                 </p>
 
                 <p
-                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                     <flux:link target="_blank" href="https://www.youtube.com/@TeeHarb" rel="noopener noreferrer">Tariq
                         Harb</flux:link>
                 </p>
 
                 <p
-                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                     <flux:link target="_blank" href="https://www.youtube.com/@RickBeato" rel="noopener noreferrer">Rick
                         Beato</flux:link>
                 </p>
 
                 <p
-                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                     <flux:link target="_blank" href="https://www.youtube.com/@JoshuaWeissman" rel="noopener noreferrer">
                         Joshua Weissman</flux:link>
                 </p>
 
                 <p
-                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['•'] before:absolute before:left-0">
+                    class="text-base text-zinc-500 dark:text-white/70 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                     <flux:link target="_blank" href="https://www.youtube.com/@nunomaduro" rel="noopener noreferrer">Nuno
                         Maduro</flux:link>
                 </p>
