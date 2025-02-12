@@ -25,7 +25,7 @@
                                 </flux:subheading>
                             </div>
                             <div class="flex-1">
-                                <div class="flex flex-wrap w-full gap-2">
+                                <div class="flex flex-wrap w-full gap-1">
                                     <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Side project
                                     </flux:badge>
                                     <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">PHP
@@ -60,7 +60,7 @@
                                 </flux:subheading>
                             </div>
                             <div class="flex-1">
-                                <div class="flex flex-wrap w-full gap-2">
+                                <div class="flex flex-wrap w-full gap-1">
                                     <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Side project
                                     </flux:badge>
                                     <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Blade
@@ -96,7 +96,7 @@
                             </div>
                             <div class="flex-1">
 
-                                <div class="flex flex-wrap w-full gap-2">
+                                <div class="flex flex-wrap w-full gap-1">
                                     <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Side project
                                     </flux:badge>
                                     <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Flux UI
@@ -133,7 +133,7 @@
                             </div>
                             <div class="flex-1">
 
-                                <div class="flex flex-wrap w-full gap-2">
+                                <div class="flex flex-wrap w-full gap-1">
                                     <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Freelance
                                         job
                                     </flux:badge>
@@ -171,7 +171,7 @@
                             </div>
                             <div class="flex-1">
 
-                                <div class="flex flex-wrap w-full gap-2">
+                                <div class="flex flex-wrap w-full gap-1">
                                     <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Side
                                         project
                                     </flux:badge>
@@ -208,7 +208,7 @@
                             </div>
                             <div class="flex-1">
 
-                                <div class="flex flex-wrap w-full gap-2">
+                                <div class="flex flex-wrap w-full gap-1">
                                     <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Side
                                         project
                                     </flux:badge>
@@ -244,7 +244,7 @@
                             </div>
                             <div class="flex-1">
 
-                                <div class="flex flex-wrap w-full gap-2">
+                                <div class="flex flex-wrap w-full gap-1">
                                     <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Side
                                         project
                                     </flux:badge>
@@ -281,7 +281,7 @@
                             </div>
                             <div class="flex-1">
 
-                                <div class="flex flex-wrap w-full gap-2">
+                                <div class="flex flex-wrap w-full gap-1">
                                     <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Side
                                         project
                                     </flux:badge>
@@ -318,7 +318,7 @@
                                 </flux:subheading>
                             </div>
                             <div class="flex-1">
-                                <div class="flex flex-wrap w-full gap-2">
+                                <div class="flex flex-wrap w-full gap-1">
                                     <flux:badge size="sm" variant="pill" class="dark:!bg-zinc-400/25">Side
                                         project
                                     </flux:badge>

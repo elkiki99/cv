@@ -174,7 +174,7 @@
 
             <a target="_blank" href="https://github.com/elkiki99/flux-volt-starter-kit" rel="noopener noreferrer">
                 <flux:card
-                    class="max-w-xl space-y-3 !border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-[hover] duration-200">
+                    class="max-w-xl space-y-3 !border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-none hover:transition-colors duration-200">
                     <div class="flex items-center gap-2">
                         <flux:heading level="3" size="lg">Flux UI Starter Kit</flux:heading>
                         <flux:icon.arrow-right variant="micro" />
@@ -190,7 +190,7 @@
 
             <a target="_blank" href="https://github.com/elkiki99/baloloba" rel="noopener noreferrer">
                 <flux:card
-                    class="max-w-xl space-y-3 !border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-[hover] duration-200">
+                    class="max-w-xl space-y-3 !border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-none hover:transition-colors duration-200">
                     <div class="flex items-center gap-2">
                         <flux:heading level="3" size="lg">Balo Loba</flux:heading>
                         <flux:icon.arrow-right variant="micro" />
