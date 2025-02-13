@@ -1,0 +1,208 @@
+{
+    "en": {
+      "header": {
+        "name": "Bruno Rossani",
+        "bio": "Full Stack Developer with 2+ years of experience, specializing in Laravel and Back-End solutions. Passionate about building robust web applications that deliver great user experiences.",
+        "location": "Montevideo, Uruguay"
+      },
+      "about": {
+        "title": "About",
+        "text": "I'm a highly motivated Full Stack Developer focused on Back-End development with PHP and Laravel. I design and build sophisticated web applications that provide seamless user experiences. I'm committed to continuous learning and staying updated with the latest technologies."
+      },
+      "work_experience": {
+        "title": "Work Experience",
+        "entries": [
+          {
+            "job_title": "Freelance Developer",
+            "dates": "2023 - Present",
+            "descriptions": [
+              "Built and optimized custom administration panels, streamlining content management, user interactions, and data processing for enhanced operational efficiency.",
+              "Integrated secure payment processing systems, including PayPal, Stripe and MercadoPago, ensuring financial transactions through authentication mechanisms.",
+              "Enhanced web application performance through lazy loading, caching strategies, and optimization, improving user experience and system responsiveness."
+            ]
+          },
+          {
+            "job_title": "Store Manager - eDrinks",
+            "dates": "2024 - Present",
+            "descriptions": [
+              "Supervise and optimize daily store operations, ensuring smooth workflow, accurate inventory control, and streamlined sales processes to maximize efficiency and profitability.",
+              "Lead customer service improvements, focusing on user experience and satisfaction by refining support protocols and response strategies to maintain high retention rates.",
+              "Coordinate with suppliers, logistics teams, and vendors to optimize procurement processes, ensuring timely deliveries and cost-effective supply chain management."
+            ]
+          }
+        ]
+      },
+      "education": {
+        "title": "Education",
+        "entries": [
+          {
+            "institution": "UTEC IT Technologist Career",
+            "dates": "2025 - Present",
+            "description": "Currently pursuing a degree in IT at UTEC, focusing on software development, system architecture, and database management."
+          },
+          {
+            "institution": "Fine Arts Faculty of Udelar",
+            "dates": "2019 - 2023",
+            "description": "Studied applied musical analysis and instrumental performance, developed advanced technical skills and problem-solving abilities."
+          }
+        ]
+      },
+      "side_projects": {
+        "title": "Side projects",
+        "entries": [
+          {
+            "project_name": "Wevelopers",
+            "description": "Interactive web development learning platform for Spanish speakers.",
+            "badges": [
+              "Side project",
+              "PHP",
+              "Javascript",
+              "Education"
+            ]
+          },
+          {
+            "project_name": "Balo Loba",
+            "description": "Photography portfolio for an independent photographer brand.",
+            "badges": [
+              "Freelance job",
+              "Laravel",
+              "Admin panel",
+              "Mercadopago"
+            ]
+          },
+          {
+            "project_name": "DevWebCamp",
+            "description": "Event management site with PayPal, virtual tickets, and email verification.",
+            "badges": [
+              "Side project",
+              "CSS",
+              "Javascript",
+              "Event website"
+            ]
+          }
+        ]
+      },
+      "skills": {
+        "title": "Skills",
+        "items": [
+          "Laravel",
+          "Livewire",
+          "Tailwind CSS",
+          "PHP",
+          "MySQL",
+          "UX/UI Design",
+          "Git",
+          "SEO",
+          "Javascript/Alpine.js",
+          "React",
+          "SQLite",
+          "AWS",
+          "Fly.io",
+          "Github"
+        ]
+      }
+    },
+    "es": {
+      "header": {
+        "name": "Bruno Rossani",
+        "bio": "Desarrollador Full Stack con más de 2 años de experiencia, especializado en Laravel y soluciones de Back-End. Apasionado por construir aplicaciones web robustas que brinden excelentes experiencias de usuario.",
+        "location": "Montevideo, Uruguay"
+      },
+      "about": {
+        "title": "Acerca de mí",
+        "text": "Soy un Full Stack Developer altamente motivado, enfocado en el desarrollo Back-End con PHP y Laravel. Diseño y construyo aplicaciones web sofisticadas que ofrecen experiencias de usuario fluidas. Estoy comprometido con el aprendizaje continuo y en mantenerme actualizado con las últimas tecnologías."
+      },
+      "work_experience": {
+        "title": "Experiencia Laboral",
+        "entries": [
+          {
+            "job_title": "Desarrollador Freelance",
+            "dates": "2023 - Presente",
+            "descriptions": [
+              "Construí y optimicé paneles de administración personalizados, agilizando la gestión de contenidos, la interacción con usuarios y el procesamiento de datos para mejorar la eficiencia operativa.",
+              "Integré sistemas de procesamiento de pagos seguros, incluyendo PayPal, Stripe y MercadoPago, asegurando transacciones financieras a través de mecanismos de autenticación.",
+              "Mejoré el rendimiento de aplicaciones web mediante carga diferida, estrategias de caché y optimización, mejorando la experiencia del usuario y la capacidad de respuesta del sistema."
+            ]
+          },
+          {
+            "job_title": "Store Manager - eDrinks",
+            "dates": "2024 - Presente",
+            "descriptions": [
+              "Superviso y optimizo las operaciones diarias de la tienda, asegurando un flujo de trabajo fluido, un control preciso del inventario y procesos de ventas eficientes para maximizar la eficacia y la rentabilidad.",
+              "Lidero mejoras en el servicio al cliente, centrándome en la experiencia y satisfacción del usuario al refinar los protocolos de soporte y estrategias de respuesta para mantener altos índices de retención.",
+              "Coordino con proveedores, equipos de logística y vendedores para optimizar los procesos de compra, garantizando entregas puntuales y una gestión rentable de la cadena de suministro."
+            ]
+          }
+        ]
+      },
+      "education": {
+        "title": "Educación",
+        "entries": [
+          {
+            "institution": "UTEC IT Technologist Career",
+            "dates": "2025 - Presente",
+            "description": "Actualmente estoy cursando una carrera en Tecnólogo de IT en UTEC, enfocándome en el desarrollo de software, la arquitectura de sistemas y la administración de bases de datos."
+          },
+          {
+            "institution": "Fine Arts Faculty of Udelar",
+            "dates": "2019 - 2023",
+            "description": "Estudié análisis musical aplicado y rendimiento instrumental, desarrollando habilidades técnicas avanzadas y capacidad para resolver problemas."
+          }
+        ]
+      },
+      "side_projects": {
+        "title": "Proyectos paralelos",
+        "entries": [
+          {
+            "project_name": "Wevelopers",
+            "description": "Plataforma interactiva de aprendizaje de desarrollo web para hispanohablantes.",
+            "badges": [
+              "Proyecto paralelo",
+              "PHP",
+              "Javascript",
+              "Educación"
+            ]
+          },
+          {
+            "project_name": "Balo Loba",
+            "description": "Portafolio de fotografía para una marca de fotógrafo independiente.",
+            "badges": [
+              "Trabajo freelance",
+              "Laravel",
+              "Panel de administración",
+              "Mercadopago"
+            ]
+          },
+          {
+            "project_name": "DevWebCamp",
+            "description": "Sitio de gestión de eventos con PayPal, boletos virtuales y verificación de correo electrónico.",
+            "badges": [
+              "Proyecto paralelo",
+              "CSS",
+              "Javascript",
+              "Sitio de eventos"
+            ]
+          }
+        ]
+      },
+      "skills": {
+        "title": "Habilidades",
+        "items": [
+          "Laravel",
+          "Livewire",
+          "Tailwind CSS",
+          "PHP",
+          "MySQL",
+          "UX/UI Design",
+          "Git",
+          "SEO",
+          "Javascript/Alpine.js",
+          "React",
+          "SQLite",
+          "AWS",
+          "Fly.io",
+          "Github"
+        ]
+      }
+    }
+  }

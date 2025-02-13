@@ -1,14 +1,12 @@
 <x-app-layout>
     <div
-        class="flex flex-col max-w-3xl min-h-screen mx-auto space-y-6 print-adjust-spacing print-adjust-width print-adjust-h md:mt-6">
+        class="flex flex-col max-w-3xl min-h-screen mx-auto space-y-6 print-adjust-spacing print-adjust-width print-adjust-h md:mt-6" x-cloak>
         <!-- Header -->
         <section>
             <div class="flex gap-16">
                 <div class="space-y-2">
                     <flux:heading level="1" class="mb-2" size="xl">Bruno Rossani</flux:heading>
-                    <p class="text-sm text-zinc-500 dark:text-zinc-300">Full Stack Developer with 2+ years of
-                        experience, specializing in Laravel and Back-End solutions. Passionate about building robust
-                        web applications that deliver great user experiences.</p>
+                    <p class="text-sm text-zinc-500 dark:text-zinc-300" x-text="$store.language.translations[$store.language.lang]?.header.bio || ''"></p>
                     <div class="flex items-center gap-2">
                         <flux:icon.globe-americas variant="micro" />
                         <flux:subheading>Montevideo, Uruguay</flux:subheading>

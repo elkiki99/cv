@@ -25,11 +25,16 @@
     @fluxStyles
 </head>
 
-<body class="font-sans antialiased bg-white dark:bg-zinc-900">
+<body class="font-sans antialiased bg-white dark:bg-zinc-900" x-data>
     <!-- Navigation -->
     <flux:header
         class="flex flex-row items-center justify-center !px-2 md:!px-6 mx-6 mt-6 mb-0 md:mb-6 mr-auto bg-zinc-100 rounded-full md:mx-auto dark:bg-zinc-800 no-print">
         <flux:sidebar.toggle class="md:hidden hover:rounded-full no-print" icon="bars-2" />
+
+        <div>
+            <flux:button icon="language" variant="subtle" @click="$store.language.toggle()">
+            </flux:button>
+        </div>
 
         <flux:navbar class="max-md:hidden no-print">
             <flux:navbar.item wire:navigate href="/">Home</flux:navbar.item>
@@ -72,13 +77,13 @@
         {{ $slot }}
     </flux:main>
 
-    <flux:footer class="mt-6 no-print" container>
-       <div class="flex justify-between">
+    <flux:footer x-cloak class="mt-6 no-print" container>
+        <div class="flex justify-between">
             <flux:link wire:navigate href="/">Home</flux:link>
             <flux:link wire:navigate href="/about">About</flux:link>
             <flux:link wire:navigate href="/portfolio">Portfolio</flux:link>
             <flux:link wire:navigate href="/resume">Resume</flux:link>
-        </div> 
+        </div>
     </flux:footer>
 
     @fluxScripts
