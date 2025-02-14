@@ -25,17 +25,17 @@ class Resume extends Component
         $this->translations = [
             'en' => [
                 'header' => [
-                    'bio' => 'Full Stack Developer with 2+ years of experience, specializing in Laravel and Back-End solutions. Passionate about building robust web applications that deliver great user experiences.'
+                    'bio' => 'Full-stack developer with 2+ years of experience, specializing in Laravel and back-end solutions. Passionate about building robust web applications that deliver great user experiences.'
                 ],
                 'about' => [
                     'title' => 'About',
-                    'text'  => "I'm a highly motivated Full Stack Developer focused on Back-End development with PHP and Laravel. I design and build sophisticated web applications that provide seamless user experiences. I'm committed to continuous learning and staying updated with the latest technologies."
+                    'text'  => "I'm a highly motivated full-stack developer focused on back-end development with PHP and Laravel. I design and build sophisticated web applications that provide seamless user experiences. I'm committed to continuous learning and staying updated with the latest technologies."
                 ],
                 'work' => [
-                    'title' => 'Work Experience',
+                    'title' => 'Work experience',
                     'jobs' => [
                         [
-                            'position' => 'Freelance Developer',
+                            'position' => 'Freelance developer',
                             'years' => '2023 - Present',
                             'skills' => ['PHP', 'Laravel', 'Web Development'],
                             'responsibilities' => [
@@ -45,7 +45,7 @@ class Resume extends Component
                             ]
                         ],
                         [
-                            'position' => 'Store Manager - eDrinks',
+                            'position' => 'Store manager - eDrinks',
                             'years' => '2024 - Present',
                             'skills' => ['E-commerce', 'Retail', 'Operations'],
                             'responsibilities' => [
@@ -101,17 +101,17 @@ class Resume extends Component
             ],
             'es' => [
                 'header' => [
-                    'bio' => 'Desarrollador Full Stack con más de 2 años de experiencia, especializado en Laravel y soluciones de Back-End. Apasionado por construir aplicaciones web robustas que brinden excelentes experiencias de usuario.'
+                    'bio' => 'Desarrollador full-stack con más de 2 años de experiencia, especializado en Laravel y soluciones de back-end. Apasionado por construir aplicaciones web robustas que brinden excelentes experiencias de usuario.'
                 ],
                 'about' => [
                     'title' => 'Sobre mi',
-                    'text'  => "Soy un Full Stack Developer altamente motivado, enfocado en el desarrollo Back-End con PHP y Laravel. Diseño y construyo aplicaciones web sofisticadas que ofrecen experiencias de usuario fluidas. Estoy comprometido en mantenerme actualizado con las últimas tecnologías."
+                    'text'  => "Soy un desarrollador full-stack altamente motivado, enfocado en el desarrollo back-end con PHP y Laravel. Diseño y construyo aplicaciones web sofisticadas que ofrecen experiencias de usuario fluidas. Estoy comprometido en mantenerme actualizado con las últimas tecnologías."
                 ],
                 'work' => [
-                    'title' => 'Experiencia Laboral',
+                    'title' => 'Experiencia laboral',
                     'jobs' => [
                         [
-                            'position' => 'Desarrollador Freelance',
+                            'position' => 'Desarrollador freelance',
                             'years' => '2023 - Presente',
                             'skills' => ['PHP', 'Laravel', 'Desarrollo Web'],
                             'responsibilities' => [
@@ -121,7 +121,7 @@ class Resume extends Component
                             ]
                         ],
                         [
-                            'position' => 'Gerente de Tienda - eDrinks',
+                            'position' => 'Gerente de tienda - eDrinks',
                             'years' => '2024 - Presente',
                             'skills' => ['E-commerce', 'Minorista', 'Operaciones'],
                             'responsibilities' => [
@@ -133,7 +133,7 @@ class Resume extends Component
                     ]
                 ],
                 'education' => [
-                    'title' => 'Education',
+                    'title' => 'Educación',
                     'careers' => [
                         [
                             'degree' => 'Carrera de Tecnólogo Informático - UTEC',

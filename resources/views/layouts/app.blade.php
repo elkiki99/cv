@@ -25,7 +25,7 @@
     @fluxStyles
 </head>
 
-<body class="font-sans antialiased bg-white dark:bg-zinc-900">
+<body class="font-sans antialiased bg-white dark:bg-zinc-900" x-data>
     <!-- Navigation -->
     <livewire:layout.navigation-header />
 
@@ -37,20 +37,24 @@
             icon="sun" variant="subtle" aria-label="Toggle light mode" />
     </flux:header>
 
-    {{-- <livewire:layout.sidebar /> --}}
+    {{-- <livewire:layout.sidebar />  --}}
     <flux:sidebar stashable sticky
         class="z-30 border-r md:hidden bg-zinc-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-700 no-print">
         <flux:sidebar.toggle class="md:hidden" icon="x-mark" />
 
         <flux:navlist>
-            <flux:navlist.item icon="home" wire:navigate href="/" x-data x-text="{{ session('lang') === 'es' ? 'Inicio' : 'Home' }}">
-                </flux:navlist.item>
+            <flux:navlist.item icon="home" wire:navigate href="/">
+                <p x-text="$store.language.translations[$store.language.lang].header.home"></p>
+            </flux:navlist.item>
             <flux:navlist.item icon="user" wire:navigate href="/about">
-                {{ session('lang') === 'es' ? 'Sobre mi' : 'About' }}</flux:navlist.item>
+                <p x-text="$store.language.translations[$store.language.lang].header.about"></p>
+            </flux:navlist.item>
             <flux:navlist.item icon="briefcase" wire:navigate href="/portfolio">
-                {{ session('lang') === 'es' ? 'Portaflio' : 'Portfolio' }}</flux:navlist.item>
+                <p x-text="$store.language.translations[$store.language.lang].header.portfolio"></p>
+            </flux:navlist.item>
             <flux:navlist.item icon="book-open" wire:navigate href="/resume">
-                {{ session('lang') === 'es' ? 'CV' : 'Resume' }}</flux:navlist.item>
+                <p x-text="$store.language.translations[$store.language.lang].header.resume"></p>
+            </flux:navlist.item>
         </flux:navlist>
     </flux:sidebar>
 
