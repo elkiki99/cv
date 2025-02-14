@@ -25,32 +25,9 @@
     @fluxStyles
 </head>
 
-<body class="font-sans antialiased bg-white dark:bg-zinc-900" x-data>
+<body class="font-sans antialiased bg-white dark:bg-zinc-900">
     <!-- Navigation -->
-    <flux:header
-        class="flex flex-row items-center justify-center !px-2 md:!px-6 mx-6 mt-6 mb-0 md:mb-6 mr-auto bg-zinc-100 rounded-full md:mx-auto dark:bg-zinc-800 no-print">
-        <flux:sidebar.toggle class="md:hidden hover:rounded-full no-print" icon="bars-2" />
-
-        <div>
-            <flux:button icon="language" variant="subtle" @click="$store.language.toggle()">
-            </flux:button>
-        </div>
-
-        <flux:navbar class="max-md:hidden no-print">
-            <flux:navbar.item wire:navigate href="/">Home</flux:navbar.item>
-            <flux:navbar.item wire:navigate href="/about">About</flux:navbar.item>
-            <flux:navbar.item wire:navigate href="/portfolio">Portfolio</flux:navbar.item>
-            <flux:navbar.item wire:navigate href="/resume">Resume</flux:navbar.item>
-        </flux:navbar>
-
-        <!-- Dark mode button -->
-        <div class="hidden md:flex no-print">
-            <flux:button class="dark:hidden" x-data x-on:click="$flux.dark = ! $flux.dark" icon="moon"
-                variant="subtle" aria-label="Toggle dark mode" />
-            <flux:button class="hidden dark:flex" x-data x-on:click="$flux.dark = ! $flux.dark" icon="sun"
-                variant="subtle" aria-label="Toggle light mode" />
-        </div>
-    </flux:header>
+    <livewire:layout.navigation-header />
 
     <!-- Dark mode button -->
     <flux:header class="flex md:hidden !px-2 ml-auto mt-6 dark:bg-zinc-800 bg-zinc-100 rounded-full mx-6 no-print">
@@ -60,15 +37,20 @@
             icon="sun" variant="subtle" aria-label="Toggle light mode" />
     </flux:header>
 
+    {{-- <livewire:layout.sidebar /> --}}
     <flux:sidebar stashable sticky
-        class="border-r md:hidden bg-zinc-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-700 no-print">
+        class="z-30 border-r md:hidden bg-zinc-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-700 no-print">
         <flux:sidebar.toggle class="md:hidden" icon="x-mark" />
 
         <flux:navlist>
-            <flux:navlist.item icon="home" wire:navigate href="/">Home</flux:navlist.item>
-            <flux:navlist.item icon="user" wire:navigate href="/about">About</flux:navlist.item>
-            <flux:navlist.item icon="briefcase" wire:navigate href="/portfolio">Portfolio</flux:navlist.item>
-            <flux:navlist.item icon="book-open" wire:navigate href="/resume">Resume</flux:navlist.item>
+            <flux:navlist.item icon="home" wire:navigate href="/" x-data x-text="{{ session('lang') === 'es' ? 'Inicio' : 'Home' }}">
+                </flux:navlist.item>
+            <flux:navlist.item icon="user" wire:navigate href="/about">
+                {{ session('lang') === 'es' ? 'Sobre mi' : 'About' }}</flux:navlist.item>
+            <flux:navlist.item icon="briefcase" wire:navigate href="/portfolio">
+                {{ session('lang') === 'es' ? 'Portaflio' : 'Portfolio' }}</flux:navlist.item>
+            <flux:navlist.item icon="book-open" wire:navigate href="/resume">
+                {{ session('lang') === 'es' ? 'CV' : 'Resume' }}</flux:navlist.item>
         </flux:navlist>
     </flux:sidebar>
 
@@ -77,14 +59,7 @@
         {{ $slot }}
     </flux:main>
 
-    <flux:footer x-cloak class="mt-6 no-print" container>
-        <div class="flex justify-between">
-            <flux:link wire:navigate href="/">Home</flux:link>
-            <flux:link wire:navigate href="/about">About</flux:link>
-            <flux:link wire:navigate href="/portfolio">Portfolio</flux:link>
-            <flux:link wire:navigate href="/resume">Resume</flux:link>
-        </div>
-    </flux:footer>
+    <livewire:layout.footer />
 
     @fluxScripts
 
