@@ -22,7 +22,7 @@
         <div class="flex-grow no-print"></div>
 
         <div class="pb-6 no-print">
-            @include('components.marquee')
+            <livewire:components.marquee />
         </div>
     </section>
 
@@ -55,14 +55,15 @@
             </div>
 
             <flux:button as="link" href="/about" wire:navigate variant="subtle" class="mr-auto no-print"
-                icon-trailing="arrow-right">More about me</flux:button>
+                icon-trailing="arrow-right">{{ session('lang') === 'es' ? 'Más sobre mi' : 'More about me' }}</flux:button>
         </div>
     </section>
 
     <!-- Latest projects -->
     <section class="flex flex-col min-h-screen print-adjust-h">
         <div class="mb-6">
-            <flux:heading level="2" size="xl">{{ $translations[$lang]['projects']['heading'] }}</flux:heading>
+            <flux:heading level="2" size="xl">{{ $translations[$lang]['projects']['heading'] }}
+            </flux:heading>
             <flux:subheading size="lg">
                 {{ $translations[$lang]['projects']['subheading'] }}
             </flux:subheading>
@@ -87,7 +88,7 @@
             @endforeach
 
             <flux:button as="link" href="/portfolio" wire:navigate variant="subtle" class="mr-auto no-print"
-                icon-trailing="arrow-right">More projects</flux:button>
+                icon-trailing="arrow-right">{{ session('lang') === 'es' ? 'Más proyectos' : 'More projects' }}</flux:button>
         </div>
     </section>
 </div>

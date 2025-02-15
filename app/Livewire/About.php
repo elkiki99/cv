@@ -148,7 +148,7 @@ class About extends Component
                         ],
                         [
                             'name' => 'Balo Loba',
-                            'description' => 'es un portafolio de fotografía para una marca de fotógrafos independientes. Cuenta con una interfaz intuitiva y un sólido panel de administración, ideal para gestionar proyectos, interactuar con usuarios, trabajar con sesiones de fotos y optimizar flujos de trabajo.',
+                            'description' => 'es un portafolio de fotografía para una fotógrafa independiente. Cuenta con una interfaz intuitiva y un sólido panel de administración, ideal para gestionar proyectos, interactuar con usuarios y trabajar con sesiones de fotos.',
                             'link' => 'https://github.com/elkiki99/baloloba'
                         ]
                     ],

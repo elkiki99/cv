@@ -2,6 +2,7 @@
 
 namespace App\Livewire\Layout;
 
+// use Livewire\Attributes\Renderless;
 use Livewire\Component;
 
 class Sidebar extends Component
@@ -12,6 +13,7 @@ class Sidebar extends Component
 
     public $translations = [];
 
+    // #[Renderless] 
     public function toggleLanguage()
     {
         $this->lang = $this->lang === 'en' ? 'es' : 'en';

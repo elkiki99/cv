@@ -20,12 +20,12 @@
     </style>
 
     <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/css/app.css', 'resources/js/app.js']) 
 
     @fluxStyles
 </head>
 
-<body class="font-sans antialiased bg-white dark:bg-zinc-900" x-data>
+<body class="font-sans antialiased bg-white dark:bg-zinc-900">
     <!-- Navigation -->
     <livewire:layout.navigation-header />
 
@@ -37,26 +37,7 @@
             icon="sun" variant="subtle" aria-label="Toggle light mode" />
     </flux:header>
 
-    {{-- <livewire:layout.sidebar />  --}}
-    <flux:sidebar stashable sticky
-        class="z-30 border-r md:hidden bg-zinc-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-700 no-print">
-        <flux:sidebar.toggle class="md:hidden" icon="x-mark" />
-
-        <flux:navlist>
-            <flux:navlist.item icon="home" wire:navigate href="/">
-                <p x-text="$store.language.translations[$store.language.lang].header.home"></p>
-            </flux:navlist.item>
-            <flux:navlist.item icon="user" wire:navigate href="/about">
-                <p x-text="$store.language.translations[$store.language.lang].header.about"></p>
-            </flux:navlist.item>
-            <flux:navlist.item icon="briefcase" wire:navigate href="/portfolio">
-                <p x-text="$store.language.translations[$store.language.lang].header.portfolio"></p>
-            </flux:navlist.item>
-            <flux:navlist.item icon="book-open" wire:navigate href="/resume">
-                <p x-text="$store.language.translations[$store.language.lang].header.resume"></p>
-            </flux:navlist.item>
-        </flux:navlist>
-    </flux:sidebar>
+    <livewire:layout.sidebar />
 
     <!-- Main -->
     <flux:main container class="mt-6 md:mt-0">

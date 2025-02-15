@@ -1,6 +1,6 @@
-<div class="!z-50">
+<div>
     <flux:sidebar stashable sticky
-        class="z-30 border-r md:hidden bg-zinc-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-700 no-print">
+        class="z-30 border-r md:hidden bg-zinc-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-700 no-print" wire:key="sidebar-{{ session('lang') }}">
         <flux:sidebar.toggle class="md:hidden" icon="x-mark" />
 
         <flux:navlist>
