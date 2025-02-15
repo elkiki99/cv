@@ -26,9 +26,7 @@ class Home extends Component
             'en' => [
                 'header' => [
                     'heading' => 'Bruno Rossani',
-                    'subheading1' => 'I love creating stuff! I\'m an occasional classical guitarist, cooking enthusiast & devoted full-stack coder.',
-                    'subheading2' => 'You\'ll find me somewhere in between those lines. I find my passion in the creation of new things,',
-                    'subheading3' => 'it\'s the driving force that keeps me going. If you\'d like, you can',
+                    'subheading' => 'I love creating stuff! I\'m an occasional classical guitarist, cooking enthusiast & devoted full-stack coder. <br class="hidden md:flex">You\'ll find me somewhere in between those lines. I find my passion in the creation of new things, <br class="hidden md:flex">it\'s the driving force that keeps me going. If you\'d like, you can',
                     'mail' => 'send me an email'
                 ],
                 'stack' => [
@@ -37,7 +35,7 @@ class Home extends Component
                     'technologies' => [
                         [
                             'name' => 'Tailwind',
-                            'info' => 'I chose Tailwind CSS because it allows me to build clean, modern designs quickly without writing extensive custom styles. Its utility-first approach keeps my codebase scalable and maintainable.',
+                            'info' => 'I choose Tailwind CSS because it allows me to build clean, modern designs quickly without writing extensive custom styles. Its utility-first approach keeps my codebase scalable and maintainable.',
                             'logo' => '<flux:icon.tailwind class="size-10 no-print" />',
                         ],
                         [
@@ -93,9 +91,7 @@ class Home extends Component
             'es' => [
                 'header' => [
                     'heading' => 'Bruno Rossani',
-                    'subheading1' => '¡Me encanta crear cosas! Soy un guitarrista clásico ocasional, entusiasta de la cocina y dedicado programador full-stack.',
-                    'subheading2' => 'Me encontrarás en algún lugar entre esas líneas. Encuentro mi pasión en la creación de nuevas cosas,',
-                    'subheading3' => 'es la fuerza que me impulsa a seguir adelante. Si lo deseas, puedes',
+                    'subheading' => '¡Me encanta crear cosas! Soy un guitarrista clásico ocasional, entusiasta de la cocina y dedicado programador full-stack. <br class="hidden md:flex">Me encontrarás en algún lugar entre esas líneas. Encuentro mi pasión en la creación de nuevas cosas, <br class="hidden md:flex">es la fuerza que me impulsa a seguir adelante. Si lo deseas, puedes',
                     'mail' => 'enviarme un correo electrónico'
                 ],
                 'stack' => [
@@ -104,7 +100,7 @@ class Home extends Component
                     'technologies' => [
                         [
                             'name' => 'Tailwind',
-                            'info' => 'Elegí Tailwind CSS porque me permite crear diseños limpios y modernos rápidamente sin escribir estilos personalizados extensos. Su enfoque de utilidad primero mantiene mi base de código escalable y mantenible.',
+                            'info' => 'Elijo Tailwind CSS porque me permite crear diseños limpios y modernos rápidamente sin escribir estilos personalizados extensos. Su enfoque de utilidad primero mantiene mi base de código escalable y mantenible.',
                             'logo' => '<flux:icon.tailwind class="size-10 no-print" />',
                         ],
                         [

@@ -17,6 +17,14 @@ module.exports = {
 
     theme: {
         extend: {
+            // colors: {
+            //     // Accent variables are defined in resources/css/app.css...
+            //     accent: {
+            //         DEFAULT: 'var(--color-accent)',
+            //         content: 'var(--color-accent-content)',
+            //         foreground: 'var(--color-accent-foreground)',
+            //     },
+            // },
             keyframes: {
                 marquee: {
                     '0%': {

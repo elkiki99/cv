@@ -17,7 +17,7 @@
 
 {{-- Your SVG code here: --}}
 <svg data-flux-icon aria-hidden="true" preserveAspectRatio="xMidYMid"
-    class="group h-4 fill-current self-start mx-2 my-3 stroke-current stroke-2 [stroke-linecap:round]" viewBox="0 0 18 13"
+    class="group h-12 fill-current self-start mx-2 my-3 stroke-current stroke-2 [stroke-linecap:round]" viewBox="0 0 18 13"
     xmlns="http://www.w3.org/2000/svg" {{ $attributes->class($classes) }}>
     
     <line x1="1" y1="5" x2="1" y2="10"></line>

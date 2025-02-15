@@ -25,9 +25,8 @@ class Portfolio extends Component
         $this->translations = [
             'en' => [
                 'header' => [
-                    'heading1' => 'Things I\'ve made trying to leave ',
-                    'heading2' => 'a mark in the digital world',
-                    'subheading' => 'A list of projects I\'ve worked on, I\'m working on and I will work on.'
+                    'heading' => 'Things I\'ve made trying to leave <br class="hidden md:flex">a mark in the digital world',
+                    'subheading' => 'A list of projects I\'ve worked on and I\'m working on.'
                 ],
                 'projects' => [
                     [
@@ -77,7 +76,7 @@ class Portfolio extends Component
                     ],
                     [
                         'title' => 'Chat App',
-                        'description' => 'Web-inspired chat app built with Laravel and Reverb',
+                        'description' => 'Web-inspired chat app built with Laravel and Reverb.',
                         'tags' => ['Side project', 'Alpine.js', 'Websockets', 'Chat application'],
                         'logo' => '<flux:icon.chat-app class="size-10 no-print" />',
                         'link_name' => 'github.com/elkiki99/chat',
@@ -115,9 +114,8 @@ class Portfolio extends Component
             ],
             'es' => [
                 'header' => [
-                    'heading1' => 'Cosas que he hecho intentando dejar ',
-                    'heading2' => 'una marca en el mundo digital',
-                    'subheading' => 'Lista de proyectos en los que he trabajado, estoy trabajando y trabajaré.'
+                    'heading' => 'Cosas que he hecho intentando dejar <br class="hidden md:flex">una marca en el mundo digital',
+                    'subheading' => 'Lista de proyectos en los que he trabajado y estoy trabajando.'
                 ],
                 'projects' => [
                     [
@@ -167,7 +165,7 @@ class Portfolio extends Component
                     ],
                     [
                         'title' => 'Chat App',
-                        'description' => 'Aplicación de chat inspirada en la web construida con Laravel y Reverb',
+                        'description' => 'Aplicación de chat inspirada en la web construida con Laravel y Reverb.',
                         'tags' => ['Proyecto personal', 'Alpine.js','Websockets','Aplicación de chat'],
                         'logo' => '<flux:icon.chat-app class="size-10 no-print" />',
                         'link_name' => 'github.com/elkiki99/chat',

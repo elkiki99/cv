@@ -7,9 +7,7 @@
             <flux:heading level="1" class="!text-4xl font-black">{{ $translations[$lang]['header']['heading'] }}
             </flux:heading>
             <p class="text-base text-zinc-500 dark:text-white/70">
-                {{ $translations[$lang]['header']['subheading1'] }}<br class="hidden md:flex">
-                {{ $translations[$lang]['header']['subheading2'] }}<br class="hidden md:flex">
-                {{ $translations[$lang]['header']['subheading3'] }}
+                {!! Blade::render($translations[$lang]['header']['subheading']) !!}
 
                 <flux:link rel="noopener noreferrer" target="_blank" href="mailto:brossani23@gmail.com">
                     {{ $translations[$lang]['header']['mail'] }}
@@ -17,7 +15,12 @@
             </p>
         </div>
 
-        @include('components.socials')
+        {{-- @include('components.socials') --}}
+        
+        <div>
+            <flux:button as="link" href="/resume" wire:navigate variant="filled" class="no-print"
+            icon-trailing="arrow-right">{{ session('lang') === 'es' ? 'Chequea mi curriculum' : 'Check out my resume' }}</flux:button>
+        </div>
 
         <div class="flex-grow no-print"></div>
 
@@ -35,12 +38,12 @@
             </flux:subheading>
         </div>
 
-        <div class="space-y-6 print-adjust-spacing">
+        <div class="flex flex-col space-y-6 print-adjust-spacing">
             <div class="grid max-w-xl grid-cols-1 gap-4 print-adjust-width lg:max-w-full lg:grid-cols-2">
                 @foreach ($translations[$lang]['stack']['technologies'] as $technology)
                     <flux:card
                         class="!border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-none hover:transition-colors duration-200 print-adjust-p">
-                        <div class="flex gap-4">
+                        <div class="flex flex-col gap-4 sm:flex-row">
                             {!! Blade::render($technology['logo']) !!}
 
                             <div class="space-y-2">
@@ -54,7 +57,7 @@
                 @endforeach
             </div>
 
-            <flux:button as="link" href="/about" wire:navigate variant="subtle" class="mr-auto no-print"
+            <flux:button as="link" href="/about" wire:navigate variant="subtle" class="ml-auto no-print"
                 icon-trailing="arrow-right">{{ session('lang') === 'es' ? 'Más sobre mi' : 'More about me' }}</flux:button>
         </div>
     </section>
@@ -87,7 +90,7 @@
                 </flux:card>
             @endforeach
 
-            <flux:button as="link" href="/portfolio" wire:navigate variant="subtle" class="mr-auto no-print"
+            <flux:button as="link" href="/portfolio" wire:navigate variant="subtle" class="no-print"
                 icon-trailing="arrow-right">{{ session('lang') === 'es' ? 'Más proyectos' : 'More projects' }}</flux:button>
         </div>
     </section>
