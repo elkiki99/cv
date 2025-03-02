@@ -45,7 +45,7 @@ class Resume extends Component
                             ]
                         ],
                         [
-                            'position' => 'Store manager - eDrinks',
+                            'position' => 'Manager - eDrinks',
                             'years' => '2024 - Present',
                             'skills' => ['E-commerce', 'Retail', 'Operations'],
                             'responsibilities' => [
@@ -59,10 +59,15 @@ class Resume extends Component
                 'education' => [
                     'title' => 'Education',
                     'careers' => [
+                        // [
+                        //     'degree' => 'UTEC IT Technologist',
+                        //     'years' => '2025 - Present',
+                        //     'description' => 'Currently pursuing a degree in IT at UTEC, focusing on software development, system architecture, and database management.'
+                        // ],
                         [
-                            'degree' => 'UTEC IT Technologist',
+                            'degree' => 'Laravel & PHP Developer',
                             'years' => '2025 - Present',
-                            'description' => 'Currently pursuing a degree in IT at UTEC, focusing on software development, system architecture, and database management.'
+                            'description' => 'Specialized training in backend development with Laravel and PHP, including software architecture, best practices, and web application optimization.'
                         ],
                         [
                             'degree' => 'Fine Arts Faculty of Udelar',
@@ -121,7 +126,7 @@ class Resume extends Component
                             ]
                         ],
                         [
-                            'position' => 'Gerente de tienda - eDrinks',
+                            'position' => 'Gerente - eDrinks',
                             'years' => '2024 - Presente',
                             'skills' => ['E-commerce', 'Minorista', 'Operaciones'],
                             'responsibilities' => [
@@ -135,10 +140,15 @@ class Resume extends Component
                 'education' => [
                     'title' => 'Educación',
                     'careers' => [
+                        // [
+                        //     'degree' => 'Carrera de Tecnólogo Informático - UTEC',
+                        //     'years' => '2025 - Presente',
+                        //     'description' => 'Actualmente cursando una carrera informática en UTEC, con enfoque en desarrollo de software, arquitectura de sistemas y gestión de bases de datos.'
+                        // ],
                         [
-                            'degree' => 'Carrera de Tecnólogo Informático - UTEC',
+                            'degree' => 'Desarrollador Laravel & PHP',
                             'years' => '2025 - Presente',
-                            'description' => 'Actualmente cursando una carrera informática en UTEC, con enfoque en desarrollo de software, arquitectura de sistemas y gestión de bases de datos.'
+                            'description' => 'Formación especializada en desarrollo backend con Laravel y PHP, incluyendo arquitectura de software, buenas prácticas y optimización de aplicaciones web.'
                         ],
                         [
                             'degree' => 'Facultad de Bellas Artes - Udelar',

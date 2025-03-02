@@ -43,8 +43,8 @@ class Portfolio extends Component
                         'description' => 'Digital agency template using FluxUI Livewire Components.',
                         'tags' => ['Side project', 'Blade', 'PHP', 'Digital agency'],
                         'logo' => '<flux:icon.digizen class="size-10 no-print" />',
-                        'link_name' => 'github.com/elkiki99/digizen',
-                        'link' => 'https://github.com/elkiki99/digizen',
+                        'link_name' => 'digizen.fly.dev',
+                        'link' => 'https://digizen.fly.dev/',
                         'status' => ''
                     ],
                     [
@@ -52,8 +52,8 @@ class Portfolio extends Component
                         'description' => 'Laravel starter kit with admin/user dashboards and Livewire.',
                         'tags' => ['Side project', 'Flux UI', 'Livewire components', 'Starter kit'],
                         'logo' => '<flux:icon.flux class="size-10 no-print" />',
-                        'link_name' => 'github.com/elkiki99/flux-volt-starter-kit',
-                        'link' => 'https://github.com/elkiki99/flux-volt-starter-kit',
+                        'link_name' => 'flux-volt-starter-kit.fly.dev',
+                        'link' => 'https://flux-volt-starter-kit.fly.dev/',
                         'status' => ''
                     ],
                     [
@@ -132,8 +132,8 @@ class Portfolio extends Component
                         'description' => 'Plantilla de agencia digital usando Componentes FluxUI Livewire.',
                         'tags' => ['Proyecto personal', 'Blade', 'PHP', 'Agencia digital'],
                         'logo' => '<flux:icon.digizen class="size-10 no-print" />',
-                        'link_name' => 'github.com/elkiki99/digizen',
-                        'link' => 'https://github.com/elkiki99/digizen',
+                        'link_name' => 'digizen.fly.dev',
+                        'link' => 'https://digizen.fly.dev/',
                         'status' => ''
                     ],
                     [
@@ -141,8 +141,8 @@ class Portfolio extends Component
                         'description' => 'Kit de inicio Laravel con paneles de administración/usuarios y Livewire.',
                         'tags' => ['Proyecto personal', 'Flux UI', 'Componentes Livewire', 'Kit de inicio'],
                         'logo' => '<flux:icon.flux class="size-10 no-print" />',
-                        'link_name' => 'github.com/elkiki99/flux-volt-starter-kit',
-                        'link' => 'https://github.com/elkiki99/flux-volt-starter-kit',
+                        'link_name' => 'flux-volt-starter-kit.fly.dev',
+                        'link' => 'https://flux-volt-starter-kit.fly.dev/',
                         'status' => ''
                     ],
                     [

@@ -78,7 +78,7 @@ class Home extends Component
                             'name' => 'Flux UI Starter Kit',
                             'description' => 'A powerful starter kit for building web applications with Laravel, requires a Flux UI
                             subscription. It includes pre-built user and admin dashboards, seamless integration with Laravel Breeze, and dynamic real-time content powered by Livewire.',
-                            'link' => 'https://github.com/elkiki99/flux-volt-starter-kit'
+                            'link' => 'https://flux-volt-starter-kit.fly.dev/'
                         ],
                         [
                             'name' => 'Balo Loba',
@@ -142,7 +142,7 @@ class Home extends Component
                         [
                             'name' => 'Flux UI Starter Kit',
                             'description' => 'Un kit de inicio potente para construir aplicaciones web con Laravel, requiere una suscripción a Flux UI. Incluye paneles de usuario y administración preconstruidos, integración perfecta con Laravel Breeze y contenido dinámico en tiempo real impulsado por Livewire.',
-                            'link' => 'https://github.com/elkiki99/flux-volt-starter-kit'
+                            'link' => 'https://flux-volt-starter-kit.fly.dev/'
                         ],
                         [
                             'name' => 'Balo Loba',
