@@ -35,13 +35,13 @@ class Resume extends Component
                     'title' => 'Work experience',
                     'jobs' => [
                         [
-                            'position' => 'Freelance developer',
+                            'position' => 'Freelance Developer',
                             'years' => '2023 - Present',
                             'skills' => ['PHP', 'Laravel', 'Web Development'],
                             'responsibilities' => [
-                                'Built and optimized custom administration panels, streamlining content management, user interactions, and data processing for enhanced operational efficiency.',
-                                'Integrated secure payment processing systems, including PayPal, Stripe and MercadoPago, ensuring financial transactions through authentication mechanisms.',
-                                'Enhanced web application performance through lazy loading, caching strategies, and optimization, improving user experience and system responsiveness.'
+                                'Engineered high-performance, scalable web solutions, optimizing operational workflows and user engagement.',
+                                'Developed and integrated secure financial transaction systems, ensuring compliance with industry standards and best practices.',
+                                'Optimized application architecture through advanced performance strategies, enhancing speed, scalability, and overall system efficiency.'
                             ]
                         ],
                         [
@@ -66,7 +66,7 @@ class Resume extends Component
                         // ],
                         [
                             'degree' => 'Laravel & PHP Developer',
-                            'years' => '2025 - Present',
+                            'years' => '2023 - Present',
                             'description' => 'Specialized training in backend development with Laravel and PHP, including software architecture, best practices, and web application optimization.'
                         ],
                         [
@@ -116,13 +116,13 @@ class Resume extends Component
                     'title' => 'Experiencia laboral',
                     'jobs' => [
                         [
-                            'position' => 'Desarrollador freelance',
+                            'position' => 'Desarrollador Freelance',
                             'years' => '2023 - Presente',
                             'skills' => ['PHP', 'Laravel', 'Desarrollo Web'],
                             'responsibilities' => [
-                                'Construcción y optimización de paneles de administración personalizados, mejorando la gestión de contenido, interacciones de usuario y procesamiento de datos para una mayor eficiencia operativa.',
-                                'Integración de sistemas de procesamiento de pagos seguros, incluyendo PayPal, Stripe y MercadoPago, garantizando transacciones financieras mediante mecanismos de autenticación.',
-                                'Mejora del rendimiento de aplicaciones web mediante carga diferida, estrategias de caché y optimización, mejorando la experiencia del usuario y la capacidad de respuesta del sistema.'
+                                'Diseñé e implementé soluciones web escalables y de alto rendimiento, optimizando flujos operativos y la interacción con los usuarios.',
+                                'Desarrollé e integré sistemas de transacciones financieras seguras, garantizando el cumplimiento de los estándares de la industria.',
+                                'Optimicé la arquitectura de aplicaciones mediante estrategias avanzadas de rendimiento, mejorando la velocidad, escalabilidad y eficiencia del sistema.'
                             ]
                         ],
                         [
@@ -147,7 +147,7 @@ class Resume extends Component
                         // ],
                         [
                             'degree' => 'Desarrollador Laravel & PHP',
-                            'years' => '2025 - Presente',
+                            'years' => '2023 - Presente',
                             'description' => 'Formación especializada en desarrollo backend con Laravel y PHP, incluyendo arquitectura de software, buenas prácticas y optimización de aplicaciones web.'
                         ],
                         [
