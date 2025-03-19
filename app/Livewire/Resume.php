@@ -77,7 +77,7 @@ class Resume extends Component
                     ]
                 ],
                 'side_projects' => [
-                    'title' => 'Last projects',
+                    'title' => 'Latest projects',
                     'projects' => [
                         // [
                         //     'name' => 'Wevelopers',

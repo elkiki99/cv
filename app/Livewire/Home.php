@@ -27,7 +27,7 @@ class Home extends Component
                 'header' => [
                     'heading' => 'Bruno Rossani',
                     'subheading' => 'I love creating stuff! I\'m a devoted full-stack web developer, cooking enthusiast, music lover and a lifelong learner. <br class="hidden md:flex">You\'ll find me somewhere in between those lines. I find my passion in the creation of new things, <br class="hidden md:flex">it\'s the driving force that keeps me going. If you\'d like, you can',
-                    'mail' => 'send me an email'
+                    'mail' => 'send me an email.'
                 ],
                 'stack' => [
                     'heading' => 'My stack',
@@ -98,7 +98,7 @@ class Home extends Component
                     'heading' => 'Bruno Rossani',
                     'subheading' => 'Apasionado por la innovación y la creación. Soy desarrollador full-stack, cocinero amateur, amante de la música y <br class="hidden md:flex">siempre en busca de nuevos retos. Me motiva el desafío de construir soluciones 
                     eficientes y creativas, <br class="hidden md:flex">es la pasión que me impulsa a seguir desarrollando. Si querés, podes',
-                    'mail' => 'enviarme un correo'
+                    'mail' => 'enviarme un correo.'
                 ],
                 'stack' => [
                     'heading' => 'Mi stack',
