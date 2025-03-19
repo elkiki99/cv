@@ -26,9 +26,9 @@ class About extends Component
             'en' => [
                 'header' => [
                     'heading' => 'Hi, I\'m Bruno Rossani',
-                    'p1' => 'I live in Montevideo, Uruguay, located in the heart of Palermo, specifically in the southern part of the city, with my wonderful girlfriend, Camila, and our adorable feline companion, Cattana.',
+                    'p1' => 'I live in Montevideo, Uruguay, located in the heart of Palermo, specifically in the southern part of the city, with my wonderful girlfriend, Camila, and our feline companion, Cattana.',
                     // 'p2' => 'I\'m a 25-year-old IT technologist student at UTEC, passionate about software development, web technologies, and problem-solving, always eager to learn and build cool stuff.',
-                    'p2' => 'I\'m a 25-year-old software developer, passionate about app development, web technologies, and problem-solving, always eager to learn and build cool stuff.',
+                    'p2' => 'I\'m a 25-year-old software developer, passionate about app development, web technologies, and problem-solving, always thrilled to learn and build the next cool stuff.',
                     'p3' => 'I also like playing guitar, biking, and cooking. I see myself as a lifelong learner and genuinely enjoy the process of discovering new things. I\'m always on the lookout for fresh opportunities and challenges.'
                 ],
                 'work' => [
@@ -45,7 +45,7 @@ class About extends Component
                         //     'description' => 'Focused on software development, databases, and emerging technologies to build scalable and efficient applications. Currently studying.',
                         // ],
                         [
-                            'career' => 'Laravel & PHP Developer',
+                            'career' => 'Laravel & PHP Development',
                             'description' => 'I have completed specialized courses in Laravel and PHP, strengthening my skills in backend development, software architecture, and best practices.'
                         ],
                         [
@@ -111,10 +111,10 @@ class About extends Component
             'es' => [
                 'header' => [
                     'heading' => 'Hola, soy Bruno Rossani',
-                    'p1' => 'Vivo en Montevideo, Uruguay, específicamente en el corazón de Palermo, ubicado en la zona sur de la ciudad, junto a mi maravillosa novia, Camila, y nuestra adorable compañera felina, Cattana.',
+                    'p1' => 'Vivo en Montevideo, Uruguay, ubicado en el corazón de Palermo, específicamente en la zona sur de la ciudad, junto a mi maravillosa novia, Camila, y nuestra gata, Cattana.',
                     // 'p2' => 'Soy un estudiante de Tecnólogo en Informática en UTEC de 25 años, apasionado por el desarrollo de software, las tecnologías web y la resolución de problemas. Siempre estoy dispuesto a aprender y construir cosas geniales.',
-                    'p2' => 'Soy un desarrollador full-stack de 25 años, apasionado por el desarrollo de aplicaciones, las tecnologías web y la resolución de problemas. Siempre estoy aprendiendo y construyendo apps.',
-                    'p3' => 'También me gusta tocar la guitarra, andar en bicicleta y cocinar. Me considero un aprendiz de por vida y realmente disfruto el proceso de descubrir cosas nuevas. Siempre estoy en busca de nuevas oportunidades y desafíos.'
+                    'p2' => 'Soy un desarrollador full-stack de 25 años, apasionado por el desarrollo de aplicaciones, las tecnologías web y la resolución de problemas. Siempre estoy aprendiendo y construyendo aplicaciones.',
+                    'p3' => 'También me gusta tocar la guitarra, salir a andar en bici y cocinar. Me considero un aprendiz de por vida y realmente disfruto el proceso de descubrir cosas nuevas. Siempre estoy en busca de nuevas oportunidades y desafíos.'
                 ],
                 'work' => [
                     'title' => 'Trabajo',
