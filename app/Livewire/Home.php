@@ -69,10 +69,15 @@ class Home extends Component
                     'heading' => 'Latest projects',
                     'subheading' => 'Some of the projects I build for fun',
                     'cards' => [
+                        // [
+                        //     'name' => 'Wevelopers',
+                        //     'description' => 'Wevelopers is a web development learning platform designed for Spanish speakers. It offers a new way to learn interactively through dynamic courses and active community participation.',
+                        //     'link' => 'https://github.com/elkiki99/wevelopers'
+                        // ],
                         [
-                            'name' => 'Wevelopers',
-                            'description' => 'Wevelopers is a web development learning platform designed for Spanish speakers. It offers a new way to learn interactively through dynamic courses and active community participation.',
-                            'link' => 'https://github.com/elkiki99/wevelopers'
+                            'name' => 'Practizly',
+                            'description' => ' is an application that helps users plan their entire academic year, including subjects, deadlines, assignments, and practice sessions. It uses the OpenAI API to generate mock exams and quizzes for more efficient exam preparation.',
+                            'link' => 'https://github.com/elkiki99/practizly'
                         ],
                         [
                             'name' => 'Flux UI Starter Kit',
@@ -135,10 +140,15 @@ class Home extends Component
                     'heading' => 'Últimos proyectos',
                     'subheading' => 'Algunos de los proyectos que hago por diversión',
                     'cards' => [
+                        // [
+                        //     'name' => 'Wevelopers',
+                        //     'description' => 'Wevelopers es una plataforma de aprendizaje de desarrollo web diseñada para hispanohablantes. Ofrece una nueva manera de aprender de forma interactiva a través de cursos dinámicos y participación activa de la comunidad.',
+                        //     'link' => 'https://github.com/elkiki99/wevelopers'
+                        // ],
                         [
-                            'name' => 'Wevelopers',
-                            'description' => 'Wevelopers es una plataforma de aprendizaje de desarrollo web diseñada para hispanohablantes. Ofrece una nueva manera de aprender de forma interactiva a través de cursos dinámicos y participación activa de la comunidad.',
-                            'link' => 'https://github.com/elkiki99/wevelopers'
+                            'name' => 'Practizly',
+                            'description' => ' es una aplicación que ayuda a los usuarios a planificar todo su año académico, incluyendo materias, plazos, tareas y prácticas. Utiliza openai API para crear exámenes de práctica y cuestionarios para una preparación más eficiente.',
+                            'link' => 'https://github.com/elkiki99/practizly'
                         ],
                         [
                             'name' => 'Flux UI Starter Kit',
