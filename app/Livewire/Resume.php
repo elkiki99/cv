@@ -25,11 +25,11 @@ class Resume extends Component
         $this->translations = [
             'en' => [
                 'header' => [
-                    'bio' => 'Full-stack developer with 2+ years of experience, specializing in Laravel and back-end solutions. Passionate about building robust web applications that deliver great user experiences.'
+                    'bio' => 'Full-stack developer with 2+ years of experience, specializing in PHP, Laravel and back-end solutions. Passionate about building robust web applications that deliver great user experiences.'
                 ],
                 'about' => [
                     'title' => 'About',
-                    'text'  => "I'm a highly motivated full-stack developer focused on back-end development with PHP and Laravel. I design and build sophisticated web applications that provide seamless user experiences. I'm committed to continuous learning and staying updated with the latest technologies."
+                    'text'  => "I'm a highly motivated full-stack developer focused on back-end development with PHP, Laravel, JavaScript, and Livewire. I design and build sophisticated web applications that provide seamless user experiences. I'm committed to continuous learning and staying updated with the latest technologies."
                 ],
                 'work' => [
                     'title' => 'Work experience',
@@ -79,11 +79,17 @@ class Resume extends Component
                 'side_projects' => [
                     'title' => 'Side Projects',
                     'projects' => [
+                        // [
+                        //     'name' => 'Wevelopers',
+                        //     'description' => 'Interactive web development learning platform for Spanish speakers.',
+                        //     'technologies' => ['Side project', 'PHP', 'JavaScript', 'Education'],
+                        //     'link' => 'https://github.com/elkiki99/wevelopers'
+                        // ],
                         [
-                            'name' => 'Wevelopers',
-                            'description' => 'Interactive web development learning platform for Spanish speakers.',
-                            'technologies' => ['Side project', 'PHP', 'JavaScript', 'Education'],
-                            'link' => 'https://github.com/elkiki99/wevelopers'
+                            'name' => 'Practizly',
+                            'description' => 'App that helps students plan their academic year and uses AI for exam preparation.',
+                            'technologies' => ['Side project', 'OpenAI', 'Planning', 'Studies'],
+                            'link' => 'https://github.com/elkiki99/practizly'
                         ],
                         [
                             'name' => 'Balo Loba',
@@ -106,11 +112,11 @@ class Resume extends Component
             ],
             'es' => [
                 'header' => [
-                    'bio' => 'Desarrollador full-stack con más de 2 años de experiencia, especializado en Laravel y soluciones de back-end. Apasionado por construir aplicaciones web robustas que brinden excelentes experiencias de usuario.'
+                    'bio' => 'Desarrollador full-stack con más de 2 años de experiencia, especializado en PHP, Laravel y soluciones back-end. Apasionado por construir aplicaciones web robustas que brinden excelentes experiencias de usuario.'
                 ],
                 'about' => [
                     'title' => 'Sobre mi',
-                    'text'  => "Soy un desarrollador full-stack altamente motivado, enfocado en el desarrollo back-end con PHP y Laravel. Diseño y construyo aplicaciones web sofisticadas que ofrecen experiencias de usuario fluidas. Estoy comprometido en mantenerme actualizado con las últimas tecnologías."
+                    'text' => "Soy un desarrollador full-stack altamente motivado, enfocado en el desarrollo back-end con PHP, Laravel, JavaScript y Livewire. Diseño y construyo aplicaciones web sofisticadas que ofrecen experiencias de usuario fluidas. Estoy comprometido en mantenerme actualizado con las últimas tecnologías."
                 ],
                 'work' => [
                     'title' => 'Experiencia laboral',
@@ -160,11 +166,17 @@ class Resume extends Component
                 'side_projects' => [
                     'title' => 'Proyectos personales',
                     'projects' => [
+                        // [
+                        //     'name' => 'Wevelopers',
+                        //     'description' => 'Plataforma interactiva de aprendizaje de desarrollo web para hispanohablantes.',
+                        //     'technologies' => ['Proyecto personal', 'PHP', 'JavaScript', 'Educación'],
+                        //     'link' => 'https://github.com/elkiki99/wevelopers'
+                        // ],
                         [
-                            'name' => 'Wevelopers',
-                            'description' => 'Plataforma interactiva de aprendizaje de desarrollo web para hispanohablantes.',
-                            'technologies' => ['Proyecto personal', 'PHP', 'JavaScript', 'Educación'],
-                            'link' => 'https://github.com/elkiki99/wevelopers'
+                            'name' => 'Practizly',
+                            'description' => 'App que ayuda a estudiantes a planificar su año académico y IA para prepararse para exámenes.',
+                            'technologies' => ['Proyecto personal', 'OpenAI', 'Planificación', 'Estudios'],
+                            'link' => 'https://github.com/elkiki99/practizly'
                         ],
                         [
                             'name' => 'Balo Loba',

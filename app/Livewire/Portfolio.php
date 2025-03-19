@@ -29,13 +29,22 @@ class Portfolio extends Component
                     'subheading' => 'A list of projects I\'ve worked on and I\'m working on.'
                 ],
                 'projects' => [
+                    // [
+                    //     'title' => 'Wevelopers',
+                    //     'description' => 'Interactive web development learning platform for Spanish speakers.',
+                    //     'tags' => ['Side Project', 'PHP', 'JavaScript', 'Learning Platform'],
+                    //     'logo' => '<flux:icon.wevelopers class="size-10 no-print" />',
+                    //     'link_name' => 'github.com/elkiki99/wevelopers',
+                    //     'link' => 'https://github.com/elkiki99/wevelopers',
+                    //     'status' => 'In progress'
+                    // ],
                     [
-                        'title' => 'Wevelopers',
-                        'description' => 'Interactive web development learning platform for Spanish speakers.',
-                        'tags' => ['Side Project', 'PHP', 'JavaScript', 'Learning Platform'],
-                        'logo' => '<flux:icon.wevelopers class="size-10 no-print" />',
-                        'link_name' => 'github.com/elkiki99/wevelopers',
-                        'link' => 'https://github.com/elkiki99/wevelopers',
+                        'title' => 'Practizly',
+                        'description' => 'Struggling to study? Instantly turn any text into a concise summary and quiz for smarter exam prep.',
+                        'tags' => ['Side project', 'OpenAI', 'Academic planning', 'Exam preparation'],
+                        'logo' => '<flux:icon.academic-cap class="size-8 no-print" />',
+                        'link_name' => 'github.com/elkiki99/practizly',
+                        'link' => 'https://github.com/elkiki99/practizly',
                         'status' => 'In progress'
                     ],
                     [
@@ -118,13 +127,22 @@ class Portfolio extends Component
                     'subheading' => 'Lista de proyectos en los que he trabajado y estoy trabajando.'
                 ],
                 'projects' => [
+                    // [
+                    //     'title' => 'Wevelopers',
+                    //     'description' => 'Plataforma interactiva de aprendizaje de desarrollo web para hispanohablantes.',
+                    //     'tags' => ['Proyecto personal', 'PHP', 'JavaScript', 'Plataforma de aprendizaje'],
+                    //     'logo' => '<flux:icon.wevelopers class="size-10 no-print" />',
+                    //     'link_name' => 'github.com/elkiki99/wevelopers',
+                    //     'link' => 'https://github.com/elkiki99/wevelopers',
+                    //     'status' => 'En progreso'
+                    // ],
                     [
-                        'title' => 'Wevelopers',
-                        'description' => 'Plataforma interactiva de aprendizaje de desarrollo web para hispanohablantes.',
-                        'tags' => ['Proyecto personal', 'PHP', 'JavaScript', 'Plataforma de aprendizaje'],
-                        'logo' => '<flux:icon.wevelopers class="size-10 no-print" />',
-                        'link_name' => 'github.com/elkiki99/wevelopers',
-                        'link' => 'https://github.com/elkiki99/wevelopers',
+                        'title' => 'Practizly',
+                        'description' => '¿Te está costando estudiar? Convierte cualquier texto en pruebas con IA para aprobar tu próximo examen.',
+                        'tags' => ['Proyecto personal', 'OpenAI', 'Planificación académica', 'Preparación para exámenes'],
+                        'logo' => '<flux:icon.academic-cap class="size-8 no-print" />',
+                        'link_name' => 'github.com/elkiki99/practizly',
+                        'link' => 'https://github.com/elkiki99/practizly',
                         'status' => 'En progreso'
                     ],
                     [
@@ -166,7 +184,7 @@ class Portfolio extends Component
                     [
                         'title' => 'Chat App',
                         'description' => 'Aplicación de chat inspirada en la web construida con Laravel y Reverb.',
-                        'tags' => ['Proyecto personal', 'Alpine.js','Websockets','Aplicación de chat'],
+                        'tags' => ['Proyecto personal', 'Alpine.js', 'Websockets', 'Aplicación de chat'],
                         'logo' => '<flux:icon.chat-app class="size-10 no-print" />',
                         'link_name' => 'github.com/elkiki99/chat',
                         'link' => 'https://github.com/elkiki99/Chat',

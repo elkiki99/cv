@@ -26,7 +26,7 @@ class About extends Component
             'en' => [
                 'header' => [
                     'heading' => 'Hi, I\'m Bruno Rossani',
-                    'p1' => 'I live in Montevideo, Uruguay, specifically in the heart of Palermo, located in the southern part of the city, with my wonderful girlfriend, Camila, and our adorable feline companion, Cattana.',
+                    'p1' => 'I live in Montevideo, Uruguay, located in the heart of Palermo, specifically in the southern part of the city, with my wonderful girlfriend, Camila, and our adorable feline companion, Cattana.',
                     // 'p2' => 'I\'m a 25-year-old IT technologist student at UTEC, passionate about software development, web technologies, and problem-solving, always eager to learn and build cool stuff.',
                     'p2' => 'I\'m a 25-year-old software developer, passionate about app development, web technologies, and problem-solving, always eager to learn and build cool stuff.',
                     'p3' => 'I also like playing guitar, biking, and cooking. I see myself as a lifelong learner and genuinely enjoy the process of discovering new things. I\'m always on the lookout for fresh opportunities and challenges.'
@@ -62,9 +62,9 @@ class About extends Component
                     'title' => 'Side projects',
                     'apps' => [
                         [
-                            'name' => 'Wevelopers',
-                            'description' => ' is a web development learning platform designed for Spanish speakers. It offers a new way to learn interactively through dynamic courses and active community participation.',
-                            'link' => 'https://github.com/elkiki99/wevelopers'
+                            'name' => 'Practizly',
+                            'description' => ' is an application that helps users plan their entire academic year, including subjects, deadlines, assignments, and practice sessions. It uses the OpenAI API to generate mock exams and quizzes for more efficient exam preparation.',
+                            'link' => 'https://github.com/elkiki99/Practizly'
                         ],
                         [
                             'name' => 'Flux UI Starter Kit',
@@ -90,7 +90,7 @@ class About extends Component
                             'link' => 'https://www.youtube.com/@MalewiczHype'
                         ],
                         [
-                            'name' => 'Aarond Francis',
+                            'name' => 'Aaron Francis',
                             'link' => 'https://www.youtube.com/@aarondfrancis'
                         ],
                         [
@@ -113,12 +113,12 @@ class About extends Component
                     'heading' => 'Hola, soy Bruno Rossani',
                     'p1' => 'Vivo en Montevideo, Uruguay, específicamente en el corazón de Palermo, ubicado en la zona sur de la ciudad, junto a mi maravillosa novia, Camila, y nuestra adorable compañera felina, Cattana.',
                     // 'p2' => 'Soy un estudiante de Tecnólogo en Informática en UTEC de 25 años, apasionado por el desarrollo de software, las tecnologías web y la resolución de problemas. Siempre estoy dispuesto a aprender y construir cosas geniales.',
-                    'p2' => 'Soy un desarrollador full-stack de 25 años, apasionado por el desarrollo de aplicaciones, las tecnologías web y la resolución de problemas. Siempre estoy aprendiendo y construyendo cosas geniales.',
+                    'p2' => 'Soy un desarrollador full-stack de 25 años, apasionado por el desarrollo de aplicaciones, las tecnologías web y la resolución de problemas. Siempre estoy aprendiendo y construyendo apps.',
                     'p3' => 'También me gusta tocar la guitarra, andar en bicicleta y cocinar. Me considero un aprendiz de por vida y realmente disfruto el proceso de descubrir cosas nuevas. Siempre estoy en busca de nuevas oportunidades y desafíos.'
                 ],
                 'work' => [
                     'title' => 'Trabajo',
-                    'p1' => 'He trabajado como desarrollador full-stack en solitario durante más de 3 años. Comencé creando páginas web en WordPress y me enamoré instantáneamente de la creación de sitios web y aplicaciones web. Rápidamente me di cuenta de que necesitaba profundizar más para ajustar los detalles que me inquietaban. Sin darme cuenta, comencé a aprender a programar.',
+                    'p1' => 'He trabajado como desarrollador full-stack en solitario durante más de 3 años. Comencé creando páginas web en WordPress y me enamoré instantáneamente de la creación de sitios web y aplicaciones web. Rápidamente me di cuenta de que necesitaba profundizar más para ajustar esos detalles que me inquietaban. Sin darme cuenta, comencé a aprender a programar.',
                     'p2' => 'Inicié mi camino como autodidacta aprendiendo PHP y JavaScript sin tener idea de en qué me estaba metiendo. A lo largo de los años he aprendido mucho sobre desarrollo web y siempre tengo ganas de seguir aprendiendo. Mi stack principal es TALL Stack (TailwindCSS, Alpine.js, Livewire y Laravel), pero siempre estoy abierto a aprender nuevas tecnologías y frameworks según el problema que necesite resolver.',
                     'p3' => 'Actualmente trabajo como desarrollador web freelance mientras tengo un puesto a tiempo parcial en una empresa de suministros. Estoy emocionado por seguir creciendo como desarrollador y siempre en busca del próximo gran desafío.'
                 ],
@@ -147,18 +147,18 @@ class About extends Component
                     'title' => 'Proyectos personales',
                     'apps' => [
                         [
-                            'name' => 'Wevelopers',
-                            'description' => 'es una plataforma de aprendizaje sobre desarrollo web diseñada para hispanohablantes. Ofrece una nueva forma de aprender de manera interactiva a través de cursos dinámicos y participación activa de la comunidad.',
-                            'link' => 'https://github.com/elkiki99/wevelopers'
+                            'name' => 'Practizly',
+                            'description' => ' es una aplicación que ayuda a los usuarios a planificar todo su año académico, incluyendo materias, plazos, tareas y prácticas. Utiliza openai API para crear exámenes de práctica y cuestionarios para una preparación más eficiente.',
+                            'link' => 'https://github.com/elkiki99/Practizly'
                         ],
                         [
                             'name' => 'Flux UI Starter Kit',
-                            'description' => 'es un potente kit de inicio para construir aplicaciones web con Laravel. Requiere una suscripción a Flux UI. Incluye paneles preconstruidos para usuarios y administradores, integración fluida con Laravel Breeze y contenido dinámico en tiempo real impulsado por Livewire.',
+                            'description' => ' es un potente kit de inicio para construir aplicaciones web con Laravel. Requiere una suscripción a Flux UI. Incluye paneles preconstruidos para usuarios y administradores, integración fluida con Laravel Breeze y contenido dinámico en tiempo real impulsado por Livewire.',
                             'link' => 'https://flux-volt-starter-kit.fly.dev/'
                         ],
                         [
                             'name' => 'Balo Loba',
-                            'description' => 'es un portafolio de fotografía para una fotógrafa independiente. Cuenta con una interfaz intuitiva y un sólido panel de administración, ideal para gestionar proyectos, interactuar con usuarios y trabajar con sesiones de fotos.',
+                            'description' => ' es un portafolio de fotografía para una fotógrafa independiente. Cuenta con una interfaz intuitiva y un sólido panel de administración, ideal para gestionar proyectos, interactuar con usuarios y trabajar con sesiones de fotos.',
                             'link' => 'https://github.com/elkiki99/baloloba'
                         ]
                     ],
@@ -175,7 +175,7 @@ class About extends Component
                             'link' => 'https://www.youtube.com/@MalewiczHype'
                         ],
                         [
-                            'name' => 'Aarond Francis',
+                            'name' => 'Aaron Francis',
                             'link' => 'https://www.youtube.com/@aarondfrancis'
                         ],
                         [

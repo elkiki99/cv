@@ -26,13 +26,18 @@ class Home extends Component
             'en' => [
                 'header' => [
                     'heading' => 'Bruno Rossani',
-                    'subheading' => 'I love creating stuff! I\'m an occasional classical guitarist, cooking enthusiast & devoted full-stack coder. <br class="hidden md:flex">You\'ll find me somewhere in between those lines. I find my passion in the creation of new things, <br class="hidden md:flex">it\'s the driving force that keeps me going. If you\'d like, you can',
+                    'subheading' => 'I love creating stuff! I\'m a devoted full-stack web developer, cooking enthusiast, music lover and a lifelong learner. <br class="hidden md:flex">You\'ll find me somewhere in between those lines. I find my passion in the creation of new things, <br class="hidden md:flex">it\'s the driving force that keeps me going. If you\'d like, you can',
                     'mail' => 'send me an email'
                 ],
                 'stack' => [
                     'heading' => 'My stack',
                     'subheading' => 'Technologies I use on a daily basis',
                     'technologies' => [
+                        [
+                            'name' => 'Laravel',
+                            'info' => 'Laravel is the backbone of my web development work. Its expressive syntax, powerful features, and built-in tools allow me to build secure, scalable applications with ease.',
+                            'logo' => '<flux:icon.laravel class="size-10 no-print" />',
+                        ],
                         [
                             'name' => 'Tailwind',
                             'info' => 'I choose Tailwind CSS because it allows me to build clean, modern designs quickly without writing extensive custom styles. Its utility-first approach keeps my codebase scalable and maintainable.',
@@ -47,11 +52,6 @@ class Home extends Component
                             'name' => 'Livewire',
                             'info' => 'Livewire enables me to build dynamic, real-time applications in Laravel without writing a single line of JavaScript. It\'s perfect for keeping development streamlined while delivering great UX.',
                             'logo' => '<flux:icon.livewire class="size-10 no-print" />',
-                        ],
-                        [
-                            'name' => 'Laravel',
-                            'info' => 'Laravel is the backbone of my web development work. Its expressive syntax, powerful features, and built-in tools allow me to build secure, scalable applications with ease.',
-                            'logo' => '<flux:icon.laravel class="size-10 no-print" />',
                         ],
                         [
                             'name' => 'SQLite',
@@ -91,13 +91,19 @@ class Home extends Component
             'es' => [
                 'header' => [
                     'heading' => 'Bruno Rossani',
-                    'subheading' => '¡Me encanta crear cosas! Soy un guitarrista clásico ocasional, entusiasta de la cocina y dedicado programador full-stack. <br class="hidden md:flex">Me encontrarás en algún lugar entre esas líneas. Encuentro mi pasión en la creación de nuevas cosas, <br class="hidden md:flex">es la fuerza que me impulsa a seguir adelante. Si lo deseas, puedes',
-                    'mail' => 'enviarme un correo electrónico'
+                    'subheading' => 'Apasionado por la innovación y la creación. Soy desarrollador full-stack, cocinero amateur, amante de la música y <br class="hidden md:flex">siempre en busca de nuevos retos. Me motiva el desafío de construir soluciones 
+                    eficientes y creativas, <br class="hidden md:flex">es la pasión que me impulsa a seguir desarrollando. Si querés, podes',
+                    'mail' => 'enviarme un correo'
                 ],
                 'stack' => [
                     'heading' => 'Mi stack',
                     'subheading' => 'Tecnologías que utilizo a diario',
                     'technologies' => [
+                        [
+                            'name' => 'Laravel',
+                            'info' => 'Laravel es la columna vertebral de mi trabajo en desarrollo web. Su sintaxis expresiva, características poderosas y herramientas integradas me permiten crear aplicaciones seguras y escalables con facilidad.',
+                            'logo' => '<flux:icon.laravel class="size-10 no-print" />',
+                        ],
                         [
                             'name' => 'Tailwind',
                             'info' => 'Elijo Tailwind CSS porque me permite crear diseños limpios y modernos rápidamente sin escribir estilos personalizados extensos. Su enfoque de utilidad primero mantiene mi base de código escalable y mantenible.',
@@ -112,11 +118,6 @@ class Home extends Component
                             'name' => 'Livewire',
                             'info' => 'Livewire me permite construir aplicaciones dinámicas y en tiempo real en Laravel sin escribir una sola línea de JavaScript. Es perfecto para mantener el desarrollo simplificado mientras se ofrece una gran experiencia de usuario.',
                             'logo' => '<flux:icon.livewire class="size-10 no-print" />',
-                        ],
-                        [
-                            'name' => 'Laravel',
-                            'info' => 'Laravel es la columna vertebral de mi trabajo en desarrollo web. Su sintaxis expresiva, características poderosas y herramientas integradas me permiten crear aplicaciones seguras y escalables con facilidad.',
-                            'logo' => '<flux:icon.laravel class="size-10 no-print" />',
                         ],
                         [
                             'name' => 'SQLite',

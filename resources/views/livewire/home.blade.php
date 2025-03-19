@@ -19,7 +19,7 @@
         
         <div>
             <flux:button as="link" href="/resume" wire:navigate variant="filled" class="no-print"
-            icon-trailing="arrow-right">{{ session('lang') === 'es' ? 'Chequea mi curriculum' : 'Check out my resume' }}</flux:button>
+            icon-trailing="arrow-right">{{ session('lang') === 'es' ? 'Chequeá mi curriculum' : 'Check out my resume' }}</flux:button>
         </div>
 
         <div class="flex-grow no-print"></div>
