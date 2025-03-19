@@ -31,7 +31,7 @@ class Home extends Component
                 ],
                 'stack' => [
                     'heading' => 'My stack',
-                    'subheading' => 'Technologies I use on a daily basis',
+                    'subheading' => 'Technologies I use on a daily basis.',
                     'technologies' => [
                         [
                             'name' => 'Laravel',
@@ -67,7 +67,7 @@ class Home extends Component
                 ],
                 'projects' => [
                     'heading' => 'Latest projects',
-                    'subheading' => 'Some of the projects I build for fun',
+                    'subheading' => 'Some of the projects I\'m proud of.',
                     'cards' => [
                         // [
                         //     'name' => 'Wevelopers',
@@ -76,13 +76,13 @@ class Home extends Component
                         // ],
                         [
                             'name' => 'Practizly',
-                            'description' => ' is an application that helps users plan their entire academic year, including subjects, deadlines, assignments, and practice sessions. It uses the OpenAI API to generate mock exams and quizzes for more efficient exam preparation.',
+                            'description' => 'An application that helps users plan their entire academic year, including subjects, deadlines, assignments, and practice sessions. It uses the OpenAI API to generate mock exams and quizzes for more efficient exam preparation.',
                             'link' => 'https://github.com/elkiki99/practizly'
                         ],
                         [
                             'name' => 'Flux UI Starter Kit',
                             'description' => 'A powerful starter kit for building web applications with Laravel, requires a Flux UI
-                            subscription. It includes pre-built user and admin dashboards, seamless integration with Laravel Breeze, and dynamic real-time content powered by Livewire.',
+                            subscription. It includes pre-built user and admin dashboard, and dynamic real-time content powered by Livewire Volt.',
                             'link' => 'https://flux-volt-starter-kit.fly.dev/'
                         ],
                         [
@@ -102,7 +102,7 @@ class Home extends Component
                 ],
                 'stack' => [
                     'heading' => 'Mi stack',
-                    'subheading' => 'Tecnologías que utilizo a diario',
+                    'subheading' => 'Tecnologías que utilizo a diario.',
                     'technologies' => [
                         [
                             'name' => 'Laravel',
@@ -138,7 +138,7 @@ class Home extends Component
                 ],
                 'projects' => [
                     'heading' => 'Últimos proyectos',
-                    'subheading' => 'Algunos de los proyectos que hago por diversión',
+                    'subheading' => 'Algunos de los proyectos que me enorgullecen.',
                     'cards' => [
                         // [
                         //     'name' => 'Wevelopers',
@@ -147,12 +147,12 @@ class Home extends Component
                         // ],
                         [
                             'name' => 'Practizly',
-                            'description' => ' es una aplicación que ayuda a los usuarios a planificar todo su año académico, incluyendo materias, plazos, tareas y prácticas. Utiliza openai API para crear exámenes de práctica y cuestionarios para una preparación más eficiente.',
+                            'description' => 'Una aplicación que ayuda a los usuarios a planificar todo su año académico, incluyendo materias, plazos, tareas y prácticas. Utiliza openai API para crear exámenes de práctica y cuestionarios para una preparación más eficiente.',
                             'link' => 'https://github.com/elkiki99/practizly'
                         ],
                         [
                             'name' => 'Flux UI Starter Kit',
-                            'description' => 'Un kit de inicio potente para construir aplicaciones web con Laravel, requiere una suscripción a Flux UI. Incluye paneles de usuario y administración preconstruidos, integración perfecta con Laravel Breeze y contenido dinámico en tiempo real impulsado por Livewire.',
+                            'description' => 'Un potente kit de inicio para construir aplicaciones web con Laravel, que requiere una suscripción a Flux UI. Incluye paneles preconstruidos para usuarios y administradores, y contenido dinámico en tiempo real impulsado por Livewire Volt.',
                             'link' => 'https://flux-volt-starter-kit.fly.dev/'
                         ],
                         [

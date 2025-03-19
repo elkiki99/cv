@@ -59,7 +59,7 @@ class About extends Component
                     ],
                 ],
                 'projects' => [
-                    'title' => 'Side projects',
+                    'title' => 'Last projects',
                     'apps' => [
                         [
                             'name' => 'Practizly',
@@ -68,12 +68,13 @@ class About extends Component
                         ],
                         [
                             'name' => 'Flux UI Starter Kit',
-                            'description' => ' is a powerful starter kit for building web applications with Laravel, requires a Flux UI subscription. It includes pre-built user and admin dashboards, seamless integration with Laravel Breeze, and dynamic real-time content powered by Livewire.',
+                            'description' => ' is a powerful starter kit for building web applications with Laravel, requires a Flux UI
+                            subscription. It includes pre-built user and admin dashboard, and dynamic real-time content powered by Livewire Volt.',
                             'link' => 'https://flux-volt-starter-kit.fly.dev/'
                         ],
                         [
                             'name' => 'Balo Loba',
-                            'description' => 'is a photography portfolio for an independent photographer brand. It features an intuitive interface and a robust admin panel, making it ideal for managing projects, interacting with users, working with photoshoots and streamlining workflows.',
+                            'description' => ' is a photography portfolio for an independent photographer brand. It features an intuitive interface and a robust admin panel, making it ideal for managing projects, interacting with users, working with photoshoots and streamlining workflows.',
                             'link' => 'https://github.com/elkiki99/baloloba'
                         ]
                     ],
@@ -144,7 +145,7 @@ class About extends Component
                     ],
                 ],
                 'projects' => [
-                    'title' => 'Proyectos personales',
+                    'title' => 'Últimos proyectos',
                     'apps' => [
                         [
                             'name' => 'Practizly',
@@ -153,7 +154,7 @@ class About extends Component
                         ],
                         [
                             'name' => 'Flux UI Starter Kit',
-                            'description' => ' es un potente kit de inicio para construir aplicaciones web con Laravel. Requiere una suscripción a Flux UI. Incluye paneles preconstruidos para usuarios y administradores, integración fluida con Laravel Breeze y contenido dinámico en tiempo real impulsado por Livewire.',
+                            'description' => ' es un potente kit de inicio para construir aplicaciones web con Laravel, que requiere una suscripción a Flux UI. Incluye paneles preconstruidos para usuarios y administradores, y contenido dinámico en tiempo real impulsado por Livewire Volt.',
                             'link' => 'https://flux-volt-starter-kit.fly.dev/'
                         ],
                         [
