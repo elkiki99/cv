@@ -1,20 +1,10 @@
 <?php
 
+use App\Http\Controllers\PagesController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/about', function () {
-    return view('about');
-});
-
-Route::get('/resume', function () {
-    return view('resume');
-});
-
-Route::get('/portfolio', function () {
-    return view('portfolio');
-});
+Route::get('/', [PagesController::class, 'welcome']);
+Route::get('/about', [PagesController::class, 'about']);
+Route::get('/resume', [PagesController::class, 'resume']);
+Route::get('/portfolio', [PagesController::class, 'portfolio']);
 
