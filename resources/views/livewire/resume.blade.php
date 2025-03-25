@@ -36,7 +36,7 @@
                 </div>
             </div>
 
-            <img src="{{ asset('me.webp') }}" class="rounded-lg size-20 md:size-28">
+            <img src="{{ asset('me2.webp') }}" class="no-print rounded-lg size-12 md:size-20 md:size-28" alt="Bruno Rossani">
         </div>
     </section>
 

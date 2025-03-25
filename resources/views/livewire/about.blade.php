@@ -76,7 +76,7 @@
     </div>
 
     <div class="md:w-2/5 ">
-        <img class="object-cover mr-6 rotate-3 rounded-xl w-72 md:w-96" src="{{ asset('me.webp') }}"
+        <img class="object-cover mr-6 rotate-3 rounded-xl w-72 md:w-96" src="{{ asset('me2.webp') }}"
             alt="Bruno Rossani">
     </div>
 </section>

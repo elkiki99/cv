@@ -1,7 +1,7 @@
 <div class="space-y-12">
     <!-- Header -->
     <section class="flex flex-col min-h-[80vh] print-adjust-h space-y-6">
-        <img class="rounded-full size-24" src="{{ asset('me.webp') }}" alt="Bruno Rossani">
+        <img class="rounded-full size-24" src="{{ asset('me2.webp') }}" alt="Bruno Rossani">
 
         <div class="space-y-2">
             <flux:heading level="1" class="!text-4xl font-black">{{ $translations[$lang]['header']['heading'] }}
@@ -14,8 +14,6 @@
                 </flux:link>
             </p>
         </div>
-
-        {{-- @include('components.socials') --}}
         
         <div>
             <flux:button as="link" href="/resume" wire:navigate variant="filled" class="no-print"

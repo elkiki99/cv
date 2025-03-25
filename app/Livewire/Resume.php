@@ -25,7 +25,7 @@ class Resume extends Component
         $this->translations = [
             'en' => [
                 'header' => [
-                    'bio' => 'Full-stack developer with 2+ years of experience, specializing in PHP, Laravel and back-end solutions. Passionate about building robust web applications that deliver great user experiences.'
+                    'bio' => 'Software developer with 2+ years of experience, specializing in PHP, Laravel and back-end solutions. Passionate about building robust web applications that deliver great user experiences. Currently persuing a degree in IT Technologist at UTEC.'
                 ],
                 'about' => [
                     'title' => 'About',
@@ -39,19 +39,19 @@ class Resume extends Component
                             'years' => '2023 - Present',
                             'skills' => ['PHP', 'Laravel', 'Web Development'],
                             'responsibilities' => [
-                                'Engineered high-performance, scalable web solutions, optimizing operational workflows and user engagement.',
-                                'Developed and integrated secure financial transaction systems, ensuring compliance with industry standards and best practices.',
-                                'Optimized application architecture through advanced performance strategies, enhancing speed, scalability, and overall system efficiency.'
+                                'Developed and implemented custom websites and applications, including e-commerce stores, portfolios, and CRM systems.',
+                                'Integrated secure payment gateways and user management systems to enhance experience and security on web platforms.',
+                                'Optimized application performance and scalability through best practices in database management and code structure.',
                             ]
                         ],
                         [
                             'position' => 'Manager - eDrinks',
-                            'years' => '2024 - Present',
+                            'years' => '2023 - Present',
                             'skills' => ['E-commerce', 'Retail', 'Operations'],
                             'responsibilities' => [
-                                'Supervise and optimize daily store operations, ensuring smooth workflow, accurate inventory control, and streamlined sales processes to maximize efficiency and profitability.',
-                                'Lead customer service improvements, focusing on user experience and satisfaction by refining support protocols and response strategies to maintain high retention rates.',
-                                'Coordinate with suppliers, logistics teams, and vendors to optimize procurement processes, ensuring timely deliveries and cost-effective supply chain management.'
+                                'Manage daily store operations, ensuring efficient workflows, accurate inventory control, and smooth sales processes.',
+                                'Improve customer service by refining support protocols and response strategies to boost satisfaction and customer loyalty.',
+                                'Collaborate with suppliers and logistics teams to streamline purchasing, ensuring timely deliveries and effective supply chain management.'
                             ]
                         ]
                     ]
@@ -59,19 +59,19 @@ class Resume extends Component
                 'education' => [
                     'title' => 'Education',
                     'careers' => [
+                        [
+                            'degree' => 'UTEC IT Technologist',
+                            'years' => '2025 - Present',
+                            'description' => 'Currently pursuing an IT Technologist Degree at UTEC, focusing on software development, system architecture, and database management.'
+                        ],
                         // [
-                        //     'degree' => 'UTEC IT Technologist',
-                        //     'years' => '2025 - Present',
-                        //     'description' => 'Currently pursuing a degree in IT at UTEC, focusing on software development, system architecture, and database management.'
+                        //     'degree' => 'Laravel & PHP Developer',
+                        //     'years' => '2023 - Present',
+                        //     'description' => 'Specialized training in backend development with Laravel and PHP, including software architecture, best practices, and web application optimization.'
                         // ],
                         [
-                            'degree' => 'Laravel & PHP Developer',
-                            'years' => '2023 - Present',
-                            'description' => 'Specialized training in backend development with Laravel and PHP, including software architecture, best practices, and web application optimization.'
-                        ],
-                        [
                             'degree' => 'Fine Arts Faculty of Udelar',
-                            'years' => '2019 - 2023',
+                            'years' => '2019 - 2024',
                             'description' => 'Studied applied musical analysis and instrumental performance, developed advanced technical skills and problem-solving abilities.'
                         ]
                     ]
@@ -107,12 +107,12 @@ class Resume extends Component
                 ],
                 'skills' => [
                     'title' => 'Skills',
-                    'name' => ['Laravel', 'Livewire', 'Tailwind CSS', 'PHP', 'MySQL', 'UX/UI Design', 'Git', 'SEO', 'Javascript/Alpine.js', 'React', 'SQLite', 'AWS', 'Fly.io', 'Github']
+                    'name' => ['Laravel', 'Livewire', 'Tailwind CSS', 'PHP', 'MySQL', 'UX/UI Design', 'Git', 'SEO', 'Javascript/Alpine.js', 'React', 'SQLite', 'AWS', 'Fly.io', 'Github', 'B2 English']
                 ]
             ],
             'es' => [
                 'header' => [
-                    'bio' => 'Desarrollador full-stack con más de 2 años de experiencia, especializado en PHP, Laravel y soluciones back-end. Apasionado por construir aplicaciones web robustas que brinden excelentes experiencias de usuario.'
+                    'bio' => 'Desarrollador de software con más de 2 años de experiencia, especializado en PHP, Laravel y soluciones back-end. Apasionado por construir aplicaciones web robustas que brinden excelentes experiencias de usuario. Actualmente cursando la carrera de Tecnólogo Informático en UTEC.'
                 ],
                 'about' => [
                     'title' => 'Sobre mi',
@@ -126,19 +126,19 @@ class Resume extends Component
                             'years' => '2023 - Presente',
                             'skills' => ['PHP', 'Laravel', 'Desarrollo Web'],
                             'responsibilities' => [
-                                'Diseñé e implementé soluciones web escalables y de alto rendimiento, optimizando flujos operativos y la interacción con los usuarios.',
-                                'Desarrollé e integré sistemas de transacciones financieras seguras, garantizando el cumplimiento de los estándares de la industria.',
-                                'Optimicé la arquitectura de aplicaciones mediante estrategias avanzadas de rendimiento, mejorando la velocidad, escalabilidad y eficiencia del sistema.'
+                                'Desarrollé e implementé sitios web y aplicaciones personalizadas, incluyendo tiendas e-commerce, portafolios y sistemas CRM.',
+                                'Integré pasarelas de pago seguras y sistemas de gestión de usuarios para mejorar la experiencia y seguridad en plataformas web.',
+                                'Optimicé el rendimiento y escalabilidad de aplicaciones mediante buenas prácticas en bases de datos y estructura del código.',
                             ]
                         ],
                         [
                             'position' => 'Gerente - eDrinks',
-                            'years' => '2024 - Presente',
+                            'years' => '2023 - Presente',
                             'skills' => ['E-commerce', 'Minorista', 'Operaciones'],
                             'responsibilities' => [
-                                'Supervisión y optimización de las operaciones diarias de la tienda, asegurando un flujo de trabajo eficiente, control de inventario preciso y procesos de ventas optimizados.',
-                                'Mejora del servicio al cliente, enfocándose en la experiencia del usuario y la satisfacción mediante estrategias de respuesta para mantener altas tasas de retención.',
-                                'Coordinación con proveedores, equipos logísticos y vendedores para optimizar los procesos de adquisición, asegurando entregas puntuales y una gestión de cadena de suministro rentable.'
+                                'Gestionar las operaciones diarias de la tienda, asegurando un flujo de trabajo eficiente, control de inventario y procesos de ventas claros.',
+                                'Mejorar el servicio al cliente optimizando los procesos de soporte y respuesta para asegurar satisfacción y fidelidad.',
+                                'Trabajar con proveedores y equipos logísticos para agilizar las compras y asegurar entregas puntuales y una buena gestión de la cadena de suministro.',
                             ]
                         ]
                     ]
@@ -146,19 +146,19 @@ class Resume extends Component
                 'education' => [
                     'title' => 'Educación',
                     'careers' => [
+                        [
+                            'degree' => 'Carrera de Tecnólogo Informático - UTEC',
+                            'years' => '2025 - Presente',
+                            'description' => 'Actualmente cursando la carrera de Tecnólogo Informático en UTEC, con enfoque en desarrollo de software, arquitectura de sistemas y gestión de bases de datos.'
+                        ],
                         // [
-                        //     'degree' => 'Carrera de Tecnólogo Informático - UTEC',
-                        //     'years' => '2025 - Presente',
-                        //     'description' => 'Actualmente cursando una carrera informática en UTEC, con enfoque en desarrollo de software, arquitectura de sistemas y gestión de bases de datos.'
+                        //     'degree' => 'Desarrollador Laravel & PHP',
+                        //     'years' => '2023 - Presente',
+                        //     'description' => 'Formación especializada en desarrollo backend con Laravel y PHP, incluyendo arquitectura de software, buenas prácticas y optimización de aplicaciones web.'
                         // ],
                         [
-                            'degree' => 'Desarrollador Laravel & PHP',
-                            'years' => '2023 - Presente',
-                            'description' => 'Formación especializada en desarrollo backend con Laravel y PHP, incluyendo arquitectura de software, buenas prácticas y optimización de aplicaciones web.'
-                        ],
-                        [
                             'degree' => 'Facultad de Bellas Artes - Udelar',
-                            'years' => '2019 - 2023',
+                            'years' => '2019 - 2024',
                             'description' => 'Estudios en análisis musical aplicado y ejecución instrumental, desarrollando habilidades técnicas avanzadas y capacidad de resolución de problemas.'
                         ]
                     ]
@@ -194,7 +194,7 @@ class Resume extends Component
                 ],
                 'skills' => [
                     'title' => 'Habilidades',
-                    'name' => ['Laravel', 'Livewire', 'Tailwind CSS', 'PHP', 'MySQL', 'UX/UI Design', 'Git', 'SEO', 'Javascript/Alpine.js', 'React', 'SQLite', 'AWS', 'Fly.io', 'Github']
+                    'name' => ['Laravel', 'Livewire', 'Tailwind CSS', 'PHP', 'MySQL', 'UX/UI Design', 'Git', 'SEO', 'Javascript/Alpine.js', 'React', 'SQLite', 'AWS', 'Fly.io', 'Github', 'B2 English']
                 ]
             ],
         ];
