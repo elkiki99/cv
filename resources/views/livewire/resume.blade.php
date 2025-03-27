@@ -27,7 +27,7 @@
                     </flux:button>
                 </div>
 
-                <div class="hidden gap-2 pt-1 pb-3 text-sm print">
+                <div class="hidden gap-2 py-1 text-sm print">
                     <flux:link class="relative pr-5 after:content-['|'] after:absolute after:right-0"
                         href="https://bruno-rossani.fly.dev/">
                         bruno-rossani.fly.dev</flux:link>
@@ -110,7 +110,7 @@
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
             @foreach ($translations[$lang]['side_projects']['projects'] as $project)
                 {{-- <div> --}}
-                <flux:card class="!bg-transparent !p-4 space-y-3 h-full flex flex-col print-remove-b print-adjust-p">
+                <flux:card class="bg-transparent! p-4! space-y-3 h-full flex flex-col print-remove-b print-adjust-p">
                     <div class="flex-1">
                         <div class="flex items-center gap-2 mb-2">
                             <flux:link href="{{ $project['link'] }}" rel="noopener noreferrer" target="_blank"

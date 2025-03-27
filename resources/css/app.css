@@ -1,11 +1,125 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
-/* @import "tailwindcss";   */
+@import "../../vendor/livewire/flux/dist/flux.css";
 
-@layer utilities {
-    /* @layer base {
+@plugin '@tailwindcss/forms';
+
+
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../vendor/livewire/flux-pro/stubs/**/*.blade.php';
+@source '../../vendor/livewire/flux/stubs/**/*.blade.php';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --animate-marquee: marquee 20s linear infinite;
+
+  --color-zinc-50: #fafafa;
+  --color-zinc-100: #f5f5f5;
+  --color-zinc-200: #e5e5e5;
+  --color-zinc-300: #d4d4d4;
+  --color-zinc-400: #a3a3a3;
+  --color-zinc-500: #737373;
+  --color-zinc-600: #525252;
+  --color-zinc-700: #404040;
+  --color-zinc-800: #262626;
+  --color-zinc-900: #171717;
+  --color-zinc-950: #0a0a0a;
+
+  --color-accent: var(--color-accent);
+  --color-accent-content: var(--color-accent-content);
+  --color-accent-foreground: var(--color-accent-foreground);
+
+  --font-sans: Inter, sans-serif;
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
+
+@utility print {
+  @media print {
+    display: flex !important;
+  }
+}
+
+@utility no-print {
+  @media print {
+    display: none !important;
+  }
+}
+
+@utility print-adjust-h {
+  @media print {
+    min-height: auto !important;
+  }
+}
+
+@utility print-adjust-p {
+  @media print {
+    padding: 0.5rem !important;
+  }
+}
+
+@utility padding-2-bug-fix {
+  @media print {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@utility print-remove-b {
+  @media print {
+    border: none !important;
+  }
+}
+
+@utility print-adjust-bg {
+  @media print {
+    background-color: transparent !important;
+  }
+}
+
+@utility print-adjust-spacing {
+  @media print {
+    & > * + * {
+      margin: 6px !important;
+    }
+  }
+}
+
+@utility print-adjust-width {
+  @media print {
+    max-width: 100% !important;
+  }
+}
+
+@utility pulse {
+  /* @layer base {
         :root {
             --color-accent: var(--color-green-600);
             --color-accent-content: var(--color-green-600);
@@ -18,35 +132,13 @@
             --color-accent-foreground: var(--color-white);
         }
     } */
+  animation: pulse 2s infinite ease-in-out;
+}
+
+/* @import "tailwindcss";   */
+
+@layer utilities {
     @media print {
-        .print {
-            display: flex !important;
-        }
-        .no-print {
-            display: none !important;
-        }
-        .print-adjust-h {
-            min-height: auto !important;
-        }
-        .print-adjust-p {
-            padding: 0.5rem !important;
-        }
-        .padding-2-bug-fix {
-            padding-left: 0.5rem;
-            padding-right: 0.5rem;
-        }
-        .print-remove-b {
-            border: none !important;
-        }
-        .print-adjust-bg {
-            background-color: transparent !important;
-        }
-        .print-adjust-spacing > * + * {
-            margin: 0.5rem !important;
-        }
-        .print-adjust-width {
-            max-width: 100% !important;
-        }
         h1, h2, h3, h4, h5, h6, p, a, span, strong, em, li, td, th, div {
             color: black !important;
         }    
@@ -62,9 +154,5 @@
             transform: scale(1.15);
             opacity: 1;
         }
-    }
-
-    .pulse {
-        animation: pulse 2s infinite ease-in-out;
     }
 }

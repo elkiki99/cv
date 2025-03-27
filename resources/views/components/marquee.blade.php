@@ -6,13 +6,13 @@
 });" class="relative z-10 w-full py-6 bg-transparent">
     <div
         class="relative w-full py-3 mx-auto overflow-hidden text-lg italic tracking-wide text-black uppercase bg-transparent dark:text-white max-w-7xl sm:text-xs md:text-sm lg:text-base xl:text-xl 2xl:text-2xl">
-        <div class="absolute left-0 z-20 w-40 h-full bg-gradient-to-r dark:from-zinc-900 from-white to-transparent">
+        <div class="absolute left-0 z-20 w-40 h-full bg-linear-to-r dark:from-zinc-900 from-white to-transparent">
         </div>
-        <div class="absolute right-0 z-20 w-40 h-full bg-gradient-to-l dark:from-zinc-900 from-white to-transparent">
+        <div class="absolute right-0 z-20 w-40 h-full bg-linear-to-l dark:from-zinc-900 from-white to-transparent">
         </div>
         <div x-ref="content" class="flex animate-marquee">
             <div x-ref="item"
-                class="flex items-center justify-around flex-shrink-0 w-full py-2 space-x-6 md:space-x-4 text-zinc-700 dark:text-white/80">
+                class="flex items-center justify-around shrink-0 w-full py-2 space-x-6 md:space-x-4 text-zinc-700 dark:text-white/80">
                 <flux:icon.laravel class="size-8" />
 
                 <flux:icon.tailwind class="size-8" />
@@ -29,7 +29,7 @@
 
                 <flux:icon.sqlite class="hidden size-8 md:block" />
                 
-                <flux:icon.fly class="hidden size-8 md:block !transition-none" />
+                <flux:icon.fly class="hidden size-8 md:block transition-none!" />
                 
                 <flux:icon.framer class="hidden size-8 md:block" />
 

@@ -15,13 +15,13 @@
                 class="grid max-w-xl grid-cols-1 gap-4 print-adjust-width md:max-w-full md:grid-cols-2 lg:max-w-full lg:grid-cols-3">
                 @foreach ($translations[$lang]['projects'] as $project)
                     <flux:card
-                        class="!border-none hover:cursor-pointer !bg-transparent group transition-none hover:transition-colors duration-200 hover:!bg-zinc-100 dark:hover:!bg-zinc-800 print-adjust-p">
+                        class="border-none! hover:cursor-pointer bg-transparent! group transition-none hover:transition-colors duration-200 hover:bg-zinc-100! dark:hover:bg-zinc-800! print-adjust-p">
                         <a rel="noreferrer noopener" target="_blank" href="{{ $project['link'] }}">
                             <div class="flex flex-col h-full space-y-6 print-adjust-spacing">
 
                                 {!! Blade::render($project['logo']) !!}
 
-                                <div class="flex-grow h-full space-y-2">
+                                <div class="grow h-full space-y-2">
                                     <div class="flex items-center gap-2">
                                         <flux:heading level="2" size="lg">{{ $project['title'] }}
                                         </flux:heading>
@@ -46,8 +46,8 @@
 
                                 <div class="flex items-center gap-2">
                                     <flux:icon.link variant="micro" />
-                                    <p class="inline font-medium underline-offset-[6px] transition-none hover:transition-colors duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] !text-sm"
-                                        class="!text-sm">
+                                    <p class="inline font-medium underline-offset-[6px] transition-none hover:transition-colors duration-200 group-hover:decoration-current underline text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] text-sm!"
+                                        class="text-sm!">
                                         {{ $project['link_name'] }}</p>
                                     <div class="bg-green-500 rounded-full size-1.5 pulse"></div>
                                 </div>

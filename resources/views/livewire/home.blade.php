@@ -24,7 +24,7 @@
                 {{ session('lang') === 'es' ? 'Chequeá mi curriculum' : 'Check out my resume' }}</flux:button>
         </div>
 
-        <div class="flex-grow no-print"></div>
+        <div class="grow no-print"></div>
 
         <div class="pb-6 no-print">
             <livewire:components.marquee />
@@ -44,7 +44,7 @@
             <div class="grid max-w-xl grid-cols-1 gap-4 print-adjust-width lg:max-w-full lg:grid-cols-2">
                 @foreach ($translations[$lang]['stack']['technologies'] as $technology)
                     <flux:card
-                        class="!border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-none hover:transition-colors duration-200 print-adjust-p">
+                        class="border-none! hover:cursor-pointer bg-transparent! hover:bg-zinc-100! dark:hover:bg-zinc-800! group transition-none hover:transition-colors duration-200 print-adjust-p">
                         <div class="flex flex-col gap-4 sm:flex-row">
                             {!! Blade::render($technology['logo']) !!}
 
@@ -78,7 +78,7 @@
         <div class="space-y-6 print-adjust-spacing">
             @foreach ($translations[$lang]['projects']['cards'] as $project)
                 <flux:card
-                    class="max-w-xl print-adjust-width !border-none hover:cursor-pointer !bg-transparent hover:!bg-zinc-100 dark:hover:!bg-zinc-800 group transition-none hover:transition-colors duration-200 print-adjust-p">
+                    class="max-w-xl print-adjust-width border-none! hover:cursor-pointer bg-transparent! hover:bg-zinc-100! dark:hover:bg-zinc-800! group transition-none hover:transition-colors duration-200 print-adjust-p">
                     <a target="_blank" href="{{ $project['link'] }}" rel="noopener noreferrer">
                         <div class="space-y-2">
                             <div class="flex items-center gap-2">
