@@ -89,7 +89,7 @@ class Resume extends Component
                             'name' => 'Practizly',
                             'description' => 'App that helps students plan their academic year and uses AI for exam preparation.',
                             'technologies' => ['Side project', 'OpenAI', 'Planning', 'Studies'],
-                            'link' => 'https://github.com/elkiki99/practizly',
+                            'link' => '#',
                             'is_active' => true
                         ],
                         [

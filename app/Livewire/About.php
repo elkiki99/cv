@@ -64,7 +64,7 @@ class About extends Component
                         [
                             'name' => 'Practizly',
                             'description' => ' is an application that helps users plan their entire academic year, including subjects, deadlines, assignments, and practice sessions. It uses the OpenAI API to generate mock exams and quizzes for more efficient exam preparation.',
-                            'link' => 'https://github.com/elkiki99/Practizly'
+                            'link' => '#'
                         ],
                         [
                             'name' => 'Flux UI Starter Kit',
@@ -150,7 +150,7 @@ class About extends Component
                         [
                             'name' => 'Practizly',
                             'description' => ' es una aplicación que ayuda a los usuarios a planificar todo su año académico, incluyendo materias, plazos, tareas y prácticas. Utiliza openai API para crear exámenes de práctica y cuestionarios para una preparación más eficiente.',
-                            'link' => 'https://github.com/elkiki99/Practizly'
+                            'link' => '#'
                         ],
                         [
                             'name' => 'Flux UI Starter Kit',
