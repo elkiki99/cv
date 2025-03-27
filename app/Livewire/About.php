@@ -35,7 +35,7 @@ class About extends Component
                     'title' => 'Work',
                     'p1' => 'I\'ve been working as a solo full-stack developer for over 3 years now. I started creating web pages in WordPress and instantly fell in love with creating websites and web applications. I quickly realized I needed to dig deeper to tweek the details that haunted me. Without realizing I started to learn how to code.',
                     'p2' => 'Started as a self-taught journey learning PHP and JavaScript and I had no idea what I was getting myself into. Over the years I\'ve learned a lot about web development and I\'m always eager to learn new things. My go-to stack is TALL Stack (TailwindCSS, Alpine.js, Livewire and Laravel) but I\'m always open to learning new technologies and frameworks depending on the problem I\'m tackling.',
-                    'p3' => 'Currently, I work as a freelance web developer while studying for an IT Technologist degree at UTEC. I’m excited to keep growing as a developer and always on the lookout for my next great challenge.'
+                    'p3' => 'Currently, I work as a freelance web developer while studying for an IT Technologist degree at UTEC. I\'m excited to keep growing as a developer and always on the lookout for my next great challenge.'
                 ],
                 'studies' => [
                     'title' => 'Studies',

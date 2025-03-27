@@ -36,32 +36,32 @@ class Home extends Component
                         [
                             'name' => 'Laravel',
                             'info' => 'Laravel is the backbone of my web development work. Its expressive syntax, powerful features, and built-in tools allow me to build secure, scalable applications with ease.',
-                            'logo' => '<flux:icon.laravel class="size-10 no-print" />',
+                            'logo' => '<flux:icon.laravel class="size-6 no-print" />',
                         ],
                         [
                             'name' => 'Tailwind',
                             'info' => 'I choose Tailwind CSS because it allows me to build clean, modern designs quickly without writing extensive custom styles. Its utility-first approach keeps my codebase scalable and maintainable.',
-                            'logo' => '<flux:icon.tailwind class="size-10 no-print" />',
+                            'logo' => '<flux:icon.tailwind class="size-6 no-print" />',
                         ],
                         [
                             'name' => 'Alpine.js',
                             'info' => 'Alpine.js is my go-to for adding interactivity to projects without the complexity of larger frameworks. It\'s lightweight, easy to use, and integrates seamlessly with my Laravel + Livewire stack.',
-                            'logo' => '<flux:icon.alpine class="size-10 no-print" />',
+                            'logo' => '<flux:icon.alpine class="size-6 no-print" />',
                         ],
                         [
                             'name' => 'Livewire',
                             'info' => 'Livewire enables me to build dynamic, real-time applications in Laravel without writing a single line of JavaScript. It\'s perfect for keeping development streamlined while delivering great UX.',
-                            'logo' => '<flux:icon.livewire class="size-10 no-print" />',
+                            'logo' => '<flux:icon.livewire class="size-6 no-print" />',
                         ],
                         [
                             'name' => 'SQLite',
                             'info' => 'I prefer SQLite for lightweight projects and local development because it\'s simple, efficient, and requires no server setup. It\'s ideal for prototyping and small applications.',
-                            'logo' => '<flux:icon.sqlite class="size-10 no-print" />',
+                            'logo' => '<flux:icon.sqlite class="size-6 no-print" />',
                         ],
                         [
                             'name' => 'Fly.io',
                             'info' => 'I use Fly.io because it makes deploying full-stack applications effortless. Its speed, global distribution, and seamless integration with Laravel make it a great choice for scalable deployments.',
-                            'logo' => '<flux:icon.fly class="size-10 no-print" />',
+                            'logo' => '<flux:icon.fly class="size-6 no-print" />',
                         ]
                     ]
                 ],

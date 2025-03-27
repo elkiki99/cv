@@ -2,22 +2,26 @@
     <!-- Header -->
     <section class="flex flex-col min-h-[80vh] print-adjust-h space-y-6">
         <img class="rounded-full size-24" src="{{ asset('me2.webp') }}" alt="Bruno Rossani">
+        {{-- <flux:profile circle :chevron="false" avatar="{{ asset('me2.webp') }}" />
+        <flux:profile circle :chevron="false" avatar="https://unavatar.io/x/calebporzio" /> --}}
 
         <div class="space-y-2">
-            <flux:heading level="1" class="!text-4xl font-black">{{ $translations[$lang]['header']['heading'] }}
+            <flux:heading level="1" size="xl">{{ $translations[$lang]['header']['heading'] }}
             </flux:heading>
-            <p class="text-base text-zinc-500 dark:text-white/70">
+            
+            <flux:text>
                 {!! Blade::render($translations[$lang]['header']['subheading']) !!}
 
                 <flux:link rel="noopener noreferrer" target="_blank" href="mailto:brossani23@gmail.com">
                     {{ $translations[$lang]['header']['mail'] }}
                 </flux:link>
-            </p>
+            </flux:text>
         </div>
-        
+
         <div>
             <flux:button as="link" href="/resume" wire:navigate variant="filled" class="no-print"
-            icon-trailing="arrow-right">{{ session('lang') === 'es' ? 'Chequeá mi curriculum' : 'Check out my resume' }}</flux:button>
+                icon-trailing="arrow-right">
+                {{ session('lang') === 'es' ? 'Chequeá mi curriculum' : 'Check out my resume' }}</flux:button>
         </div>
 
         <div class="flex-grow no-print"></div>
@@ -30,8 +34,8 @@
     <!-- My stack -->
     <section class="flex flex-col min-h-screen print-adjust-h">
         <div class="mb-6">
-            <flux:heading level="2" size="xl">{{ $translations[$lang]['stack']['heading'] }}</flux:heading>
-            <flux:subheading size="lg">
+            <flux:heading level="2" size="lg">{{ $translations[$lang]['stack']['heading'] }}</flux:heading>
+            <flux:subheading>
                 {{ $translations[$lang]['stack']['subheading'] }}
             </flux:subheading>
         </div>
@@ -46,9 +50,9 @@
 
                             <div class="space-y-2">
                                 <flux:heading level="3" size="lg">{{ $technology['name'] }}</flux:heading>
-                                <p class="text-sm text-zinc-500 dark:text-white/70">
+                                <flux:text>
                                     {{ $technology['info'] }}
-                                </p>
+                                </flux:text>
                             </div>
                         </div>
                     </flux:card>
@@ -56,16 +60,17 @@
             </div>
 
             <flux:button as="link" href="/about" wire:navigate variant="subtle" class="ml-auto no-print"
-                icon-trailing="arrow-right">{{ session('lang') === 'es' ? 'Más sobre mi' : 'More about me' }}</flux:button>
+                icon-trailing="arrow-right">{{ session('lang') === 'es' ? 'Más sobre mi' : 'More about me' }}
+            </flux:button>
         </div>
     </section>
 
     <!-- Latest projects -->
     <section class="flex flex-col min-h-screen print-adjust-h">
         <div class="mb-6">
-            <flux:heading level="2" size="xl">{{ $translations[$lang]['projects']['heading'] }}
+            <flux:heading level="2" size="lg">{{ $translations[$lang]['projects']['heading'] }}
             </flux:heading>
-            <flux:subheading size="lg">
+            <flux:subheading>
                 {{ $translations[$lang]['projects']['subheading'] }}
             </flux:subheading>
         </div>
@@ -80,16 +85,17 @@
                                 <flux:heading level="3" size="lg">{{ $project['name'] }}</flux:heading>
                                 <flux:icon.arrow-right variant="micro" class="no-print" />
                             </div>
-                            <p class="text-sm text-zinc-500 dark:text-white/70">
+                            <flux:text>
                                 {{ $project['description'] }}
-                            </p>
+                            </flux:text>
                         </div>
                     </a>
                 </flux:card>
             @endforeach
 
             <flux:button as="link" href="/portfolio" wire:navigate variant="subtle" class="no-print"
-                icon-trailing="arrow-right">{{ session('lang') === 'es' ? 'Más proyectos' : 'More projects' }}</flux:button>
+                icon-trailing="arrow-right">{{ session('lang') === 'es' ? 'Más proyectos' : 'More projects' }}
+            </flux:button>
         </div>
     </section>
 </div>

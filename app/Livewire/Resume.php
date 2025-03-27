@@ -89,19 +89,22 @@ class Resume extends Component
                             'name' => 'Practizly',
                             'description' => 'App that helps students plan their academic year and uses AI for exam preparation.',
                             'technologies' => ['Side project', 'OpenAI', 'Planning', 'Studies'],
-                            'link' => 'https://github.com/elkiki99/practizly'
+                            'link' => 'https://github.com/elkiki99/practizly',
+                            'is_active' => true
                         ],
                         [
                             'name' => 'Balo Loba',
                             'description' => 'Photography portfolio for an independent photographer brand.',
                             'technologies' => ['Freelance job', 'Laravel', 'Admin panel', 'MercadoPago'],
-                            'link' => 'https://github.com/elkiki99/baloloba'
+                            'link' => 'https://github.com/elkiki99/baloloba',
+                            'is_active' => false
                         ],
                         [
                             'name' => 'DevWebCamp',
                             'description' => 'Event management site with PayPal, virtual tickets, and email verification.',
                             'technologies' => ['Side project', 'Laravel', 'JavaScript', 'Webinar'],
-                            'link' => 'https://github.com/elkiki99/devwebcamp'
+                            'link' => 'https://github.com/elkiki99/devwebcamp',
+                            'is_active' => false
                         ]
                     ]
                 ],
@@ -176,19 +179,22 @@ class Resume extends Component
                             'name' => 'Practizly',
                             'description' => 'App que ayuda a estudiantes a planificar su año académico y IA para prepararse para exámenes.',
                             'technologies' => ['Proyecto personal', 'OpenAI', 'Planificación', 'Estudios'],
-                            'link' => 'https://github.com/elkiki99/practizly'
+                            'link' => 'https://github.com/elkiki99/practizly',
+                            'is_active' => true
                         ],
                         [
                             'name' => 'Balo Loba',
                             'description' => 'Portafolio fotográfico para una marca de fotógrafo independiente.',
                             'technologies' => ['Trabajo freelance', 'Laravel', 'Admin panel', 'MercadoPago'],
-                            'link' => 'https://github.com/elkiki99/baloloba'
+                            'link' => 'https://github.com/elkiki99/baloloba',
+                            'is_active' => false
                         ],
                         [
                             'name' => 'DevWebCamp',
                             'description' => 'Sitio de gestión de eventos con PayPal, boletos virtuales y verificación por correo electrónico.',
                             'technologies' => ['Proyecto personal', 'Laravel', 'JavaScript', 'Webinar'],
-                            'link' => 'https://github.com/elkiki99/devwebcamp'
+                            'link' => 'https://github.com/elkiki99/devwebcamp',
+                            'is_active' => false
                         ]
                     ]
                 ],

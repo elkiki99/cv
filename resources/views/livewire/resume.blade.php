@@ -1,14 +1,14 @@
 <div
     class="flex flex-col max-w-3xl min-h-screen mx-auto space-y-6 print-adjust-spacing print-adjust-width print-adjust-h md:mt-6">
     <!-- Header -->
-    <section>
+    <section class="padding-2-bug-fix">
         <div class="flex gap-8 sm:gap-16">
             <div class="space-y-2">
                 <flux:heading level="1" class="mb-2" size="xl">Bruno Rossani</flux:heading>
-                <p class="text-sm text-zinc-500 dark:text-zinc-300">{{ $translations[$lang]['header']['bio'] }}
-                </p>
+                <flux:text>{{ $translations[$lang]['header']['bio'] }}
+                </flux:text>
                 <div class="flex items-center gap-2">
-                    <flux:icon.globe-americas variant="micro" />
+                    <flux:icon.globe-americas class="no-print" variant="micro" />
                     <flux:subheading>Montevideo, Uruguay</flux:subheading>
                 </div>
 
@@ -27,16 +27,18 @@
                     </flux:button>
                 </div>
 
-                <div class="hidden gap-2 py-1 text-sm print">
-                    <flux:link class="relative pr-5 after:content-['|'] after:absolute after:right-0" href="/">
-                        brunorossani.me</flux:link>
+                <div class="hidden gap-2 pt-1 pb-3 text-sm print">
+                    <flux:link class="relative pr-5 after:content-['|'] after:absolute after:right-0"
+                        href="https://bruno-rossani.fly.dev/">
+                        bruno-rossani.fly.dev</flux:link>
                     <flux:link class="relative pr-5 after:content-['|'] after:absolute after:right-0"
                         href="mailto:brossani23@gmail.com">brossani23@gmail.com</flux:link>
                     <flux:link href="tel:+59891845585">+598 91 845 585</flux:link>
                 </div>
             </div>
 
-            <img src="{{ asset('me2.webp') }}" class="no-print rounded-lg size-12 md:size-20 md:size-28" alt="Bruno Rossani">
+            <img src="{{ asset('me2.webp') }}" class="no-print rounded-lg size-12 md:size-20 md:size-28"
+                alt="Bruno Rossani">
         </div>
     </section>
 
@@ -44,9 +46,9 @@
     <section>
         <flux:heading class="mb-2" size="lg">{{ $translations[$lang]['about']['title'] }}
         </flux:heading>
-        <p class="text-sm text-zinc-500 dark:text-zinc-300">
+        <flux:text>
             {{ $translations[$lang]['about']['text'] }}
-        </p>
+        </flux:text>
     </section>
 
     <!-- Work experience -->
@@ -68,10 +70,10 @@
                         <flux:subheading class="text-zinc-700 dark:text-white/90">{{ $job['years'] }}</flux:subheading>
                     </div>
                     @foreach ($job['responsibilities'] as $responsibility)
-                        <p
+                        <flux:text
                             class="text-sm text-zinc-500 dark:text-zinc-300 relative pl-5 before:content-['\2022'] before:absolute before:left-0">
                             {{ $responsibility }}
-                        </p>
+                        </flux:text>
                     @endforeach
                 </div>
             @endforeach
@@ -92,9 +94,9 @@
                         <flux:subheading class="text-zinc-700 dark:text-white/90">{{ $career['years'] }}
                         </flux:subheading>
                     </div>
-                    <p class="text-sm text-zinc-500 dark:text-zinc-300">
+                    <flux:text>
                         {{ $career['description'] }}
-                    </p>
+                    </flux:text>
                 </div>
             @endforeach
         </div>
@@ -114,7 +116,9 @@
                             <flux:link href="{{ $project['link'] }}" rel="noopener noreferrer" target="_blank"
                                 class="text-sm text-zinc-700 dark:text-white/90">{{ $project['name'] }}
                             </flux:link>
-                            <div class="bg-green-500 rounded-full size-1.5 pulse"></div>
+                            @if ($project['is_active'])
+                                <div class="bg-green-500 rounded-full size-1.5 pulse"></div>
+                            @endif
                         </div>
                         <flux:subheading>{{ $project['description'] }}
                         </flux:subheading>

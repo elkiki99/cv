@@ -25,7 +25,7 @@ class Portfolio extends Component
         $this->translations = [
             'en' => [
                 'header' => [
-                    'heading' => 'Things I\'ve made trying to leave <br class="hidden md:flex">a mark in the digital world',
+                    'heading' => 'Things I\'ve made trying to leave a mark <br class="hidden md:flex">in the digital world',
                     'subheading' => 'A list of projects I\'ve worked on and I\'m working on.'
                 ],
                 'projects' => [
@@ -69,7 +69,7 @@ class Portfolio extends Component
                         'title' => 'Balo Loba',
                         'description' => 'Photography portfolio for an independent photographer brand.',
                         'tags' => ['Freelance job', 'Laravel', 'Admin panel', 'Mercadopago'],
-                        'logo' => '<flux:icon.baloloba class="size-10 no-print" />',
+                        'logo' => '<flux:icon.baloloba class="size-8 no-print" />',
                         'link_name' => 'github.com/elkiki99/baloloba',
                         'link' => 'https://github.com/elkiki99/baloloba',
                         'status' => ''
@@ -123,7 +123,7 @@ class Portfolio extends Component
             ],
             'es' => [
                 'header' => [
-                    'heading' => 'Cosas que he hecho intentando dejar <br class="hidden md:flex">una marca en el mundo digital',
+                    'heading' => 'Cosas que he hecho intentando dejar una marca <br class="hidden md:flex">en el mundo digital',
                     'subheading' => 'Lista de proyectos en los que he trabajado y estoy trabajando.'
                 ],
                 'projects' => [
@@ -167,7 +167,7 @@ class Portfolio extends Component
                         'title' => 'Balo Loba',
                         'description' => 'Portafolio de fotografía para una marca de fotógrafo independiente.',
                         'tags' => ['Trabajo freelance', 'Laravel', 'Panel de administración', 'Mercadopago'],
-                        'logo' => '<flux:icon.baloloba class="size-10 no-print" />',
+                        'logo' => '<flux:icon.baloloba class="size-8 no-print" />',
                         'link_name' => 'github.com/elkiki99/baloloba',
                         'link' => 'https://github.com/elkiki99/baloloba',
                         'status' => ''

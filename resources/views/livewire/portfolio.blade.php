@@ -2,10 +2,10 @@
     <!-- Portfolio -->
     <section class="flex flex-col min-h-screen space-y-6 print-adjust-h md:mt-6">
         <div>
-            <flux:heading level="1" class="!text-4xl font-black">
+            <flux:heading level="1" size="xl">
                 {!! Blade::render($translations[$lang]['header']['heading']) !!}
             </flux:heading>
-            <flux:subheading size="lg">
+            <flux:subheading>
                 {{ $translations[$lang]['header']['subheading'] }}
             </flux:subheading>
         </div>
@@ -31,9 +31,9 @@
                                             </flux:badge>
                                         @endif
                                     </div>
-                                    <p class="text-sm text-zinc-500 dark:text-white/70">
+                                    <flux:text>
                                         {{ $project['description'] }}
-                                    </p>
+                                    </flux:text>
                                 </div>
                                 <div class="flex-1 mt-auto">
                                     <div class="flex flex-wrap w-full gap-1">
