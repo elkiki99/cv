@@ -20,7 +20,7 @@
     </style>
 
     <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js']) 
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     @fluxAppearance
 </head>
@@ -31,10 +31,8 @@
 
     <!-- Dark mode button -->
     <flux:header class="flex md:hidden !px-2 ml-auto mt-6 dark:bg-zinc-800 bg-zinc-100 rounded-full mx-6 no-print">
-        <flux:button class="dark:hidden hover:rounded-full" x-data x-on:click="$flux.dark = ! $flux.dark" icon="moon"
-            variant="subtle" aria-label="Toggle dark mode" />
         <flux:button class="hidden dark:flex hover:rounded-full" x-data x-on:click="$flux.dark = ! $flux.dark"
-            icon="sun" variant="subtle" aria-label="Toggle light mode" />
+            icon="moon" variant="subtle" aria-label="Toggle light mode" />
     </flux:header>
 
     <livewire:layout.sidebar />
