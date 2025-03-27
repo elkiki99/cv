@@ -89,7 +89,7 @@ class Resume extends Component
                             'name' => 'Practizly',
                             'description' => 'App that helps students plan their academic year and uses AI for exam preparation.',
                             'technologies' => ['Side project', 'OpenAI', 'Planning', 'Studies'],
-                            'link' => '#',
+                            'link' => 'https://practizly-main-hewydj.laravel.cloud/',
                             'is_active' => true
                         ],
                         [
@@ -179,7 +179,7 @@ class Resume extends Component
                             'name' => 'Practizly',
                             'description' => 'App que ayuda a estudiantes a planificar su año académico y IA para prepararse para exámenes.',
                             'technologies' => ['Proyecto personal', 'OpenAI', 'Planificación', 'Estudios'],
-                            'link' => 'https://github.com/elkiki99/practizly',
+                            'link' => 'https://practizly-main-hewydj.laravel.cloud/',
                             'is_active' => true
                         ],
                         [

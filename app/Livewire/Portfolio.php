@@ -44,7 +44,7 @@ class Portfolio extends Component
                         'tags' => ['Side project', 'OpenAI', 'Academic planning', 'Exam preparation'],
                         'logo' => '<flux:icon.academic-cap class="size-8 no-print" />',
                         'link_name' => 'github.com/elkiki99/practizly',
-                        'link' => '#',
+                        'link' => 'https://practizly-main-hewydj.laravel.cloud/',
                         'status' => 'In progress'
                     ],
                     [
@@ -142,7 +142,7 @@ class Portfolio extends Component
                         'tags' => ['Proyecto personal', 'OpenAI', 'Planificación académica', 'Preparación para exámenes'],
                         'logo' => '<flux:icon.academic-cap class="size-8 no-print" />',
                         'link_name' => 'github.com/elkiki99/practizly',
-                        'link' => '#',
+                        'link' => 'https://practizly-main-hewydj.laravel.cloud/',
                         'status' => 'En progreso'
                     ],
                     [
