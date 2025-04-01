@@ -107,7 +107,7 @@ class Resume extends Component
                         'Laravel',
                         'PHP',
                         'JavaScript',
-                        'Tailwind CSS',
+                        'Tailwind',
                         'MySQL',
                         'SQLite',
                         'Github',
@@ -115,7 +115,8 @@ class Resume extends Component
                         'React',
                         'SEO',
                         'AWS',
-                        'English B2'
+                        'English B2',
+                        'Native spanish'
                     ]
                 ]
             ],
@@ -203,7 +204,7 @@ class Resume extends Component
                         'Laravel',
                         'PHP',
                         'JavaScript',
-                        'Tailwind CSS',
+                        'Tailwind',
                         'MySQL',
                         'SQLite',
                         'Github',
@@ -211,7 +212,8 @@ class Resume extends Component
                         'React',
                         'SEO',
                         'AWS',
-                        'Inglés B2'
+                        'Inglés B2',
+                        'Español nativo'
                     ]
                 ]
             ],
