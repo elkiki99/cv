@@ -9,7 +9,8 @@
                 </flux:text>
                 <div class="flex items-center gap-2">
                     <flux:icon.globe-americas class="no-print" variant="micro" />
-                    <flux:subheading>Montevideo, Uruguay</flux:subheading>
+                    <flux:subheading>Isla de Flores 1586, Montevideo, Uruguay
+                </flux:subheading>
                 </div>
 
                 <div class="flex gap-2 pt-1 no-print">
@@ -27,13 +28,14 @@
                     </flux:button>
                 </div>
 
-                <div class="hidden gap-2 py-1 text-sm print">
-                    <flux:link class="relative pr-5 after:content-['|'] after:absolute after:right-0"
+                <div class="hidden gap-2 py-1 print text-xs">
+                    <flux:link variant="ghost" href="https://www.linkedin.com/in/brunorossani/" variant="ghost" class="relative pr-5 after:content-['|'] after:absolute after:right-0">linkedin.com/in/brunorossani</flux:link>
+                    <flux:link variant="ghost" class="relative pr-5 after:content-['|'] after:absolute after:right-0"
                         href="https://bruno-rossani.fly.dev/">
-                        bruno-rossani.fly.dev</flux:link>
-                    <flux:link class="relative pr-5 after:content-['|'] after:absolute after:right-0"
+                        bruno-rossani.dev</flux:link>
+                    <flux:link variant="ghost" class="relative pr-5 after:content-['|'] after:absolute after:right-0"
                         href="mailto:brossani23@gmail.com">brossani23@gmail.com</flux:link>
-                    <flux:link href="tel:+59891845585">+598 91 845 585</flux:link>
+                    <flux:link variant="ghost" href="tel:+59891845585">+598 91 845 585</flux:link>
                 </div>
             </div>
 

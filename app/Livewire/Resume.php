@@ -25,18 +25,18 @@ class Resume extends Component
         $this->translations = [
             'en' => [
                 'header' => [
-                    'bio' => 'Software developer with 2+ years of experience, specializing in PHP, Laravel and back-end solutions. Passionate about building robust web applications that deliver great user experiences. Currently persuing a degree in IT Technologist at UTEC.'
+                    'bio' => 'Full Stack Developer with 2+ years of experience, specializing in PHP, Laravel and Back End solutions. Passionate about building robust web applications that deliver great user experiences. Currently persuing a Computer Science Degree at UTEC.'
                 ],
                 'about' => [
                     'title' => 'About',
-                    'text'  => "I'm a highly motivated full-stack developer focused on back-end development with PHP, Laravel, JavaScript, and Livewire. I design and build sophisticated web applications that provide seamless user experiences. I'm committed to continuous learning and staying updated with the latest technologies."
+                    'text' => "I'm a highly motivated full-stack developer, focused on Back End development with PHP, Laravel, JavaScript, and Livewire. I design and build sophisticated web applications that deliver seamless user experiences. I'm committed to staying up to date with the latest technologies."
                 ],
                 'work' => [
                     'title' => 'Work experience',
                     'jobs' => [
                         [
-                            'position' => 'Freelance Developer',
-                            'years' => '2023 - Present',
+                            'position' => 'Full Stack Developer - Freelance',
+                            'years' => ' Sep 2023 - Present',
                             'skills' => ['PHP', 'Laravel', 'Web Development'],
                             'responsibilities' => [
                                 'Developed and implemented custom websites and applications, including e-commerce stores, portfolios, and CRM systems.',
@@ -46,7 +46,7 @@ class Resume extends Component
                         ],
                         [
                             'position' => 'Manager - eDrinks',
-                            'years' => '2023 - Present',
+                            'years' => 'Mar 2023 - Present',
                             'skills' => ['E-commerce', 'Retail', 'Operations'],
                             'responsibilities' => [
                                 'Manage daily store operations, ensuring efficient workflows, accurate inventory control, and smooth sales processes.',
@@ -60,18 +60,13 @@ class Resume extends Component
                     'title' => 'Education',
                     'careers' => [
                         [
-                            'degree' => 'UTEC IT Technologist',
-                            'years' => '2025 - Present',
-                            'description' => 'Currently pursuing an IT Technologist Degree at UTEC, focusing on software development, system architecture, and database management.'
+                            'degree' => 'Computer Science Degree - UTEC',
+                            'years' => 'Mar 2025 - Present',
+                            'description' => 'Currently pursuing a Degree in Computer Science at UTEC, focusing on software development, system architecture, and database management.'
                         ],
-                        // [
-                        //     'degree' => 'Laravel & PHP Developer',
-                        //     'years' => '2023 - Present',
-                        //     'description' => 'Specialized training in backend development with Laravel and PHP, including software architecture, best practices, and web application optimization.'
-                        // ],
                         [
-                            'degree' => 'Fine Arts Faculty of Udelar',
-                            'years' => '2019 - 2024',
+                            'degree' => 'Musical Performance - Fine Arts Faculty',
+                            'years' => 'Mar 2019 - Nov 2024',
                             'description' => 'Studied applied musical analysis and instrumental performance, developed advanced technical skills and problem-solving abilities.'
                         ]
                     ]
@@ -79,12 +74,6 @@ class Resume extends Component
                 'side_projects' => [
                     'title' => 'Latest projects',
                     'projects' => [
-                        // [
-                        //     'name' => 'Wevelopers',
-                        //     'description' => 'Interactive web development learning platform for Spanish speakers.',
-                        //     'technologies' => ['Side project', 'PHP', 'JavaScript', 'Education'],
-                        //     'link' => 'https://github.com/elkiki99/wevelopers'
-                        // ],
                         [
                             'name' => 'Practizly',
                             'description' => 'App that helps students plan their academic year and uses AI for exam preparation.',
@@ -110,23 +99,25 @@ class Resume extends Component
                 ],
                 'skills' => [
                     'title' => 'Skills',
-                    'name' => ['Laravel', 'Livewire', 'Tailwind CSS', 'PHP', 'MySQL', 'UX/UI Design', 'Git', 'SEO', 'Javascript/Alpine.js', 'React', 'SQLite', 'AWS', 'Fly.io', 'Github', 'B2 English']
+                    'name' => [
+                        'Problem-solving', 'Team collaboration', 'Adaptability', 'Communication', 'Laravel', 'PHP', 'MySQL', 'Tailwind CSS', 'Git', 'JavaScript', 'React', 'SEO', 'AWS', 'Github', 'B2 English'
+                    ]
                 ]
             ],
             'es' => [
                 'header' => [
-                    'bio' => 'Desarrollador de software con más de 2 años de experiencia, especializado en PHP, Laravel y soluciones back-end. Apasionado por construir aplicaciones web robustas que brinden excelentes experiencias de usuario. Actualmente cursando la carrera de Tecnólogo Informático en UTEC.'
+                    'bio' => 'Desarrollador Full Stack con 2+ años de experiencia en PHP, Laravel y Back End. Apasionado por crear aplicaciones web robustas y con gran enfoque en la experiencia de usuario. Estudiante de Tecnólogo Superior en Ciencias de la Computación en UTEC.',
                 ],
                 'about' => [
                     'title' => 'Sobre mi',
-                    'text' => "Soy un desarrollador full-stack altamente motivado, enfocado en el desarrollo back-end con PHP, Laravel, JavaScript y Livewire. Diseño y construyo aplicaciones web sofisticadas que ofrecen experiencias de usuario fluidas. Estoy comprometido en mantenerme actualizado con las últimas tecnologías."
+                    'text' => "Soy un desarrollador full-stack altamente motivado, enfocado en el desarrollo Back End con PHP, Laravel, JavaScript y Livewire. Diseño y construyo aplicaciones web sofisticadas que ofrecen experiencias de usuario fluidas. Estoy comprometido en mantenerme actualizado con las últimas tecnologías."
                 ],
                 'work' => [
                     'title' => 'Experiencia laboral',
                     'jobs' => [
                         [
-                            'position' => 'Desarrollador Freelance',
-                            'years' => '2023 - Presente',
+                            'position' => 'Desarrollador Full Stack - Freelance',
+                            'years' => 'Sep 2023 - Presente',
                             'skills' => ['PHP', 'Laravel', 'Desarrollo Web'],
                             'responsibilities' => [
                                 'Desarrollé e implementé sitios web y aplicaciones personalizadas, incluyendo tiendas e-commerce, portafolios y sistemas CRM.',
@@ -136,7 +127,7 @@ class Resume extends Component
                         ],
                         [
                             'position' => 'Gerente - eDrinks',
-                            'years' => '2023 - Presente',
+                            'years' => 'Mar 2023 - Presente',
                             'skills' => ['E-commerce', 'Minorista', 'Operaciones'],
                             'responsibilities' => [
                                 'Gestionar las operaciones diarias de la tienda, asegurando un flujo de trabajo eficiente, control de inventario y procesos de ventas claros.',
@@ -150,18 +141,13 @@ class Resume extends Component
                     'title' => 'Educación',
                     'careers' => [
                         [
-                            'degree' => 'Carrera de Tecnólogo Informático - UTEC',
-                            'years' => '2025 - Presente',
+                            'degree' => 'Tecnólogo Superior en Ciencias de la Computación - UTEC',
+                            'years' => 'Mar 2025 - Presente',
                             'description' => 'Actualmente cursando la carrera de Tecnólogo Informático en UTEC, con enfoque en desarrollo de software, arquitectura de sistemas y gestión de bases de datos.'
                         ],
-                        // [
-                        //     'degree' => 'Desarrollador Laravel & PHP',
-                        //     'years' => '2023 - Presente',
-                        //     'description' => 'Formación especializada en desarrollo backend con Laravel y PHP, incluyendo arquitectura de software, buenas prácticas y optimización de aplicaciones web.'
-                        // ],
                         [
-                            'degree' => 'Facultad de Bellas Artes - Udelar',
-                            'years' => '2019 - 2024',
+                            'degree' => 'Interpretación Musical - Facultad de Bellas Artes',
+                            'years' => 'Mar 2019 - 2024',
                             'description' => 'Estudios en análisis musical aplicado y ejecución instrumental, desarrollando habilidades técnicas avanzadas y capacidad de resolución de problemas.'
                         ]
                     ]
@@ -169,12 +155,6 @@ class Resume extends Component
                 'side_projects' => [
                     'title' => 'Últimos proyectos',
                     'projects' => [
-                        // [
-                        //     'name' => 'Wevelopers',
-                        //     'description' => 'Plataforma interactiva de aprendizaje de desarrollo web para hispanohablantes.',
-                        //     'technologies' => ['Proyecto personal', 'PHP', 'JavaScript', 'Educación'],
-                        //     'link' => 'https://github.com/elkiki99/wevelopers'
-                        // ],
                         [
                             'name' => 'Practizly',
                             'description' => 'App que ayuda a estudiantes a planificar su año académico y IA para prepararse para exámenes.',
@@ -200,7 +180,9 @@ class Resume extends Component
                 ],
                 'skills' => [
                     'title' => 'Habilidades',
-                    'name' => ['Laravel', 'Livewire', 'Tailwind CSS', 'PHP', 'MySQL', 'UX/UI Design', 'Git', 'SEO', 'Javascript/Alpine.js', 'React', 'SQLite', 'AWS', 'Fly.io', 'Github', 'B2 English']
+                    'name' => [
+                        'Resolución de problemas', 'Colaboración en equipo', 'Adaptabilidad', 'Comunicación', 'Laravel', 'PHP', 'MySQL', 'Tailwind CSS', 'Git', 'JavaScript', 'React', 'SEO', 'AWS', 'Github', 'Inglés B2'
+                    ]
                 ]
             ],
         ];
