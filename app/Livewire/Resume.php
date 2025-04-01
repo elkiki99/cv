@@ -25,11 +25,11 @@ class Resume extends Component
         $this->translations = [
             'en' => [
                 'header' => [
-                    'bio' => 'Full Stack Developer with 2+ years of experience, specializing in PHP, Laravel and Back End solutions. Passionate about building robust web applications that deliver great user experiences. Currently persuing a Computer Science Degree at UTEC.'
+                    'bio' => 'Full Stack Developer with 2+ years of experience, specializing in PHP, Laravel and Backend solutions. Passionate about building robust web applications that deliver great user experiences. Currently pursuing a Computer Science Degree at UTEC.'
                 ],
                 'about' => [
                     'title' => 'About',
-                    'text' => "I'm a highly motivated full-stack developer, focused on Back End development with PHP, Laravel, JavaScript, and Livewire. I design and build sophisticated web applications that deliver seamless user experiences. I'm committed to staying up to date with the latest technologies."
+                    'text' => "I'm a highly motivated Full Stack developer, focused on Backend development with PHP, Laravel, JavaScript, and Livewire. I design and build sophisticated web applications that deliver seamless user experiences. I'm committed to staying up to date with the latest technologies."
                 ],
                 'work' => [
                     'title' => 'Work experience',
@@ -39,19 +39,19 @@ class Resume extends Component
                             'years' => ' Sep 2023 - Present',
                             'skills' => ['PHP', 'Laravel', 'Web Development'],
                             'responsibilities' => [
-                                'Developed and implemented custom websites and applications, including e-commerce stores, portfolios, and CRM systems.',
-                                'Integrated secure payment gateways and user management systems to enhance experience and security on web platforms.',
-                                'Optimized application performance and scalability through best practices in database management and code structure.',
+                                'Optimized code structure and database queries, which improved system efficiency and reduced load times using caching strategies.',
+                                'Enhanced application security, integrating authentication systems, access control, and secure data handling to comply with best practices.',
+                                'Analyzed client needs, developing tailored web solutions that automate processes, improve user experience, and boost efficiency.'
                             ]
                         ],
                         [
-                            'position' => 'Manager - eDrinks',
+                            'position' => 'Sales & Operations Lead - eDrinks',
                             'years' => 'Mar 2023 - Present',
-                            'skills' => ['E-commerce', 'Retail', 'Operations'],
+                            'skills' => ['Sales', 'Operations', 'Customer Service'],
                             'responsibilities' => [
-                                'Manage daily store operations, ensuring efficient workflows, accurate inventory control, and smooth sales processes.',
-                                'Improve customer service by refining support protocols and response strategies to boost satisfaction and customer loyalty.',
-                                'Collaborate with suppliers and logistics teams to streamline purchasing, ensuring timely deliveries and effective supply chain management.'
+                                'Enhanced sales and customer service operations by optimizing processes and personalizing the shopping experience, thereby increasing satisfaction.',
+                                'Managed supplier relationships and inventory logistics, ensuring efficient restocking, minimizing shortages, and optimizing stock levels.',
+                                'Coordinated team efforts to ensure smooth daily operations, driving operational efficiency and improving overall team performance.'
                             ]
                         ]
                     ]
@@ -62,10 +62,10 @@ class Resume extends Component
                         [
                             'degree' => 'Computer Science Degree - UTEC',
                             'years' => 'Mar 2025 - Present',
-                            'description' => 'Currently pursuing a Degree in Computer Science at UTEC, focusing on software development, system architecture, and database management.'
+                            'description' => 'Currently pursuing a Computer Science degree at UTEC, focusing on software development, system architecture, and database management.'
                         ],
                         [
-                            'degree' => 'Musical Performance - Fine Arts Faculty',
+                            'degree' => 'Musical Performance - Universidad de la República',
                             'years' => 'Mar 2019 - Nov 2024',
                             'description' => 'Studied applied musical analysis and instrumental performance, developed advanced technical skills and problem-solving abilities.'
                         ]
@@ -76,7 +76,7 @@ class Resume extends Component
                     'projects' => [
                         [
                             'name' => 'Practizly',
-                            'description' => 'App that helps students plan their academic year and uses AI for exam preparation.',
+                            'description' => 'An app that helps students plan their academic year and uses AI for exam preparation.',
                             'technologies' => ['Side project', 'OpenAI', 'Planning', 'Studies'],
                             'link' => 'https://practizly-main-hewydj.laravel.cloud/',
                             'is_active' => true
@@ -84,7 +84,7 @@ class Resume extends Component
                         [
                             'name' => 'Balo Loba',
                             'description' => 'Photography portfolio for an independent photographer brand.',
-                            'technologies' => ['Freelance job', 'Laravel', 'Admin panel', 'MercadoPago'],
+                            'technologies' => ['Freelance project', 'Laravel', 'Admin panel', 'MercadoPago'],
                             'link' => 'https://github.com/elkiki99/baloloba',
                             'is_active' => false
                         ],
@@ -100,17 +100,32 @@ class Resume extends Component
                 'skills' => [
                     'title' => 'Skills',
                     'name' => [
-                        'Problem-solving', 'Team collaboration', 'Adaptability', 'Communication', 'Laravel', 'PHP', 'MySQL', 'Tailwind CSS', 'Git', 'JavaScript', 'React', 'SEO', 'AWS', 'Github', 'B2 English'
+                        'Problem-solving',
+                        'Team collaboration',
+                        'Adaptability',
+                        'Communication',
+                        'Laravel',
+                        'PHP',
+                        'JavaScript',
+                        'Tailwind CSS',
+                        'MySQL',
+                        'SQLite',
+                        'Github',
+                        'Git',
+                        'React',
+                        'SEO',
+                        'AWS',
+                        'English B2'
                     ]
                 ]
             ],
             'es' => [
                 'header' => [
-                    'bio' => 'Desarrollador Full Stack con 2+ años de experiencia en PHP, Laravel y Back End. Apasionado por crear aplicaciones web robustas y con gran enfoque en la experiencia de usuario. Estudiante de Tecnólogo Superior en Ciencias de la Computación en UTEC.',
+                    'bio' => 'Desarrollador Full Stack con 2+ años de experiencia en PHP, Laravel y Backend. Apasionado por crear aplicaciones web robustas, con un gran enfoque en la experiencia del usuario. Estudiante de Tecnólogo Superior en Ciencias de la Computación en UTEC.',
                 ],
                 'about' => [
                     'title' => 'Sobre mi',
-                    'text' => "Soy un desarrollador full-stack altamente motivado, enfocado en el desarrollo Back End con PHP, Laravel, JavaScript y Livewire. Diseño y construyo aplicaciones web sofisticadas que ofrecen experiencias de usuario fluidas. Estoy comprometido en mantenerme actualizado con las últimas tecnologías."
+                    'text' => "Soy un desarrollador Full Stack altamente motivado, enfocado en el desarrollo Backend con PHP, Laravel, JavaScript y Livewire. Diseño y construyo aplicaciones web sofisticadas que ofrecen experiencias de usuario fluidas. Estoy comprometido con mantenerme actualizado con las últimas tecnologías."
                 ],
                 'work' => [
                     'title' => 'Experiencia laboral',
@@ -120,19 +135,19 @@ class Resume extends Component
                             'years' => 'Sep 2023 - Presente',
                             'skills' => ['PHP', 'Laravel', 'Desarrollo Web'],
                             'responsibilities' => [
-                                'Desarrollé e implementé sitios web y aplicaciones personalizadas, incluyendo tiendas e-commerce, portafolios y sistemas CRM.',
-                                'Integré pasarelas de pago seguras y sistemas de gestión de usuarios para mejorar la experiencia y seguridad en plataformas web.',
-                                'Optimicé el rendimiento y escalabilidad de aplicaciones mediante buenas prácticas en bases de datos y estructura del código.',
+                                'Optimización de código y bases de datos, mejorando la eficiencia y reduciendo tiempos de carga mediante estrategias de almacenamiento en caché.',
+                                'Fortalecimiento de la seguridad, integrando sistemas de autenticación, control de acceso y manejo seguro de datos para cumplir con las mejores prácticas.',
+                                'Análisis de necesidades del cliente, desarrollando soluciones personalizadas que automatizan procesos, mejoran la experiencia y aumentan la eficiencia.'
                             ]
                         ],
                         [
-                            'position' => 'Gerente - eDrinks',
+                            'position' => 'Líder de Ventas y Operaciones - eDrinks',
                             'years' => 'Mar 2023 - Presente',
-                            'skills' => ['E-commerce', 'Minorista', 'Operaciones'],
+                            'skills' => ['Ventas', 'Atención al Cliente', 'Operaciones'],
                             'responsibilities' => [
-                                'Gestionar las operaciones diarias de la tienda, asegurando un flujo de trabajo eficiente, control de inventario y procesos de ventas claros.',
-                                'Mejorar el servicio al cliente optimizando los procesos de soporte y respuesta para asegurar satisfacción y fidelidad.',
-                                'Trabajar con proveedores y equipos logísticos para agilizar las compras y asegurar entregas puntuales y una buena gestión de la cadena de suministro.',
+                                'Mejoras en ventas y atención al cliente, optimizando procesos y personalizando la experiencia de compra para aumentar la satisfacción.',
+                                'Gestión eficaz de proveedores e inventario, asegurando un reabastecimiento eficiente, minimizando faltantes y optimizando niveles de stock.',
+                                'Coordiné los esfuerzos del equipo para garantizar el buen funcionamiento de las operaciones diarias, mejorando la eficiencia y el rendimiento general.'
                             ]
                         ]
                     ]
@@ -146,7 +161,7 @@ class Resume extends Component
                             'description' => 'Actualmente cursando la carrera de Tecnólogo Informático en UTEC, con enfoque en desarrollo de software, arquitectura de sistemas y gestión de bases de datos.'
                         ],
                         [
-                            'degree' => 'Interpretación Musical - Facultad de Bellas Artes',
+                            'degree' => 'Interpretación Musical - Universidad de la República',
                             'years' => 'Mar 2019 - 2024',
                             'description' => 'Estudios en análisis musical aplicado y ejecución instrumental, desarrollando habilidades técnicas avanzadas y capacidad de resolución de problemas.'
                         ]
@@ -181,7 +196,22 @@ class Resume extends Component
                 'skills' => [
                     'title' => 'Habilidades',
                     'name' => [
-                        'Resolución de problemas', 'Colaboración en equipo', 'Adaptabilidad', 'Comunicación', 'Laravel', 'PHP', 'MySQL', 'Tailwind CSS', 'Git', 'JavaScript', 'React', 'SEO', 'AWS', 'Github', 'Inglés B2'
+                        'Resolución de problemas',
+                        'Colaboración en equipo',
+                        'Adaptabilidad',
+                        'Comunicación',
+                        'Laravel',
+                        'PHP',
+                        'JavaScript',
+                        'Tailwind CSS',
+                        'MySQL',
+                        'SQLite',
+                        'Github',
+                        'Git',
+                        'React',
+                        'SEO',
+                        'AWS',
+                        'Inglés B2'
                     ]
                 ]
             ],
