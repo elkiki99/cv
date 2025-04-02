@@ -38,7 +38,7 @@ class Resume extends Component
                                 'Built and maintained scalable web applications using PHP, Laravel, and JavaScript, ensuring long-term performance and maintainability while following best development practices.',
                                 'Optimized code structure and database queries, reducing load times by 30% through efficient caching strategies, resulting in improved system performance and user experience.',
                                 'Enhanced application security by integrating authentication systems and access control, ensuring compliance with data security best practices and minimizing vulnerabilities.',
-                                'Developed customized web solutions for 3 key clients, improving internal process efficiency by 40%, leading to better workflow automation and customer satisfaction.'
+                                'Developed customized web solutions for 3 key clients, enhancing internal process efficiency by 40%, which resulted in improved workflow automation and streamlined operations.'
                             ]
                         ],
                         [
@@ -46,7 +46,7 @@ class Resume extends Component
                             'years' => 'Mar 2023 - Present',
                             'skills' => ['Sales', 'Operations', 'Customer Service'],
                             'responsibilities' => [
-                                'Oversaw daily store operations, ensuring a seamless workflow and high-quality customer service, which resulted in significant improvements in response times and customer satisfaction.',
+                                "Oversaw daily store operations, ensuring seamless workflow and high-quality customer service, leading to significant improvements in response times and overall efficiency.",
                                 'Managed key supplier relationships and optimized inventory logistics, reducing stockouts by 35%, improving restocking efficiency, and maintaining optimal product levels.',
                                 'Coordinated cross-functional team efforts to ensure smooth daily operations, implementing improvements that boosted operational efficiency and team performance.',
                                 'Increased sales by 25% by optimizing sales processes and personalizing the shopping experience, leading to higher customer satisfaction and brand loyalty.'
@@ -129,10 +129,10 @@ class Resume extends Component
                             'years' => 'Sep 2023 - Presente',
                             'skills' => ['PHP', 'Laravel', 'Desarrollo Web'],
                             'responsibilities' => [
+                                'Desarrollé soluciones web personalizadas para 3 clientes clave, mejorando la eficiencia de los procesos internos en un 40%, resultando en una mejor automatización y operaciones ágiles.',
                                 'Optimizé la estructura del código y las consultas a la base de datos, reduciendo los tiempos de carga en un 30% mediante estrategias de caché, mejorando el rendimiento del sistema.',
                                 'Desarrollé y mantuve aplicaciones web con PHP, Laravel y JavaScript, asegurando rendimiento a largo plazo y fácil mantenimiento, siguiendo mejores prácticas de desarrollo.',
-                                'Mejoré la seguridad de la aplicación integrando sistemas de autenticación y control de acceso, garantizando el cumplimiento de las mejores prácticas de seguridad de datos.',
-                                'Desarrollé soluciones personalizadas para 3 clientes clave, mejorando la eficiencia en un 40%, optimizando procesos y aumentando la satisfacción del cliente.'
+                                'Mejoré la seguridad de la aplicación integrando sistemas de autenticación y control de acceso, garantizando el cumplimiento de las mejores prácticas de seguridad de datos.'
                             ]
                         ],
                         [
@@ -141,8 +141,8 @@ class Resume extends Component
                             'skills' => ['Ventas', 'Operaciones', 'Atención al Cliente'],
                             'responsibilities' => [
                                 'Coordiné los esfuerzos de un equipo multifuncional para asegurar la operación diaria fluida, implementando mejoras que aumentaron la eficiencia operativa y el rendimiento del equipo.',
+                                'Supervisé operaciones diarias de la tienda, asegurando flujo de trabajo continuo y servicio al cliente de alta calidad, mejorando tiempos de respuesta y aumentando la optimización.',
                                 'Aumenté las ventas en un 25% optimizando procesos de ventas y personalizando la experiencia de compra, lo que incrementó la satisfacción del cliente y mejoró la lealtad a la marca.',
-                                'Supervisé operaciones diarias de la tienda, asegurando flujo de trabajo continuo y servicio al cliente de alta calidad, mejorando tiempos de respuesta y satisfacción.',
                                 'Gestioné relaciones clave con proveedores y optimicé la logística de inventarios, reduciendo las faltas de stock en un 35%, mejorando la eficiencia del reabastecimiento.'
                             ]
                         ],

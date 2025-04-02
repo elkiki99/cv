@@ -28,7 +28,7 @@
                     </flux:button>
                 </div>
 
-                <div class="hidden print text-sm">
+                <div class="hidden pt-1 print text-sm">
                     <flux:link variant="ghost" href="https://www.linkedin.com/in/brunorossani/" variant="ghost"
                         class="relative pr-2 after:content-['|'] after:absolute after:right-0">
                         linkedin.com/in/brunorossani</flux:link>
