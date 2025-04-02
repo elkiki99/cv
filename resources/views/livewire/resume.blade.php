@@ -10,7 +10,7 @@
                 <div class="flex items-center gap-2">
                     <flux:icon.globe-americas class="no-print" variant="micro" />
                     <flux:subheading>Isla de Flores 1586, Montevideo, Uruguay
-                </flux:subheading>
+                    </flux:subheading>
                 </div>
 
                 <div class="flex gap-2 pt-1 no-print">
@@ -28,29 +28,22 @@
                     </flux:button>
                 </div>
 
-                <div class="hidden gap-2 py-1 print text-xs">
-                    <flux:link variant="ghost" href="https://www.linkedin.com/in/brunorossani/" variant="ghost" class="relative pr-5 after:content-['|'] after:absolute after:right-0">linkedin.com/in/brunorossani</flux:link>
-                    <flux:link variant="ghost" class="relative pr-5 after:content-['|'] after:absolute after:right-0"
+                <div class="hidden print text-sm">
+                    <flux:link variant="ghost" href="https://www.linkedin.com/in/brunorossani/" variant="ghost"
+                        class="relative pr-2 after:content-['|'] after:absolute after:right-0">
+                        linkedin.com/in/brunorossani</flux:link>
+                    <flux:link variant="ghost" class="relative px-2 after:content-['|'] after:absolute after:right-0"
                         href="https://bruno-rossani.fly.dev/">
                         bruno-rossani.dev</flux:link>
-                    <flux:link variant="ghost" class="relative pr-5 after:content-['|'] after:absolute after:right-0"
+                    <flux:link variant="ghost" class="relative px-2 after:content-['|'] after:absolute after:right-0"
                         href="mailto:brossani23@gmail.com">brossani23@gmail.com</flux:link>
-                    <flux:link variant="ghost" href="tel:+59891845585">+598 91 845 585</flux:link>
+                    <flux:link class="pl-2" variant="ghost" href="tel:+59891845585">+598 91 845 585</flux:link>
                 </div>
             </div>
 
             <img src="{{ asset('me2.webp') }}" class="no-print rounded-lg size-12 md:size-20 md:size-28"
                 alt="Bruno Rossani">
         </div>
-    </section>
-
-    <!-- About -->
-    <section>
-        <flux:heading class="mb-2" size="lg">{{ $translations[$lang]['about']['title'] }}
-        </flux:heading>
-        <flux:text>
-            {{ $translations[$lang]['about']['text'] }}
-        </flux:text>
     </section>
 
     <!-- Work experience -->
@@ -141,10 +134,20 @@
     <section>
         <flux:heading class="mb-2" size="lg">{{ $translations[$lang]['skills']['title'] }}
         </flux:heading>
-        <div class="flex flex-wrap w-full gap-1 mt-auto">
-            @foreach ($translations[$lang]['skills']['name'] as $skill)
-                <flux:badge size="sm" variant="pill" class="print-adjust-bg">{{ $skill }}</flux:badge>
-            @endforeach
+
+        <div class="no-print">
+            <div class="flex flex-wrap w-full gap-1 mt-auto">
+                @foreach ($translations[$lang]['skills']['name'] as $skill)
+                    <flux:badge size="sm" variant="pill" class="print-adjust-bg">{{ $skill }}</flux:badge>
+                @endforeach
+            </div>
+        </div>
+
+        <div class="hidden print">
+
+            <div class="flex flex-wrap w-full gap-1 mt-auto">
+                <flux:text>{{ implode(', ', $translations[$lang]['skills']['name']) }}</flux:text>
+            </div>
         </div>
     </section>
 </div>

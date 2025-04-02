@@ -25,35 +25,33 @@ class Resume extends Component
         $this->translations = [
             'en' => [
                 'header' => [
-                    'bio' => 'Full Stack Developer with 2+ years of experience, specializing in PHP, Laravel and Backend solutions. Passionate about building robust web applications that deliver great user experiences. Currently pursuing a Computer Science Degree at UTEC.'
-                ],
-                'about' => [
-                    'title' => 'About',
-                    'text' => "I'm a highly motivated Full Stack developer, focused on Backend development with PHP, Laravel, JavaScript, and Livewire. I design and build sophisticated web applications that deliver seamless user experiences. I'm committed to staying up to date with the latest technologies."
+                    'bio' => 'Full Stack Developer with over 2 years of experience, primarily focused on backend development. Specializing in PHP, Laravel, and creating reliable server-side solutions. I develop web applications that prioritize performance, security, and maintainability. Currently pursuing a Computer Science degree at UTEC.'
                 ],
                 'work' => [
                     'title' => 'Work experience',
                     'jobs' => [
                         [
                             'position' => 'Full Stack Developer - Freelance',
-                            'years' => ' Sep 2023 - Present',
+                            'years' => 'Sep 2023 - Present',
                             'skills' => ['PHP', 'Laravel', 'Web Development'],
                             'responsibilities' => [
-                                'Optimized code structure and database queries, which improved system efficiency and reduced load times using caching strategies.',
-                                'Enhanced application security, integrating authentication systems, access control, and secure data handling to comply with best practices.',
-                                'Analyzed client needs, developing tailored web solutions that automate processes, improve user experience, and boost efficiency.'
+                                'Built and maintained scalable web applications using PHP, Laravel, and JavaScript, ensuring long-term performance and maintainability while following best development practices.',
+                                'Optimized code structure and database queries, reducing load times by 30% through efficient caching strategies, resulting in improved system performance and user experience.',
+                                'Enhanced application security by integrating authentication systems and access control, ensuring compliance with data security best practices and minimizing vulnerabilities.',
+                                'Developed customized web solutions for 3 key clients, improving internal process efficiency by 40%, leading to better workflow automation and customer satisfaction.'
                             ]
                         ],
                         [
-                            'position' => 'Sales & Operations Lead - eDrinks',
+                            'position' => 'Sales and Operations Lead - eDrinks',
                             'years' => 'Mar 2023 - Present',
                             'skills' => ['Sales', 'Operations', 'Customer Service'],
                             'responsibilities' => [
-                                'Enhanced sales and customer service operations by optimizing processes and personalizing the shopping experience, thereby increasing satisfaction.',
-                                'Managed supplier relationships and inventory logistics, ensuring efficient restocking, minimizing shortages, and optimizing stock levels.',
-                                'Coordinated team efforts to ensure smooth daily operations, driving operational efficiency and improving overall team performance.'
+                                'Oversaw daily store operations, ensuring a seamless workflow and high-quality customer service, which resulted in significant improvements in response times and customer satisfaction.',
+                                'Managed key supplier relationships and optimized inventory logistics, reducing stockouts by 35%, improving restocking efficiency, and maintaining optimal product levels.',
+                                'Coordinated cross-functional team efforts to ensure smooth daily operations, implementing improvements that boosted operational efficiency and team performance.',
+                                'Increased sales by 25% by optimizing sales processes and personalizing the shopping experience, leading to higher customer satisfaction and brand loyalty.'
                             ]
-                        ]
+                        ],
                     ]
                 ],
                 'education' => [
@@ -62,12 +60,12 @@ class Resume extends Component
                         [
                             'degree' => 'Computer Science Degree - UTEC',
                             'years' => 'Mar 2025 - Present',
-                            'description' => 'Currently pursuing a Computer Science degree at UTEC, focusing on software development, system architecture, and database management.'
+                            'description' => 'Currently studying IT Technician at Higher University of Tecnhology, focusing on software development, system architecture, and database management.'
                         ],
                         [
                             'degree' => 'Musical Performance - Universidad de la República',
                             'years' => 'Mar 2019 - Nov 2024',
-                            'description' => 'Studied applied musical analysis and instrumental performance, developed advanced technical skills and problem-solving abilities.'
+                            'description' => 'Studied applied musical analysis and instrumental performance, developing advanced technical skills and a deep understanding of music theory.'
                         ]
                     ]
                 ],
@@ -100,10 +98,9 @@ class Resume extends Component
                 'skills' => [
                     'title' => 'Skills',
                     'name' => [
-                        'Problem-solving',
                         'Team collaboration',
-                        'Adaptability',
                         'Communication',
+                        'Detail-oriented',
                         'Laravel',
                         'PHP',
                         'JavaScript',
@@ -115,18 +112,14 @@ class Resume extends Component
                         'React',
                         'SEO',
                         'AWS',
-                        'English B2',
-                        'Native spanish'
+                        'Advanced English',
+                        'Native Spanish',
                     ]
                 ]
             ],
             'es' => [
                 'header' => [
-                    'bio' => 'Desarrollador Full Stack con 2+ años de experiencia en PHP, Laravel y Backend. Apasionado por crear aplicaciones web robustas, con un gran enfoque en la experiencia del usuario. Estudiante de Tecnólogo Superior en Ciencias de la Computación en UTEC.',
-                ],
-                'about' => [
-                    'title' => 'Sobre mi',
-                    'text' => "Soy un desarrollador Full Stack altamente motivado, enfocado en el desarrollo Backend con PHP, Laravel, JavaScript y Livewire. Diseño y construyo aplicaciones web sofisticadas que ofrecen experiencias de usuario fluidas. Estoy comprometido con mantenerme actualizado con las últimas tecnologías."
+                    'bio' => 'Desarrollador Full Stack con más de 2 años de experiencia, enfocado en el desarrollo backend. Especializado en PHP, Laravel y soluciones seguras del lado del servidor. Creo aplicaciones web centradas en rendimiento, seguridad y mantenimiento. Actualmente estudio Ciencias de la Computación en UTEC.'
                 ],
                 'work' => [
                     'title' => 'Experiencia laboral',
@@ -136,21 +129,23 @@ class Resume extends Component
                             'years' => 'Sep 2023 - Presente',
                             'skills' => ['PHP', 'Laravel', 'Desarrollo Web'],
                             'responsibilities' => [
-                                'Optimización de código y bases de datos, mejorando la eficiencia y reduciendo tiempos de carga mediante estrategias de almacenamiento en caché.',
-                                'Fortalecimiento de la seguridad, integrando sistemas de autenticación, control de acceso y manejo seguro de datos para cumplir con las mejores prácticas.',
-                                'Análisis de necesidades del cliente, desarrollando soluciones personalizadas que automatizan procesos, mejoran la experiencia y aumentan la eficiencia.'
+                                'Optimizé la estructura del código y las consultas a la base de datos, reduciendo los tiempos de carga en un 30% mediante estrategias de caché, mejorando el rendimiento del sistema.',
+                                'Desarrollé y mantuve aplicaciones web con PHP, Laravel y JavaScript, asegurando rendimiento a largo plazo y fácil mantenimiento, siguiendo mejores prácticas de desarrollo.',
+                                'Mejoré la seguridad de la aplicación integrando sistemas de autenticación y control de acceso, garantizando el cumplimiento de las mejores prácticas de seguridad de datos.',
+                                'Desarrollé soluciones personalizadas para 3 clientes clave, mejorando la eficiencia en un 40%, optimizando procesos y aumentando la satisfacción del cliente.'
                             ]
                         ],
                         [
                             'position' => 'Líder de Ventas y Operaciones - eDrinks',
                             'years' => 'Mar 2023 - Presente',
-                            'skills' => ['Ventas', 'Atención al Cliente', 'Operaciones'],
+                            'skills' => ['Ventas', 'Operaciones', 'Atención al Cliente'],
                             'responsibilities' => [
-                                'Mejoras en ventas y atención al cliente, optimizando procesos y personalizando la experiencia de compra para aumentar la satisfacción.',
-                                'Gestión eficaz de proveedores e inventario, asegurando un reabastecimiento eficiente, minimizando faltantes y optimizando niveles de stock.',
-                                'Coordiné los esfuerzos del equipo para garantizar el buen funcionamiento de las operaciones diarias, mejorando la eficiencia y el rendimiento general.'
+                                'Coordiné los esfuerzos de un equipo multifuncional para asegurar la operación diaria fluida, implementando mejoras que aumentaron la eficiencia operativa y el rendimiento del equipo.',
+                                'Aumenté las ventas en un 25% optimizando procesos de ventas y personalizando la experiencia de compra, lo que incrementó la satisfacción del cliente y mejoró la lealtad a la marca.',
+                                'Supervisé operaciones diarias de la tienda, asegurando flujo de trabajo continuo y servicio al cliente de alta calidad, mejorando tiempos de respuesta y satisfacción.',
+                                'Gestioné relaciones clave con proveedores y optimicé la logística de inventarios, reduciendo las faltas de stock en un 35%, mejorando la eficiencia del reabastecimiento.'
                             ]
-                        ]
+                        ],
                     ]
                 ],
                 'education' => [
@@ -159,12 +154,12 @@ class Resume extends Component
                         [
                             'degree' => 'Tecnólogo Superior en Ciencias de la Computación - UTEC',
                             'years' => 'Mar 2025 - Presente',
-                            'description' => 'Actualmente cursando la carrera de Tecnólogo Informático en UTEC, con enfoque en desarrollo de software, arquitectura de sistemas y gestión de bases de datos.'
+                            'description' => 'Actualmente estudiando Técnico en Informática en la Universidad Superior de Tecnología, con enfoque en desarrollo de software, arquitectura de sistemas y gestión de bases de datos.'
                         ],
                         [
                             'degree' => 'Interpretación Musical - Universidad de la República',
-                            'years' => 'Mar 2019 - 2024',
-                            'description' => 'Estudios en análisis musical aplicado y ejecución instrumental, desarrollando habilidades técnicas avanzadas y capacidad de resolución de problemas.'
+                            'years' => 'Mar 2019 - Nov 2024',
+                            'description' => 'Estudios en análisis musical aplicado e interpretación instrumental, desarrollando habilidades técnicas avanzadas y un profundo conocimiento de la teoría musical.'
                         ]
                     ]
                 ],
@@ -187,7 +182,7 @@ class Resume extends Component
                         ],
                         [
                             'name' => 'DevWebCamp',
-                            'description' => 'Sitio de gestión de eventos con PayPal, boletos virtuales y verificación por correo electrónico.',
+                            'description' => 'Página para evento con PayPal, entradas virtuales y verificación por correo.',
                             'technologies' => ['Proyecto personal', 'Laravel', 'JavaScript', 'Webinar'],
                             'link' => 'https://github.com/elkiki99/devwebcamp',
                             'is_active' => false
@@ -197,10 +192,9 @@ class Resume extends Component
                 'skills' => [
                     'title' => 'Habilidades',
                     'name' => [
-                        'Resolución de problemas',
                         'Colaboración en equipo',
-                        'Adaptabilidad',
                         'Comunicación',
+                        'Atención al detalle',
                         'Laravel',
                         'PHP',
                         'JavaScript',
@@ -212,8 +206,8 @@ class Resume extends Component
                         'React',
                         'SEO',
                         'AWS',
-                        'Inglés B2',
-                        'Español nativo'
+                        'Inglés avanzado',
+                        'Español nativo',
                     ]
                 ]
             ],
