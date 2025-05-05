@@ -25,13 +25,13 @@ class Resume extends Component
         $this->translations = [
             'en' => [
                 'header' => [
-                    'bio' => 'Full Stack Developer with over 2 years of experience, primarily focused on backend development. Specializing in PHP, Laravel, and creating reliable server-side solutions. I develop web applications that prioritize performance, security, and maintainability. Currently pursuing a Computer Science degree at UTEC.'
+                    'bio' => 'Full Stack Software Engineer with over 2 years of experience, primarily focused on backend development. Specializing in PHP, Laravel, and creating reliable server-side solutions. I develop web applications that prioritize performance, security, and maintainability. Currently pursuing a Computer Science degree at UTEC.'
                 ],
                 'work' => [
                     'title' => 'Work experience',
                     'jobs' => [
                         [
-                            'position' => 'Full Stack Developer - Freelance',
+                            'position' => 'Full Stack Software Engineer - Freelance',
                             'years' => 'Sep 2023 - Present',
                             'skills' => ['PHP', 'Laravel', 'Web Development'],
                             'responsibilities' => [
@@ -129,13 +129,13 @@ class Resume extends Component
             ],
             'es' => [
                 'header' => [
-                    'bio' => 'Desarrollador Full Stack con más de 2 años de experiencia, enfocado en el desarrollo backend. Especializado en PHP, Laravel y soluciones seguras del lado del servidor. Creo aplicaciones web centradas en rendimiento, seguridad y mantenimiento. Actualmente estudio Ciencias de la Computación en UTEC.'
+                    'bio' => 'Ingeniero de Software Full Stack con más de 2 años de experiencia, enfocado en el desarrollo backend. Especializado en PHP, Laravel y soluciones seguras del lado del servidor. Creo aplicaciones web centradas en rendimiento, seguridad y mantenimiento. Actualmente estudio Ciencias de la Computación en UTEC.'
                 ],
                 'work' => [
                     'title' => 'Experiencia laboral',
                     'jobs' => [
                         [
-                            'position' => 'Desarrollador Full Stack - Freelance',
+                            'position' => 'Ingeniero de Software Full Stack - Freelance',
                             'years' => 'Sep 2023 - Presente',
                             'skills' => ['PHP', 'Laravel', 'Desarrollo Web'],
                             'responsibilities' => [

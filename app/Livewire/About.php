@@ -12,6 +12,8 @@ class About extends Component
 
     public $translations = [];
 
+    public $metaDescription;
+
     public function toggleLanguage()
     {
         $this->lang = $this->lang === 'en' ? 'es' : 'en';
@@ -21,6 +23,10 @@ class About extends Component
     public function mount()
     {
         $this->lang = session('lang', 'en');
+
+        $this->metaDescription = $this->lang == 'en'
+            ? 'About Bruno Rossani, an IT student and full-stack developer based in Montevideo, Uruguay.'
+            : 'Sobre Bruno Rossani, un estudiante de IT y desarrollador full-stack en Montevideo, Uruguay.';
 
         $this->translations = [
             'en' => [

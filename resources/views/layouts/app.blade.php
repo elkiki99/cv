@@ -19,6 +19,8 @@
         }
     </style>
 
+    <meta name="description" content="{{ $metaDescription ?? 'This is a brief description of the page content.' }}">
+
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
