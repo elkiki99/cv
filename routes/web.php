@@ -8,3 +8,5 @@ Route::get('/about', [PagesController::class, 'about']);
 Route::get('/resume', [PagesController::class, 'resume']);
 Route::get('/portfolio', [PagesController::class, 'portfolio']);
 
+
+

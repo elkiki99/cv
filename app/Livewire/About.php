@@ -12,7 +12,8 @@ class About extends Component
 
     public $translations = [];
 
-    public $metaDescription;
+    public string $title;
+    public string $metaDescription;
 
     public function toggleLanguage()
     {
@@ -28,13 +29,16 @@ class About extends Component
             ? 'About Bruno Rossani, an IT student and full-stack developer based in Montevideo, Uruguay.'
             : 'Sobre Bruno Rossani, un estudiante de IT y desarrollador full-stack en Montevideo, Uruguay.';
 
+        $this->title = $this->lang == 'en'
+            ? 'About • Bruno Rossani'
+            : 'Sobre • Bruno Rossani';
+
         $this->translations = [
             'en' => [
                 'header' => [
                     'heading' => 'Hi, I\'m Bruno Rossani',
                     'p1' => 'I live in Montevideo, Uruguay, located in the heart of Palermo, specifically in the southern part of the city, with my wonderful girlfriend, Camila, and our feline companion, Cattana.',
                     'p2' => 'I\'m a 25-year-old IT technologist student at UTEC, passionate about software development, web technologies, and problem-solving, always eager to learn and build cool stuff.',
-                    // 'p2' => 'I\'m a 25-year-old software developer, passionate about app development, web technologies, and problem-solving, always thrilled to learn and build the next cool stuff.',
                     'p3' => 'I also like playing guitar, biking, and cooking. I see myself as a lifelong learner and genuinely enjoy the process of discovering new things. I\'m always on the lookout for fresh opportunities and challenges.'
                 ],
                 'work' => [
@@ -50,14 +54,6 @@ class About extends Component
                             'career' => 'UTEC IT Technologist Career',
                             'description' => 'Focused on software development, databases, and emerging technologies to build scalable and efficient applications. Currently studying.',
                         ],
-                        // [
-                        //     'career' => 'Laravel & PHP Development',
-                        //     'description' => 'I have completed specialized courses in Laravel and PHP, strengthening my skills in backend development, software architecture, and best practices.'
-                        // ],
-                        // [
-                        //     'career' => 'Gato Dumas Institute',
-                        //     'description' => 'Completed courses in local gastronomy and pasta making.'
-                        // ],
                         [
                             'career' => 'Fine Arts Faculty of Udelar',
                             'description' => 'Studied musical theory, classical guitar interpretation, and composition, exploring a wide range of repertoires.'
@@ -120,7 +116,6 @@ class About extends Component
                     'heading' => 'Hola, soy Bruno Rossani',
                     'p1' => 'Vivo en Montevideo, Uruguay, ubicado en el corazón de Palermo, específicamente en la zona sur de la ciudad, junto a mi maravillosa novia, Camila, y nuestra gata, Cattana.',
                     'p2' => 'Soy un estudiante de Tecnólogo en Informática en UTEC de 25 años, apasionado por el desarrollo de software, las tecnologías web y la resolución de problemas. Siempre estoy dispuesto a aprender y construir cosas geniales.',
-                    // 'p2' => 'Soy un desarrollador full-stack de 25 años, apasionado por el desarrollo de aplicaciones, las tecnologías web y la resolución de problemas. Siempre estoy aprendiendo y construyendo aplicaciones.',
                     'p3' => 'También me gusta tocar la guitarra, salir a andar en bici y cocinar. Me considero un aprendiz de por vida y realmente disfruto el proceso de descubrir cosas nuevas. Siempre estoy en busca de nuevas oportunidades y desafíos.'
                 ],
                 'work' => [
@@ -136,14 +131,6 @@ class About extends Component
                             'career' => 'Tecnólogo en Informática en UTEC',
                             'description' => 'Enfocado en el desarrollo de software, bases de datos y tecnologías emergentes para construir aplicaciones escalables y eficientes. Actualmente cursando.'
                         ],
-                        // [
-                        //     'career' => 'Desarrollador Laravel & PHP',
-                        //     'description' => 'He completado cursos especializados en Laravel y PHP, fortaleciendo mis habilidades en desarrollo backend, arquitectura de software y buenas prácticas de programación.'
-                        // ],
-                        // [
-                        //     'career' => 'Instituto Gato Dumas',
-                        //     'description' => 'Cursos completados en gastronomía local y elaboración de pastas.'
-                        // ],
                         [
                             'career' => 'Facultad de Bellas Artes de Udelar',
                             'description' => 'Estudios en teoría musical, interpretación de guitarra clásica y composición, explorando un amplio repertorio.'

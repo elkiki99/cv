@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Bruno Rossani') }}</title>
+    <title>{{ $title ?? config('app.name', 'Bruno Rossani') }}</title>
+    <meta name="description" content="{{ $metaDescription ?? 'This is a brief description of the page content.' }}">
 
     <!-- Fonts -->
     <link rel="icon" href="{{ asset('faviconbr.png') }}" />
@@ -18,8 +19,6 @@
             display: none;
         }
     </style>
-
-    <meta name="description" content="{{ $metaDescription ?? 'This is a brief description of the page content.' }}">
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
