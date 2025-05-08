@@ -1,12 +1,13 @@
 <?php
 
-use App\Http\Controllers\PagesController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [PagesController::class, 'welcome']);
-Route::get('/about', [PagesController::class, 'about']);
-Route::get('/resume', [PagesController::class, 'resume']);
-Route::get('/portfolio', [PagesController::class, 'portfolio']);
+use App\Livewire\Home;
+use App\Livewire\About;
+use App\Livewire\Portfolio;
+use App\Livewire\Resume;
 
-
-
+Route::get('/', Home::class)->name('home');
+Route::get('/about', About::class)->name('about');
+Route::get('/resume', Resume::class)->name('resume');
+Route::get('/portfolio', Portfolio::class)->name('portfolio');

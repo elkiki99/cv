@@ -1,3 +1,7 @@
+
+<x-slot name="title">{{ $this->title }}</x-slot>
+<x-slot name="metaDescription">{{ $this->metaDescription }}</x-slot>
+
 <!-- About me -->
 <section class="flex flex-col-reverse min-h-screen gap-16 space-y-6 md:mt-6 md:flex-row">
     <div class="w-full space-y-12 md:w-3/5">

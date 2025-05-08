@@ -4,7 +4,7 @@
     <flux:sidebar.toggle class="md:hidden hover:rounded-l-full hover:rounded-r-lg no-print" icon="bars-2" />
 
     <flux:button class="hover:rounded-r-full hover:rounded-l-lg md:hover:rounded-r-lg md:hover:rounded-l-lg"
-        icon="language" variant="subtle" x-data x-on:click="$dispatch('toggleLanguage')">
+        icon="language" variant="subtle" x-data wire:click="toggleLanguage">
     </flux:button>
 
     <flux:spacer />

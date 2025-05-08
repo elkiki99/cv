@@ -6,21 +6,19 @@ use Livewire\Component;
 
 class NavigationHeader extends Component
 {
-    protected $listeners = ['toggleLanguage'];
-
-    public $lang = 'en';
-
+    public $lang;
     public $translations = [];
 
     public function toggleLanguage()
     {
         $this->lang = $this->lang === 'en' ? 'es' : 'en';
+        $this->dispatch('toggleLanguage', $this->lang);
         session(['lang' => $this->lang]);
     }
     
     public function mount()
     {
-        $this->lang = session('lang', 'en');
+        $this->lang = session('lang');
     }
     
     public function render()

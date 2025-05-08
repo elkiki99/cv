@@ -2,28 +2,35 @@
 
 namespace App\Livewire;
 
+use Livewire\Attributes\{Layout, Computed, On};
 use Livewire\Component;
 
 class Portfolio extends Component
 {
-    protected $listeners = ['toggleLanguage'];
-
-    public $lang = 'en';
-
+    public $lang;
     public $translations = [];
 
-    public function toggleLanguage()
+    #[Computed]
+    public function title()
     {
-        $this->lang = $this->lang === 'en' ? 'es' : 'en';
-        session(['lang' => $this->lang]);
+        return $this->translations[$this->lang]['title'] ?? '';
     }
 
+    #[Computed]
+    public function metaDescription()
+    {
+        return $this->translations[$this->lang]['meta_description'] ?? '';
+    }
+
+    #[On('toggleLanguage')]
     public function mount()
     {
-        $this->lang = session('lang', 'en');
+        $this->lang = session('lang');
 
         $this->translations = [
             'en' => [
+                'title' => 'Portfolio • Bruno Rossani',
+                'description' => 'A collection of Bruno Rossani\'s projects and works.',
                 'header' => [
                     'heading' => 'Things I\'ve made trying to leave a mark <br class="hidden md:flex">in the digital world',
                     'subheading' => 'A list of projects I\'ve worked on and I\'m working on.'
@@ -122,6 +129,8 @@ class Portfolio extends Component
                 ]
             ],
             'es' => [
+                'title' => 'Portafolio • Bruno Rossani',
+                'description' => 'Una colección de proyectos y trabajos de Bruno Rossani.',
                 'header' => [
                     'heading' => 'Cosas que he hecho intentando dejar una marca <br class="hidden md:flex">en el mundo digital',
                     'subheading' => 'Lista de proyectos en los que he trabajado y estoy trabajando.'
@@ -222,6 +231,7 @@ class Portfolio extends Component
         ];
     }
 
+    #[Layout('layouts.app')]
     public function render()
     {
         return view('livewire.portfolio');

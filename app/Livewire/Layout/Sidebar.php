@@ -2,25 +2,18 @@
 
 namespace App\Livewire\Layout;
 
+use Livewire\Attributes\On;
 use Livewire\Component;
 
 class Sidebar extends Component
 {
-    protected $listeners = ['toggleLanguage'];
-
-    public $lang = 'en';
-
+    public $lang;
     public $translations = [];
 
-    public function toggleLanguage()
-    {
-        $this->lang = $this->lang === 'en' ? 'es' : 'en';
-        session(['lang' => $this->lang]);
-    }
-    
+    #[On('toggleLanguage')]
     public function mount()
     {
-        $this->lang = session('lang', 'en');
+        $this->lang = session('lang');
     }
     
     public function render()

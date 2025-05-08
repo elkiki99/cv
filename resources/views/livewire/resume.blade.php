@@ -1,3 +1,7 @@
+
+<x-slot name="title">{{ $this->title }}</x-slot>
+<x-slot name="metaDescription">{{ $this->metaDescription }}</x-slot>
+
 <div
     class="flex flex-col max-w-3xl min-h-screen mx-auto space-y-6 print-adjust-spacing print-adjust-width print-adjust-h md:mt-6">
     <!-- Header -->

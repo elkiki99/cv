@@ -2,39 +2,35 @@
 
 namespace App\Livewire;
 
+use Livewire\Attributes\{Layout, Computed, On};
 use Livewire\Component;
 
 class About extends Component
 {
-    protected $listeners = ['toggleLanguage'];
-
-    public $lang = 'en';
-
+    public $lang;
     public $translations = [];
 
-    public string $title;
-    public string $metaDescription;
-
-    public function toggleLanguage()
+    #[Computed]
+    public function title()
     {
-        $this->lang = $this->lang === 'en' ? 'es' : 'en';
-        session(['lang' => $this->lang]);
+        return $this->translations[$this->lang]['title'] ?? '';
     }
 
+    #[Computed]
+    public function metaDescription()
+    {
+        return $this->translations[$this->lang]['meta_description'] ?? '';
+    }
+
+    #[On('toggleLanguage')]
     public function mount()
     {
-        $this->lang = session('lang', 'en');
-
-        $this->metaDescription = $this->lang == 'en'
-            ? 'About Bruno Rossani, an IT student and full-stack developer based in Montevideo, Uruguay.'
-            : 'Sobre Bruno Rossani, un estudiante de IT y desarrollador full-stack en Montevideo, Uruguay.';
-
-        $this->title = $this->lang == 'en'
-            ? 'About • Bruno Rossani'
-            : 'Sobre • Bruno Rossani';
+        $this->lang = session('lang');
 
         $this->translations = [
             'en' => [
+                'title' => 'About • Bruno Rossani',
+                'metaDescription' => 'About Bruno Rossani, an IT student and Full Stack Developer based in Montevideo, Uruguay.',
                 'header' => [
                     'heading' => 'Hi, I\'m Bruno Rossani',
                     'p1' => 'I live in Montevideo, Uruguay, located in the heart of Palermo, specifically in the southern part of the city, with my wonderful girlfriend, Camila, and our feline companion, Cattana.',
@@ -112,11 +108,13 @@ class About extends Component
                 ]
             ],
             'es' => [
+                'title' => 'Acerca de • Bruno Rossani',
+                'metaDescription' => 'Sobre Bruno Rossani, un estudiante de IT y Desarrollador Full Stack en Montevideo, Uruguay.',
                 'header' => [
                     'heading' => 'Hola, soy Bruno Rossani',
                     'p1' => 'Vivo en Montevideo, Uruguay, ubicado en el corazón de Palermo, específicamente en la zona sur de la ciudad, junto a mi maravillosa novia, Camila, y nuestra gata, Cattana.',
                     'p2' => 'Soy un estudiante de Tecnólogo en Informática en UTEC de 25 años, apasionado por el desarrollo de software, las tecnologías web y la resolución de problemas. Siempre estoy dispuesto a aprender y construir cosas geniales.',
-                    'p3' => 'También me gusta tocar la guitarra, salir a andar en bici y cocinar. Me considero un aprendiz de por vida y realmente disfruto el proceso de descubrir cosas nuevas. Siempre estoy en busca de nuevas oportunidades y desafíos.'
+                    'p3' => 'También me gusta tocar la guitarra, andar en bicicleta y cocinar. Me considero un aprendiz de por vida y realmente disfruto el proceso de descubrir cosas nuevas. Siempre estoy en busca de nuevas oportunidades y desafíos.'
                 ],
                 'work' => [
                     'title' => 'Trabajo',
@@ -190,6 +188,7 @@ class About extends Component
         ];
     }
 
+    #[Layout('layouts.app')]
     public function render()
     {
         return view('livewire.about');

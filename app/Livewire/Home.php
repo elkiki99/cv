@@ -2,28 +2,35 @@
 
 namespace App\Livewire;
 
+use Livewire\Attributes\{Layout, Computed, On};
 use Livewire\Component;
 
 class Home extends Component
 {
-    protected $listeners = ['toggleLanguage'];
-
-    public $lang = 'en';
-
+    public $lang;
     public $translations = [];
 
-    public function toggleLanguage()
+    #[Computed]
+    public function title()
     {
-        $this->lang = $this->lang === 'en' ? 'es' : 'en';
-        session(['lang' => $this->lang]);
+        return $this->translations[$this->lang]['title'] ?? '';
     }
 
+    #[Computed]
+    public function metaDescription()
+    {
+        return $this->translations[$this->lang]['meta_description'] ?? '';
+    }
+
+    #[On('toggleLanguage')]
     public function mount()
     {
-        $this->lang = session('lang', 'en');
+        $this->lang = session('lang');
 
         $this->translations = [
             'en' => [
+                'title' => 'Home • Bruno Rossani',
+                'meta_description' => 'I\'m a full-stack web developer with a passion for creating innovative solutions. I specialize in Laravel, Tailwind CSS, and Alpine.js, and I love building dynamic applications that enhance user experiences.',
                 'header' => [
                     'heading' => 'Bruno Rossani',
                     'subheading' => 'I love creating stuff! I\'m a devoted full-stack web developer, cooking enthusiast, music lover and a lifelong learner. <br class="hidden md:flex">You\'ll find me somewhere in between those lines. I find my passion in the creation of new things, <br class="hidden md:flex">it\'s the driving force that keeps me going. If you\'d like, you can',
@@ -94,6 +101,8 @@ class Home extends Component
                 ]
             ],
             'es' => [
+                'title' => 'Inicio • Bruno Rossani',
+                'meta_description' => 'Soy un desarrollador web full-stack con pasión por crear soluciones innovadoras. Me especializo en Laravel, Tailwind CSS y Alpine.js, y me encanta construir aplicaciones dinámicas que mejoran la experiencia del usuario.',
                 'header' => [
                     'heading' => 'Bruno Rossani',
                     'subheading' => 'Apasionado por la innovación y la creación. Soy desarrollador full-stack, cocinero amateur, amante de la música y <br class="hidden md:flex">siempre en busca de nuevos retos. Me motiva el desafío de construir soluciones 
@@ -166,6 +175,7 @@ class Home extends Component
         ];
     }
 
+    #[Layout('layouts.app')]
     public function render()
     {
         return view('livewire.home');

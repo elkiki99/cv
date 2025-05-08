@@ -10,7 +10,7 @@
             <flux:navlist.item icon="user" wire:navigate href="/about">
                 {{ session('lang') === 'es' ? 'Sobre mi' : 'About' }}</flux:navlist.item>
             <flux:navlist.item icon="briefcase" wire:navigate href="/portfolio">
-                {{ session('lang') === 'es' ? 'Portaflio' : 'Portfolio' }}</flux:navlist.item>
+                {{ session('lang') === 'es' ? 'Portafolio' : 'Portfolio' }}</flux:navlist.item>
             <flux:navlist.item icon="book-open" wire:navigate href="/resume">
                 {{ session('lang') === 'es' ? 'CV' : 'Resume' }}</flux:navlist.item>
         </flux:navlist>  
