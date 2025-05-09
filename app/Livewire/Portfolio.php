@@ -7,7 +7,7 @@ use Livewire\Component;
 
 class Portfolio extends Component
 {
-    public $lang;
+    public $lang = 'en';
     public $translations = [];
 
     #[Computed]
@@ -25,14 +25,14 @@ class Portfolio extends Component
     #[On('toggleLanguage')]
     public function mount()
     {
-        $this->lang = session('lang');
+        $this->lang = session('lang') ?? 'en';
 
         $this->translations = [
             'en' => [
                 'title' => 'Portfolio • Bruno Rossani',
                 'description' => 'A collection of Bruno Rossani\'s projects and works.',
                 'header' => [
-                    'heading' => 'Things I\'ve made trying to leave a mark <br class="hidden md:flex">in the digital world',
+                    'heading' => 'Projects I\'ve made trying to leave a mark <br class="hidden md:flex">in the digital world',
                     'subheading' => 'A list of projects I\'ve worked on and I\'m working on.'
                 ],
                 'projects' => [
@@ -132,7 +132,7 @@ class Portfolio extends Component
                 'title' => 'Portafolio • Bruno Rossani',
                 'description' => 'Una colección de proyectos y trabajos de Bruno Rossani.',
                 'header' => [
-                    'heading' => 'Cosas que he hecho intentando dejar una marca <br class="hidden md:flex">en el mundo digital',
+                    'heading' => 'Proyectos que he hecho intentando dejar una marca <br class="hidden md:flex">en el mundo digital',
                     'subheading' => 'Lista de proyectos en los que he trabajado y estoy trabajando.'
                 ],
                 'projects' => [

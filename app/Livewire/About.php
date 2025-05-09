@@ -7,7 +7,7 @@ use Livewire\Component;
 
 class About extends Component
 {
-    public $lang;
+    public $lang = 'en';
     public $translations = [];
 
     #[Computed]
@@ -25,7 +25,7 @@ class About extends Component
     #[On('toggleLanguage')]
     public function mount()
     {
-        $this->lang = session('lang');
+        $this->lang = session('lang') ?? 'en';
 
         $this->translations = [
             'en' => [
