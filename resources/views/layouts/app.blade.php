@@ -5,24 +5,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    
-    {{-- <title>{{ $title ?? config('app.name', 'Bruno Rossani') }}</title> --}}
+
     <title>@yield('title', config('app.name', 'Bruno Rossani'))</title>
-    {{-- <meta name="description" content="{{ $metaDescription ?? 'This is a brief description of the page content.' }}"> --}}
     <meta name="description" content="@yield('metaDescription', 'This is a brief description of the page content.')">
 
-    <!-- Fonts -->
+    <!-- Favicon -->
     <link rel="icon" href="{{ asset('faviconbr.png') }}" />
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=inter:400,500,600&display=swap" rel="stylesheet" />
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link rel="preload" href="https://fonts.bunny.net/css?family=inter:400,500,600&display=swap" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link href="https://fonts.bunny.net/css?family=inter:400,500,600&display=swap" rel="stylesheet">
+    </noscript>
+
+    <!-- Inline Alpine cloak style -->
     <style>
         [x-cloak] {
             display: none;
         }
     </style>
 
-    <!-- Scripts -->
+    <!-- Scripts and styles -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     @fluxAppearance

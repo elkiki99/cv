@@ -1,9 +1,5 @@
-
-{{-- <x-slot name="title">{{ $this->title }}</x-slot>
-<x-slot name="metaDescription">{{ $this->metaDescription }}</x-slot> --}}
-
 @section('title', $this->title)
-@section('metaDescription', $this->metaDescription)
+@section('meta_description', $this->metaDescription)
 
 <div
     class="flex flex-col max-w-3xl min-h-screen mx-auto space-y-6 print-adjust-spacing print-adjust-width print-adjust-h md:mt-6">
@@ -21,17 +17,35 @@
                 </div>
 
                 <div class="flex gap-2 pt-1 no-print">
-                    <flux:button size="sm" as="link" wire:navigate href="/" icon="globe-alt">
+                    <flux:button
+                        aria-label="{{ session('lang') == 'en' ? 'Go to Bruno Rossani\'s website' : 'Ir al sitio web de Bruno Rossani' }}"
+                        size="sm" as="link" wire:navigate href="/" icon="globe-alt">
                     </flux:button>
-                    <flux:button size="sm" as="link" href="mailto:brossani23@gmail.com" icon="envelope">
+
+                    <flux:button
+                        aria-label="{{ session('lang') == 'en' ? 'Send an email to Bruno Rossani' : 'Enviar un correo a Bruno Rossani' }}"
+                        size="sm" as="link" href="mailto:brossani23@gmail.com" icon="envelope">
                     </flux:button>
-                    <flux:button size="sm" as="link" href="https://github.com/elkiki99" target="_blank"
-                        rel="noopener noreferrer" icon="github"></flux:button>
-                    <flux:button size="sm" as="link" href="https://www.linkedin.com/in/brunorossani"
-                        target="_blank" rel="noopener noreferrer" icon="linkedin"></flux:button>
-                    <flux:button size="sm" as="link" href="tel:+59891845585" icon="phone">
+
+                    <flux:button
+                        aria-label="{{ session('lang') == 'en' ? 'Visit Bruno Rossani\'s GitHub profile' : 'Ir al perfil de GitHub de Bruno Rossani' }}"
+                        size="sm" as="link" href="https://github.com/elkiki99" target="_blank"
+                        rel="noopener noreferrer" icon="github">
                     </flux:button>
-                    <flux:button size="sm" onclick="window.print()" icon="printer">
+
+                    <flux:button
+                        aria-label="{{ session('lang') == 'en' ? 'Visit Bruno Rossani\'s LinkedIn profile' : 'Ir al perfil de LinkedIn de Bruno Rossani' }}"
+                        size="sm" as="link" href="https://www.linkedin.com/in/brunorossani" target="_blank"
+                        rel="noopener noreferrer" icon="linkedin">
+                    </flux:button>
+
+                    <flux:button
+                        aria-label="{{ session('lang') == 'en' ? 'Call Bruno Rossani' : 'Llamar a Bruno Rossani' }}"
+                        size="sm" as="link" href="tel:+59891845585" icon="phone">
+                    </flux:button>
+
+                    <flux:button class="cursor-pointer" aria-label="{{ session('lang') == 'en' ? 'Print this page' : 'Imprimir esta página' }}"
+                        size="sm" onclick="window.print()" icon="printer">
                     </flux:button>
                 </div>
 
@@ -48,8 +62,18 @@
                 </div>
             </div>
 
-            <img src="{{ asset('me2.webp') }}" class="no-print rounded-lg size-12 md:size-20 md:size-28"
-                alt="Bruno Rossani">
+            <!-- Avatar -->
+            <img src="{{ asset('me2.webp') }}" alt="Bruno Rossani" class="hidden no-print" width="64" height="64"
+                onerror="this.style.display='none'; document.getElementById('initials-avatar').classList.remove('hidden');"
+                onload="document.getElementById('image-avatar').classList.remove('hidden');" />
+
+            <div class="no-print hidden" id="image-avatar">
+                <flux:avatar name="Bruno Rossani" size="xl" src="{{ asset('me2.webp') }}" />
+            </div>
+
+            <div class="no-print hidden" id="initials-avatar">
+                <flux:avatar tooltip name="Bruno Rossani" size="xl" color="green" />
+            </div>
         </div>
     </section>
 
@@ -145,7 +169,8 @@
         <div class="no-print">
             <div class="flex flex-wrap w-full gap-1 mt-auto">
                 @foreach ($translations[$lang]['skills']['name'] as $skill)
-                    <flux:badge size="sm" variant="pill" class="print-adjust-bg">{{ $skill }}</flux:badge>
+                    <flux:badge size="sm" variant="pill" class="print-adjust-bg">{{ $skill }}
+                    </flux:badge>
                 @endforeach
             </div>
         </div>

@@ -30,7 +30,7 @@ class About extends Component
         $this->translations = [
             'en' => [
                 'title' => 'About • Bruno Rossani',
-                'metaDescription' => 'About Bruno Rossani, an IT student and Full Stack Developer based in Montevideo, Uruguay.',
+                'meta_description' => 'About Bruno Rossani, an IT student and Full Stack Developer based in Montevideo, Uruguay.',
                 'header' => [
                     'heading' => 'Hi, I\'m Bruno Rossani',
                     'p1' => 'I live in Montevideo, Uruguay, located in the heart of Palermo, specifically in the southern part of the city, with my wonderful girlfriend, Camila, and our feline companion, Cattana.',
@@ -49,10 +49,12 @@ class About extends Component
                         [
                             'career' => 'UTEC IT Technologist Career',
                             'description' => 'Focused on software development, databases, and emerging technologies to build scalable and efficient applications. Currently studying.',
+                            'link' => 'https://utec.edu.uy/es/educacion/carrera/tecnologo-en-informatica/'
                         ],
                         [
                             'career' => 'Fine Arts Faculty of Udelar',
-                            'description' => 'Studied musical theory, classical guitar interpretation, and composition, exploring a wide range of repertoires.'
+                            'description' => 'Studied musical theory, classical guitar interpretation, and composition, exploring a wide range of repertoires.',
+                            'link' => 'https://www.artes.udelar.edu.uy/0-instituto-de-musica/'
                         ],
                     ],
                 ],
@@ -109,7 +111,7 @@ class About extends Component
             ],
             'es' => [
                 'title' => 'Acerca de • Bruno Rossani',
-                'metaDescription' => 'Sobre Bruno Rossani, un estudiante de IT y Desarrollador Full Stack en Montevideo, Uruguay.',
+                'meta_description' => 'Sobre Bruno Rossani, un estudiante de IT y Desarrollador Full Stack en Montevideo, Uruguay.',
                 'header' => [
                     'heading' => 'Hola, soy Bruno Rossani',
                     'p1' => 'Vivo en Montevideo, Uruguay, ubicado en el corazón de Palermo, específicamente en la zona sur de la ciudad, junto a mi maravillosa novia, Camila, y nuestra gata, Cattana.',
@@ -127,11 +129,13 @@ class About extends Component
                     'careers' => [
                         [
                             'career' => 'Tecnólogo en Informática en UTEC',
-                            'description' => 'Enfocado en el desarrollo de software, bases de datos y tecnologías emergentes para construir aplicaciones escalables y eficientes. Actualmente cursando.'
+                            'description' => 'Enfocado en el desarrollo de software, bases de datos y tecnologías emergentes para construir aplicaciones escalables y eficientes. Actualmente cursando.',
+                            'link' => 'https://utec.edu.uy/es/educacion/carrera/tecnologo-en-informatica/'
                         ],
                         [
                             'career' => 'Facultad de Bellas Artes de Udelar',
-                            'description' => 'Estudios en teoría musical, interpretación de guitarra clásica y composición, explorando un amplio repertorio.'
+                            'description' => 'Estudios en teoría musical, interpretación de guitarra clásica y composición, explorando un amplio repertorio.',
+                            'link' => 'https://www.artes.udelar.edu.uy/0-instituto-de-musica/'
                         ]
                     ],
                 ],

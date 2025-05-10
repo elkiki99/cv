@@ -31,7 +31,7 @@
                 
                 <flux:icon.fly class="hidden size-8 md:block transition-none!" />
                 
-                <flux:icon.framer class="hidden size-8 md:block" />
+                {{-- <flux:icon.framer class="hidden size-8 md:block" /> --}}
 
                 <flux:icon.stripe class="hidden size-8 md:block" />
 

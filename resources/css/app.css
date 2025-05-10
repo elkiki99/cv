@@ -90,6 +90,10 @@
   }
 }
 
+@font-face {
+  font-display: swap;
+}
+
 @utility print-remove-b {
   @media print {
     border: none !important;

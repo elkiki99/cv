@@ -1,11 +1,11 @@
 <div class="flex gap-6 dark:text-white/70 text-zinc-500 no-print">
-    <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/bruno.rossani/">
+    <a rel="noopener noreferrer" target="_blank" aria-label="Instagram profile of Bruno Rossani" href="https://www.instagram.com/bruno.rossani/">
         <flux:icon.instagram variant="mini" />
     </a>
-    <a rel="noopener noreferrer" target="_blank" href="https://github.com/elkiki99">
+    <a rel="noopener noreferrer" target="_blank" aria-label="Github profile of Bruno Rossani" href="https://github.com/elkiki99">
         <flux:icon.github variant="mini" />
     </a>
-    <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/brunorossani/">
+    <a rel="noopener noreferrer" target="_blank" aria-label="Linkedin profile of Bruno Rossani" href="https://www.linkedin.com/in/brunorossani/">
         <flux:icon.linkedin variant="mini" />
     </a>
 </div>

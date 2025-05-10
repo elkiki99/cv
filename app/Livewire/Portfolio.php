@@ -30,7 +30,7 @@ class Portfolio extends Component
         $this->translations = [
             'en' => [
                 'title' => 'Portfolio • Bruno Rossani',
-                'description' => 'A collection of Bruno Rossani\'s projects and works.',
+                'meta_description' => 'A collection of Bruno Rossani\'s projects and works.',
                 'header' => [
                     'heading' => 'Projects I\'ve made trying to leave a mark <br class="hidden md:flex">in the digital world',
                     'subheading' => 'A list of projects I\'ve worked on and I\'m working on.'
@@ -130,7 +130,7 @@ class Portfolio extends Component
             ],
             'es' => [
                 'title' => 'Portafolio • Bruno Rossani',
-                'description' => 'Una colección de proyectos y trabajos de Bruno Rossani.',
+                'meta_description' => 'Una colección de proyectos y trabajos de Bruno Rossani.',
                 'header' => [
                     'heading' => 'Proyectos que he hecho intentando dejar una marca <br class="hidden md:flex">en el mundo digital',
                     'subheading' => 'Lista de proyectos en los que he trabajado y estoy trabajando.'

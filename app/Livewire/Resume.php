@@ -21,7 +21,7 @@ class Resume extends Component
     {
         return $this->translations[$this->lang]['meta_description'] ?? '';
     }
-
+    
     #[On('toggleLanguage')]
     public function mount()
     {
@@ -30,7 +30,7 @@ class Resume extends Component
         $this->translations = [
             'en' => [
                 'title' => 'Resume • Bruno Rossani',
-                'description' => 'My resume, showcasing my skills and experience as a software engineer.',
+                'meta_description' => 'My resume, showcasing my skills and experience as a software engineer.',
                 'header' => [
                     'bio' => 'Full Stack Software Engineer with over 2 years of experience, primarily focused on backend development. Specializing in PHP, Laravel, and creating reliable server-side solutions. I develop web applications that prioritize performance, security, and maintainability. Currently pursuing a Computer Science degree at UTEC.'
                 ],
@@ -136,7 +136,7 @@ class Resume extends Component
             ],
             'es' => [
                 'title' => 'CV • Bruno Rossani',
-                'description' => 'Mi currículum, mostrando mis habilidades y experiencia como ingeniero de software.',
+                'meta_description' => 'Mi currículum, mostrando mis habilidades y experiencia como ingeniero de software.',
                 'header' => [
                     'bio' => 'Ingeniero de Software Full Stack con más de 2 años de experiencia, enfocado en el desarrollo backend. Especializado en PHP, Laravel y soluciones seguras del lado del servidor. Creo aplicaciones web centradas en rendimiento, seguridad y mantenimiento. Actualmente estudio Ciencias de la Computación en UTEC.'
                 ],

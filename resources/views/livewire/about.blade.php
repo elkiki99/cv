@@ -1,12 +1,9 @@
-{{-- 
-<x-slot name="title">{{ $this->title }}</x-slot>
-<x-slot name="metaDescription">{{ $this->metaDescription }}</x-slot> --}}
 @section('title', $this->title)
-@section('metaDescription', $this->metaDescription)
+@section('meta_description', $this->metaDescription)
 
 <!-- About me -->
 <section class="flex flex-col-reverse min-h-screen gap-16 space-y-6 md:mt-6 md:flex-row">
-    <div class="w-full space-y-12 md:w-3/5">
+    <div class="w-full space-y-12 md:w-3/4">
         <div class="space-y-6">
             <div class="space-y-2">
                 <flux:heading level="1" size="xl">{{ $translations[$lang]['header']['heading'] }}
@@ -44,7 +41,7 @@
 
             @foreach ($translations[$lang]['studies']['careers'] as $study)
                 <flux:text class="relative pl-5 before:content-['\2022'] before:absolute before:left-0">
-                    <flux:link class="pointer-events-none">
+                    <flux:link rel="noopener noreferrer" href="{{ $study['link'] }}" class="pointer-events-none">
                         {{ $study['career'] }}</flux:link> - {{ $study['description'] }}
                 </flux:text>
             @endforeach
@@ -79,8 +76,8 @@
         </div>
     </div>
 
-    <div class="md:w-2/5 ">
-        <img class="object-cover mr-6 rotate-3 rounded-xl w-72 md:w-96" src="{{ asset('me2.webp') }}"
-            alt="Bruno Rossani">
+    <div class="md:w-1/4">
+        <img class="object-cover mr-6 rotate-3 rounded-xl w-56 md:w-72" src="{{ asset('me2.webp') }}" width="288"
+            height="288" alt="Bruno Rossani">
     </div>
 </section>
