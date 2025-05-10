@@ -6,7 +6,7 @@ use Livewire\Component;
 
 class NavigationHeader extends Component
 {
-    public $lang;
+    public $lang = 'en';
     public $translations = [];
 
     public function toggleLanguage()
@@ -18,7 +18,7 @@ class NavigationHeader extends Component
     
     public function mount()
     {
-        $this->lang = session('lang');
+        $this->lang = session('lang') ?? 'en';  
     }
     
     public function render()

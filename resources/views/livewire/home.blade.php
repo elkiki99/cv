@@ -1,6 +1,8 @@
 
-<x-slot name="title">{{ $this->title }}</x-slot>
-<x-slot name="metaDescription">{{ $this->metaDescription }}</x-slot>
+{{-- <x-slot name="title">{{ $this->title }}</x-slot> --}}
+{{-- <x-slot name="metaDescription">{{ $this->metaDescription }}</x-slot> --}}
+@section('title', $this->title)
+@section('metaDescription', $this->metaDescription)
 
 <div class="space-y-12">
     <!-- Header -->

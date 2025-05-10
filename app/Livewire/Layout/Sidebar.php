@@ -7,13 +7,13 @@ use Livewire\Component;
 
 class Sidebar extends Component
 {
-    public $lang;
+    public $lang = 'en';
     public $translations = [];
 
     #[On('toggleLanguage')]
     public function mount()
     {
-        $this->lang = session('lang');
+        $this->lang = session('lang') ?? 'en';
     }
     
     public function render()

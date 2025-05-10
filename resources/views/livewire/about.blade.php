@@ -1,6 +1,8 @@
-
+{{-- 
 <x-slot name="title">{{ $this->title }}</x-slot>
-<x-slot name="metaDescription">{{ $this->metaDescription }}</x-slot>
+<x-slot name="metaDescription">{{ $this->metaDescription }}</x-slot> --}}
+@section('title', $this->title)
+@section('metaDescription', $this->metaDescription)
 
 <!-- About me -->
 <section class="flex flex-col-reverse min-h-screen gap-16 space-y-6 md:mt-6 md:flex-row">
