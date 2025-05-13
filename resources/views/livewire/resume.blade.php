@@ -44,7 +44,8 @@
                         size="sm" as="link" href="tel:+59891845585" icon="phone">
                     </flux:button>
 
-                    <flux:button class="cursor-pointer" aria-label="{{ session('lang') == 'en' ? 'Print this page' : 'Imprimir esta página' }}"
+                    <flux:button class="cursor-pointer"
+                        aria-label="{{ session('lang') == 'en' ? 'Print this page' : 'Imprimir esta página' }}"
                         size="sm" onclick="window.print()" icon="printer">
                     </flux:button>
                 </div>
@@ -63,16 +64,8 @@
             </div>
 
             <!-- Avatar -->
-            <img src="{{ asset('me2.webp') }}" alt="Bruno Rossani" class="hidden no-print" width="64" height="64"
-                onerror="this.style.display='none'; document.getElementById('initials-avatar').classList.remove('hidden');"
-                onload="document.getElementById('image-avatar').classList.remove('hidden');" />
-
-            <div class="no-print hidden" id="image-avatar">
-                <flux:avatar name="Bruno Rossani" size="xl" src="{{ asset('me2.webp') }}" />
-            </div>
-
-            <div class="no-print hidden" id="initials-avatar">
-                <flux:avatar tooltip name="Bruno Rossani" size="xl" color="green" />
+            <div>
+                <flux:avatar width="64" height="64" class="no-print" name="Bruno Rossani" size="xl" src="{{ asset('me2.webp') }}" />
             </div>
         </div>
     </section>

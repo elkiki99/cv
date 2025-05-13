@@ -5,16 +5,9 @@
     <!-- Header -->
     <section class="flex flex-col min-h-[80vh] print-adjust-h space-y-6">
         <!-- Avatar -->
-        <img src="{{ asset('me2.webp') }}" alt="Bruno Rossani" class="hidden rounded-full" width="64" height="64"
-            onerror="this.style.display='none'; document.getElementById('initials-avatar').classList.remove('hidden');"
-            onload="document.getElementById('image-avatar').classList.remove('hidden');" />
-
-        <div id="image-avatar" class="hidden">
-            <flux:avatar name="Bruno Rossani" size="xl" circle src="{{ asset('me2.webp') }}" />
-        </div>
-
-        <div id="initials-avatar" class="hidden">
-            <flux:avatar tooltip name="Bruno Rossani" size="xl" circle color="green" />
+        <div>
+            <flux:avatar circle width="64" height="64" class="no-print" name="Bruno Rossani" size="xl"
+                src="{{ asset('me2.webp') }}" />
         </div>
 
         <div class="space-y-2">
