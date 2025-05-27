@@ -21,7 +21,7 @@ class Resume extends Component
     {
         return $this->translations[$this->lang]['meta_description'] ?? '';
     }
-    
+
     #[On('toggleLanguage')]
     public function mount()
     {
@@ -110,6 +110,7 @@ class Resume extends Component
                         'Detail-oriented',
                         'Laravel',
                         'PHP',
+                        'C/C++',
                         'JavaScript',
                         'HTML',
                         'CSS',
@@ -216,6 +217,7 @@ class Resume extends Component
                         'Atención al detalle',
                         'Laravel',
                         'PHP',
+                        'C/C++',
                         'JavaScript',
                         'HTML',
                         'CSS',

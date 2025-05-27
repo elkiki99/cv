@@ -15,58 +15,58 @@
                     <flux:subheading>Isla de Flores 1586, Montevideo, Uruguay
                     </flux:subheading>
                 </div>
-
-                <div class="flex gap-2 pt-1 no-print">
-                    <flux:button
-                        aria-label="{{ session('lang') == 'en' ? 'Go to Bruno Rossani\'s website' : 'Ir al sitio web de Bruno Rossani' }}"
-                        size="sm" as="link" wire:navigate href="/" icon="globe-alt">
-                    </flux:button>
-
-                    <flux:button
-                        aria-label="{{ session('lang') == 'en' ? 'Send an email to Bruno Rossani' : 'Enviar un correo a Bruno Rossani' }}"
-                        size="sm" as="link" href="mailto:brossani23@gmail.com" icon="envelope">
-                    </flux:button>
-
-                    <flux:button
-                        aria-label="{{ session('lang') == 'en' ? 'Visit Bruno Rossani\'s GitHub profile' : 'Ir al perfil de GitHub de Bruno Rossani' }}"
-                        size="sm" as="link" href="https://github.com/elkiki99" target="_blank"
-                        rel="noopener noreferrer" icon="github">
-                    </flux:button>
-
-                    <flux:button
-                        aria-label="{{ session('lang') == 'en' ? 'Visit Bruno Rossani\'s LinkedIn profile' : 'Ir al perfil de LinkedIn de Bruno Rossani' }}"
-                        size="sm" as="link" href="https://www.linkedin.com/in/brunorossani" target="_blank"
-                        rel="noopener noreferrer" icon="linkedin">
-                    </flux:button>
-
-                    <flux:button
-                        aria-label="{{ session('lang') == 'en' ? 'Call Bruno Rossani' : 'Llamar a Bruno Rossani' }}"
-                        size="sm" as="link" href="tel:+59891845585" icon="phone">
-                    </flux:button>
-
-                    <flux:button class="cursor-pointer"
-                        aria-label="{{ session('lang') == 'en' ? 'Print this page' : 'Imprimir esta página' }}"
-                        size="sm" onclick="window.print()" icon="printer">
-                    </flux:button>
-                </div>
-
-                <div class="hidden pt-1 print text-sm">
-                    <flux:link variant="ghost" href="https://www.linkedin.com/in/brunorossani/" variant="ghost"
-                        class="relative pr-2 after:content-['|'] after:absolute after:right-0">
-                        linkedin.com/in/brunorossani</flux:link>
-                    <flux:link variant="ghost" class="relative px-2 after:content-['|'] after:absolute after:right-0"
-                        href="https://bruno-rossani.fly.dev/">
-                        bruno-rossani.dev</flux:link>
-                    <flux:link variant="ghost" class="relative px-2 after:content-['|'] after:absolute after:right-0"
-                        href="mailto:brossani23@gmail.com">brossani23@gmail.com</flux:link>
-                    <flux:link class="pl-2" variant="ghost" href="tel:+59891845585">+598 91 845 585</flux:link>
-                </div>
             </div>
 
             <!-- Avatar -->
             <div>
-                <flux:avatar width="64" height="64" class="no-print" name="Bruno Rossani" size="xl" src="{{ asset('me2.webp') }}" />
+                <flux:avatar width="64" height="64" class="{{ $lang == 'en' ? 'no-print' : '' }}"
+                    name="Bruno Rossani" size="xl" src="{{ asset('me2.webp') }}" />
             </div>
+        </div>
+
+        <div class="flex gap-2 pt-3 no-print">
+            <flux:button
+                aria-label="{{ session('lang') == 'en' ? 'Go to Bruno Rossani\'s website' : 'Ir al sitio web de Bruno Rossani' }}"
+                size="sm" as="link" wire:navigate href="/" icon="globe-alt">
+            </flux:button>
+
+            <flux:button
+                aria-label="{{ session('lang') == 'en' ? 'Send an email to Bruno Rossani' : 'Enviar un correo a Bruno Rossani' }}"
+                size="sm" as="link" href="mailto:brossani23@gmail.com" icon="envelope">
+            </flux:button>
+
+            <flux:button
+                aria-label="{{ session('lang') == 'en' ? 'Visit Bruno Rossani\'s GitHub profile' : 'Ir al perfil de GitHub de Bruno Rossani' }}"
+                size="sm" as="link" href="https://github.com/elkiki99" target="_blank"
+                rel="noopener noreferrer" icon="github">
+            </flux:button>
+
+            <flux:button
+                aria-label="{{ session('lang') == 'en' ? 'Visit Bruno Rossani\'s LinkedIn profile' : 'Ir al perfil de LinkedIn de Bruno Rossani' }}"
+                size="sm" as="link" href="https://www.linkedin.com/in/brunorossani" target="_blank"
+                rel="noopener noreferrer" icon="linkedin">
+            </flux:button>
+
+            <flux:button aria-label="{{ session('lang') == 'en' ? 'Call Bruno Rossani' : 'Llamar a Bruno Rossani' }}"
+                size="sm" as="link" href="tel:+59891845585" icon="phone">
+            </flux:button>
+
+            <flux:button class="cursor-pointer"
+                aria-label="{{ session('lang') == 'en' ? 'Print this page' : 'Imprimir esta página' }}" size="sm"
+                onclick="window.print()" icon="printer">
+            </flux:button>
+        </div>
+
+        <div class="hidden pt-2 print text-xs">
+            <flux:link variant="ghost" href="https://www.linkedin.com/in/brunorossani/" variant="ghost"
+                class="relative pr-2 after:content-['|'] after:absolute after:right-0">
+                linkedin.com/in/brunorossani</flux:link>
+            <flux:link variant="ghost" class="relative px-2 after:content-['|'] after:absolute after:right-0"
+                href="https://bruno-rossani.fly.dev/">
+                bruno-rossani.fly.dev</flux:link>
+            <flux:link variant="ghost" class="relative px-2 after:content-['|'] after:absolute after:right-0"
+                href="mailto:brossani23@gmail.com">brossani23@gmail.com</flux:link>
+            <flux:link class="pl-2" variant="ghost" href="tel:+59891845585">+598 91 845 585</flux:link>
         </div>
     </section>
 
