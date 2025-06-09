@@ -143,6 +143,9 @@
     @media print {
         h1, h2, h3, h4, h5, h6, p, a, span, strong, em, li, td, th, div {
             color: black !important;
+        }
+        [data-flux-separator] {
+            background-color: #27272a26 !important;
         }    
     }
     @keyframes pulse {

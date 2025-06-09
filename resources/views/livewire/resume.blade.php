@@ -90,6 +90,27 @@
         </div>
     </section>
 
+    <!-- Education -->
+    <section class="pb-2">
+        <flux:heading class="mb-2 !text-2xl">{{ $translations[$lang]['education']['title'] }}</flux:heading>
+        <flux:separator class="mb-2 hidden print" />
+        <div class="space-y-4">
+            @foreach ($translations[$lang]['education']['careers'] as $career)
+                <div>
+                    <div class="sm:flex sm:justify-between">
+                        <flux:subheading class="text-zinc-700 dark:text-white/90 !text-lg mb-1">{{ $career['degree'] }}
+                        </flux:subheading>
+                        <flux:subheading class="text-zinc-700 dark:text-white/90 mb-1 sm:mb-0">{{ $career['years'] }}
+                        </flux:subheading>
+                    </div>
+                    <flux:text>
+                        {{ $career['description'] }}
+                    </flux:text>
+                </div>
+            @endforeach
+        </div>
+    </section>
+
     <!-- Work experience -->
     <section class="pb-2">
         <flux:heading class="mb-2 !text-2xl">{{ $translations[$lang]['work']['title'] }}</flux:heading>
@@ -120,27 +141,6 @@
                             {{ $responsibility }}
                         </flux:text>
                     @endforeach
-                </div>
-            @endforeach
-        </div>
-    </section>
-
-    <!-- Education -->
-    <section class="pb-2">
-        <flux:heading class="mb-2 !text-2xl">{{ $translations[$lang]['education']['title'] }}</flux:heading>
-        <flux:separator class="mb-2 hidden print" />
-        <div class="space-y-4">
-            @foreach ($translations[$lang]['education']['careers'] as $career)
-                <div>
-                    <div class="sm:flex sm:justify-between sm:items-center">
-                        <flux:subheading class="text-zinc-700 dark:text-white/90 !text-lg mb-1">{{ $career['degree'] }}
-                        </flux:subheading>
-                        <flux:subheading class="text-zinc-700 dark:text-white/90 mb-1 sm:mb-0">{{ $career['years'] }}
-                        </flux:subheading>
-                    </div>
-                    <flux:text>
-                        {{ $career['description'] }}
-                    </flux:text>
                 </div>
             @endforeach
         </div>

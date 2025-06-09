@@ -40,8 +40,23 @@ class Resume extends Component
                     'linkedin' => 'https://www.linkedin.com/in/brunorossani/',
                     'github' => 'https://github.com/elkiki99',
                     'website' => 'https://bruno-rossani.fly.dev/',
-                    'location' => 'Isla de Flores 1586, Montevideo, Uruguay',
-                    'location_link' => 'https://www.google.com/maps/@-34.9107371,-56.1809517,3a,75y,175.56h,90t/data=!3m7!1e1!3m5!1s2sgN42a2HexYxI4kTQ27Lg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3D2sgN42a2HexYxI4kTQ27Lg%26yaw%3D175.56!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D'
+                    'location' => 'Isla de Flores, Montevideo, Uruguay',
+                    'location_link' => 'https://www.google.com/maps/place/Palermo,+11200+Montevideo,+Montevideo+Department/data=!4m2!3m1!1s0x959f81b7db8c0371:0xe22fe40f04c80b07?sa=X&ved=1t:242&ictx=111'
+                ],
+                'education' => [
+                    'title' => 'Education',
+                    'careers' => [
+                        [
+                            'degree' => 'Computer Science Degree - UTEC',
+                            'years' => 'Mar 2025 - Present',
+                            'description' => 'Studying Software Engineering with a focus on architecture, efficient algorithms, and robust databases to build scalable, high-impact solutions to real-world problems.',
+                        ],
+                        // [
+                        //     'degree' => 'Musical Performance - UdelaR',
+                        //     'years' => 'Mar 2019 - Nov 2024',
+                        //     'description' => 'Trained in musical analysis, technique, and ensemble work—enhancing discipline and creative thinking.'
+                        // ]
+                    ]
                 ],
                 'work' => [
                     'title' => 'Experience',
@@ -52,7 +67,8 @@ class Resume extends Component
                             'skills' => ['PHP', 'Laravel', 'Web Development'],
                             'responsibilities' => [
                                 'Developed and maintained 4+ web applications with PHP and JavaScript, improving page load performance by up to 30% through optimized code structure and caching.',
-                                'Strengthened application security by implementing role-based authentication and secure data practices, reducing reported vulnerabilities to near zero.',
+                                'Designed and implemented reusable components, resulting in a 30% reduction in development time for new features and a more consistent user experience.',
+                                'Strengthened application security by implementing role-based authentication and secure data practices, reducing reported vulnerabilities by 80%.',
                                 'Conducted performance audits and deployed CI/CD pipelines, decreasing deployment times by 50% and reducing error rates.',
                                 'Created tailored solutions for 3 clients, boosting internal process efficiency by 40% and automating repetitive tasks.'
                             ]
@@ -63,27 +79,13 @@ class Resume extends Component
                             'skills' => ['Sales', 'Operations', 'Customer Service'],
                             'responsibilities' => [
                                 'Played a key role in a 5-person team, supporting the coordination and execution of workflows that enhance cross-department collaboration and service speed.',
-                                'Optimized supplier logistics and inventory forecasting, leading to a 35% reduction in stockouts and a 20% decrease in storage costs.',
+                                'Streamlined internal workflows and reporting procedures across teams, improving collaboration and leading to a 20% increase in efficiency.',
                                 'Improved overall customer satisfaction and loyalty, growing monthly sales by 25% through tailored customer engagement strategies.',
+                                'Optimized supplier logistics and inventory forecasting, leading to a 35% reduction in stockouts and a 20% decrease in storage costs.',
                                 'Managed daily store operations, reducing order processing time by 35% and increasing delivery accuracy.'
                             ]
                         ],
-                    ]
-                ],
-                'education' => [
-                    'title' => 'Education',
-                    'careers' => [
-                        [
-                            'degree' => 'Computer Science Degree - UTEC',
-                            'years' => 'Mar 2025 - Present',
-                            'description' => 'Studying software engineering with focus on architecture, algorithms, and databases to solve real-world problems.'
-                        ],
-                        [
-                            'degree' => 'Musical Performance - UdelaR',
-                            'years' => 'Mar 2019 - Nov 2024',
-                            'description' => 'Trained in musical analysis, technique, and ensemble work—enhancing discipline and creative thinking.'
-                        ]
-                    ]
+                    ]   
                 ],
                 'side_projects' => [
                     'title' => 'Latest projects',
@@ -114,9 +116,8 @@ class Resume extends Component
                 'skills' => [
                     'title' => 'Skills',
                     'name' => [
-                        'Team collaboration',
                         'Communication',
-                        'Attention to detail',
+                        'Sales',
                         'Laravel',
                         'PHP',
                         'C/C++',
@@ -128,7 +129,7 @@ class Resume extends Component
                         'MySQL',
                         'SQLite',
                         'Docker',
-                        'Github',
+                        'GitHub',
                         'Git',
                         'React',
                         'SEO',
@@ -157,8 +158,23 @@ class Resume extends Component
                     'linkedin' => 'https://www.linkedin.com/in/brunorossani/',
                     'github' => 'https://github.com/elkiki99',
                     'website' => 'https://bruno-rossani.fly.dev/',
-                    'location' => 'Isla de Flores 1586, Montevideo, Uruguay',
-                    'location_link' => 'https://www.google.com/maps/@-34.9107371,-56.1809517,3a,75y,175.56h,90t/data=!3m7!1e1!3m5!1s2sgN42a2HexYxI4kTQ27Lg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3D2sgN42a2HexYxI4kTQ27Lg%26yaw%3D175.56!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D'
+                    'location' => 'Isla de Flores, Montevideo, Uruguay',
+                    'location_link' => 'https://www.google.com/maps/place/Palermo,+11200+Montevideo,+Montevideo+Department/data=!4m2!3m1!1s0x959f81b7db8c0371:0xe22fe40f04c80b07?sa=X&ved=1t:242&ictx=111'
+                ],
+                'education' => [
+                    'title' => 'Educación',
+                    'careers' => [
+                        [
+                            'degree' => 'Licenciatura en Ciencias de la Computación - UTEC',
+                            'years' => 'Mar 2025 - Presente',
+                            'description' => 'Estudio Ingeniería de Software enfocándome en arquitectura, algoritmos eficientes y bases de datos robustas, para crear soluciones escalables y de alto impacto a problemas reales.',
+                        ],
+                        // [
+                        //     'degree' => 'Interpretación Musical - UdelaR',
+                        //     'years' => 'Mar 2019 - Nov 2024',
+                        //     'description' => 'Formación en análisis musical, técnica instrumental y trabajo en conjunto, fortaleciendo disciplina y pensamiento creativo.'
+                        // ]
+                    ]
                 ],
                 'work' => [
                     'title' => 'Experiencia',
@@ -168,7 +184,8 @@ class Resume extends Component
                             'years' => 'Sep 2023 - Presente',
                             'skills' => ['PHP', 'Laravel', 'Desarrollo Web'],
                             'responsibilities' => [
-                                'Fortalecí la seguridad de las aplicaciones implementando autenticación basada en roles y prácticas seguras de manejo de datos, reduciendo vulnerabilidades a casi cero.',
+                                'Fortalecí la seguridad de la aplicación implementando autenticación basada en roles y prácticas seguras de manejo de datos, reduciendo vulnerabilidades en un 80%.',
+                                'Implementé un sistema de componentes reutilizables que optimizó el desarrollo, reduciendo en un 30% los tiempos de entrega e impulsando la coherencia visual.',
                                 'Desarrollé y mantuve más de 4 aplicaciones web con PHP y JavaScript, mejorando el rendimiento de carga hasta un 30% mediante optimización y caché.',
                                 'Realicé auditorías de rendimiento y desplegué pipelines CI/CD, disminuyendo los tiempos de despliegue en un 50% y reduciendo errores.',
                                 'Creé soluciones a medida para 3 clientes, aumentando la eficiencia interna en un 40% y automatizando tareas repetitivas.'
@@ -180,26 +197,12 @@ class Resume extends Component
                             'skills' => ['Ventas', 'Operaciones', 'Atención al Cliente'],
                             'responsibilities' => [
                                 'Formé parte clave de un equipo de 5 personas, apoyando la coordinación y ejecución de flujos de trabajo para mejorar la colaboración y velocidad del servicio.',
+                                'Estandaricé los flujos de trabajo internos y los procedimientos de reporte entre los equipos, logrando un incremento del 20% en la entrega de proyectos.',
                                 'Optimicé la logística de proveedores y pronóstico de inventarios, logrando una reducción del 35% en faltantes y un 20% en costos de almacenamiento.',
                                 'Mejoré la satisfacción y fidelización de clientes, aumentando las ventas mensuales en un 25% mediante estrategias personalizadas de engagement.',
                                 'Gestioné operaciones diarias de tienda, reduciendo el tiempo de procesamiento de pedidos en un 35% y aumentando la precisión en las entregas.'
                             ]
                         ],
-                    ]
-                ],
-                'education' => [
-                    'title' => 'Educación',
-                    'careers' => [
-                        [
-                            'degree' => 'Licenciatura en Ciencias de la Computación - UTEC',
-                            'years' => 'Mar 2025 - Presente',
-                            'description' => 'Estudio ingeniería de software con foco en arquitectura, algoritmos y bases de datos para resolver problemas reales.'
-                        ],
-                        [
-                            'degree' => 'Interpretación Musical - UdelaR',
-                            'years' => 'Mar 2019 - Nov 2024',
-                            'description' => 'Formación en análisis musical, técnica instrumental y trabajo en conjunto, fortaleciendo disciplina y pensamiento creativo.'
-                        ]
                     ]
                 ],
                 'side_projects' => [
@@ -231,9 +234,8 @@ class Resume extends Component
                 'skills' => [
                     'title' => 'Habilidades',
                     'name' => [
-                        'Trabajo en equipo',
                         'Comunicación',
-                        'Atención al detalle',
+                        'Ventas',
                         'Laravel',
                         'PHP',
                         'C/C++',
@@ -245,7 +247,7 @@ class Resume extends Component
                         'MySQL',
                         'SQLite',
                         'Docker',
-                        'Github',
+                        'GitHub',
                         'Git',
                         'React',
                         'SEO',
