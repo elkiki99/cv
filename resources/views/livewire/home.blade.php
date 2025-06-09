@@ -6,7 +6,7 @@
     <section class="flex flex-col min-h-[80vh] print-adjust-h space-y-6">
         <!-- Avatar -->
         <div>
-            <flux:avatar circle width="64" height="64" class="no-print" name="Bruno Rossani" size="xl"
+            <flux:avatar circle width="80" height="80" class="no-print" name="Bruno Rossani" size="2xl"
                 src="{{ asset('me2.webp') }}" />
         </div>
 
