@@ -33,7 +33,7 @@ class Resume extends Component
                 'meta_description' => 'My resume, showcasing my skills and experience as a software engineer.',
                 'header' => [
                     'name' => 'Bruno Rossani',
-                    'title' => 'Full Stack Software Engineer',
+                    'title' => 'Full Stack Software Developer',
                     'bio' => 'Full Stack Software Engineer with over 2 years of experience, primarily focused on backend development. Specializing in PHP, Laravel, and creating reliable server-side solutions. I develop web applications that prioritize performance, security, and maintainability. Currently pursuing a Computer Science degree at UTEC.',
                     'mail' => 'brossani23@gmail.com',
                     'phone' => '+59891845585',
@@ -62,7 +62,7 @@ class Resume extends Component
                     'title' => 'Experience',
                     'jobs' => [
                         [
-                            'position' => 'Full Stack Software Engineer - Freelance',
+                            'position' => 'Full Stack Software Developer - Freelance',
                             'years' => 'Sep 2023 - Present',
                             'skills' => ['PHP', 'Laravel', 'Web Development'],
                             'responsibilities' => [
@@ -151,7 +151,7 @@ class Resume extends Component
                 'meta_description' => 'Mi currículum, mostrando mis habilidades y experiencia como ingeniero de software.',
                 'header' => [
                     'name' => 'Bruno Rossani',
-                    'title' => 'Ingeniero de Software Full Stack',
+                    'title' => 'Desarollador de Software Full Stack',
                     'bio' => 'Ingeniero de Software Full Stack con más de 2 años de experiencia, principalmente enfocado en desarrollo backend. Especializado en PHP, Laravel y creación de soluciones fiables del lado del servidor. Desarrollo aplicaciones web priorizando rendimiento, seguridad y mantenibilidad. Actualmente cursando la carrera de Ciencias de la Computación en UTEC.',
                     'mail' => 'brossani23@gmail.com',
                     'phone' => '+59891845585',
@@ -180,7 +180,7 @@ class Resume extends Component
                     'title' => 'Experiencia',
                     'jobs' => [
                         [
-                            'position' => 'Ingeniero de Software Full Stack - Freelance',
+                            'position' => 'Desarollador de Software Full Stack - Freelance',
                             'years' => 'Sep 2023 - Presente',
                             'skills' => ['PHP', 'Laravel', 'Desarrollo Web'],
                             'responsibilities' => [

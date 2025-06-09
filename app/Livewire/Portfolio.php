@@ -132,7 +132,7 @@ class Portfolio extends Component
                 'title' => 'Portafolio • Bruno Rossani',
                 'meta_description' => 'Una colección de proyectos y trabajos de Bruno Rossani.',
                 'header' => [
-                    'heading' => 'Proyectos que he hecho intentando dejar una marca <br class="hidden md:flex">en el mundo digital',
+                    'heading' => 'Proyectos que he realizado intentando dejar una marca <br class="hidden md:flex">en el mundo digital',
                     'subheading' => 'Lista de proyectos en los que he trabajado y estoy trabajando.'
                 ],
                 'projects' => [

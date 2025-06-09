@@ -34,7 +34,7 @@ class About extends Component
                 'header' => [
                     'heading' => 'Hi, I\'m Bruno Rossani',
                     'p1' => 'I live in Montevideo, Uruguay, located in the heart of Palermo, specifically in the southern part of the city, with my wonderful girlfriend, Camila, and our feline companion, Cattana.',
-                    'p2' => 'I\'m a 25-year-old IT technologist student at UTEC, passionate about software development, web technologies, and problem-solving, always eager to learn and build cool stuff.',
+                    'p2' => 'I\'m an IT technologist student at UTEC, passionate about software development, web technologies, and problem-solving, always eager to learn and build cool stuff.',
                     'p3' => 'I also like playing guitar, biking, and cooking. I see myself as a lifelong learner and genuinely enjoy the process of discovering new things. I\'m always on the lookout for fresh opportunities and challenges.'
                 ],
                 'work' => [
@@ -115,7 +115,7 @@ class About extends Component
                 'header' => [
                     'heading' => 'Hola, soy Bruno Rossani',
                     'p1' => 'Vivo en Montevideo, Uruguay, ubicado en el corazón de Palermo, específicamente en la zona sur de la ciudad, junto a mi maravillosa novia, Camila, y nuestra gata, Cattana.',
-                    'p2' => 'Soy un estudiante de Tecnólogo en Informática en UTEC de 25 años, apasionado por el desarrollo de software, las tecnologías web y la resolución de problemas. Siempre estoy dispuesto a aprender y construir cosas geniales.',
+                    'p2' => 'Soy un estudiante de Tecnólogo en Informática en UTEC, apasionado por el desarrollo de software, las tecnologías web y la resolución de problemas. Siempre estoy dispuesto a aprender y construir cosas geniales.',
                     'p3' => 'También me gusta tocar la guitarra, andar en bicicleta y cocinar. Me considero un aprendiz de por vida y realmente disfruto el proceso de descubrir cosas nuevas. Siempre estoy en busca de nuevas oportunidades y desafíos.'
                 ],
                 'work' => [

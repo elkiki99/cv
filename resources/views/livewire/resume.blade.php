@@ -8,9 +8,10 @@
         <div class="flex">
             <!-- Name and title -->
             <div>
-                <flux:heading level="1" class="!text-3xl">{{ $translations[$lang]['header']['name'] }}
+                <flux:heading level="1" class="!text-3xl !mb-1">{{ $translations[$lang]['header']['name'] }}
                 </flux:heading>
-                <flux:subheading class="!text-lg" level="2">Full Stack Software Engineer</flux:subheading>
+                <flux:subheading class="!text-lg" level="2">{{ $translations[$lang]['header']['title'] }}</flux:subheading>
+                <flux:text class="no-print my-2">{{ $translations[$lang]['header']['bio'] }}</flux:text>
             </div>
 
             <!-- Avatar -->

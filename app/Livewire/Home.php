@@ -105,7 +105,7 @@ class Home extends Component
                 'meta_description' => 'Soy un desarrollador web full-stack con pasión por crear soluciones innovadoras. Me especializo en Laravel, Tailwind CSS y Alpine.js, y me encanta construir aplicaciones dinámicas que mejoran la experiencia del usuario.',
                 'header' => [
                     'heading' => 'Bruno Rossani',
-                    'subheading' => 'Apasionado por la innovación y la creación. Soy desarrollador full-stack, cocinero amateur, amante de la música y <br class="hidden md:flex">siempre en busca de nuevos retos. Me motiva el desafío de construir soluciones 
+                    'subheading' => 'Apasionado por la innovación y la creación. Soy desarrollador full-stack, melómano, me encanta cocinar y <br class="hidden md:flex">siempre estoy en busca de nuevos retos. Me motiva construir soluciones 
                     eficientes y creativas, <br class="hidden md:flex">es la pasión que me impulsa a seguir desarrollando. Si querés, podes',
                     'mail' => 'enviarme un correo.'
                 ],
