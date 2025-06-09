@@ -30,11 +30,11 @@ class Resume extends Component
         $this->translations = [
             'en' => [
                 'title' => 'Resume • Bruno Rossani',
-                'meta_description' => 'My resume, showcasing my skills and experience as a software engineer.',
+                'meta_description' => 'My resume, showcasing my skills and experience as a software developer.',
                 'header' => [
                     'name' => 'Bruno Rossani',
                     'title' => 'Full Stack Software Developer',
-                    'bio' => 'Full Stack Software Engineer with over 2 years of experience, primarily focused on backend development. Specializing in PHP, Laravel, and creating reliable server-side solutions. I develop web applications that prioritize performance, security, and maintainability. Currently pursuing a Computer Science degree at UTEC.',
+                    'bio' => 'Full Stack Software Developer with over 2 years of experience, primarily focused on backend development. Specializing in PHP, Laravel, and creating reliable server-side solutions. I develop web applications that prioritize performance, security, and maintainability. Currently pursuing a Computer Science degree at UTEC.',
                     'mail' => 'brossani23@gmail.com',
                     'phone' => '+59891845585',
                     'linkedin' => 'https://www.linkedin.com/in/brunorossani/',
@@ -148,11 +148,11 @@ class Resume extends Component
             ],
             'es' => [
                 'title' => 'Currículum • Bruno Rossani',
-                'meta_description' => 'Mi currículum, mostrando mis habilidades y experiencia como ingeniero de software.',
+                'meta_description' => 'Mi currículum, mostrando mis habilidades y experiencia como desarrollador de software.',
                 'header' => [
                     'name' => 'Bruno Rossani',
                     'title' => 'Desarollador de Software Full Stack',
-                    'bio' => 'Ingeniero de Software Full Stack con más de 2 años de experiencia, principalmente enfocado en desarrollo backend. Especializado en PHP, Laravel y creación de soluciones fiables del lado del servidor. Desarrollo aplicaciones web priorizando rendimiento, seguridad y mantenibilidad. Actualmente cursando la carrera de Ciencias de la Computación en UTEC.',
+                    'bio' => 'Desarrollador de Software Full Stack con más de 2 años de experiencia, principalmente enfocado en desarrollo backend. Especializado en PHP, Laravel y creación de soluciones fiables del lado del servidor. Desarrollo aplicaciones web priorizando rendimiento, seguridad y mantenibilidad. Actualmente cursando la carrera de Ciencias de la Computación en UTEC.',
                     'mail' => 'brossani23@gmail.com',
                     'phone' => '+59891845585',
                     'linkedin' => 'https://www.linkedin.com/in/brunorossani/',
