@@ -85,24 +85,24 @@ class Resume extends Component
                                 'Managed daily store operations, reducing order processing time by 35% and increasing delivery accuracy.'
                             ]
                         ],
-                    ]   
+                    ]
                 ],
                 'side_projects' => [
                     'title' => 'Latest projects',
                     'projects' => [
+                        [
+                            'name' => 'Tortuga',
+                            'description' => 'E-commerce platform for Tortuga.uy — promoting sustainable, circular fashion.',
+                            'technologies' => ['E-commerce', 'CRM', 'Laravel', 'Livewire', 'Alpine.js'],
+                            'link' => 'https://tortuga.laravel.cloud/',
+                            'is_active' => true
+                        ],
                         [
                             'name' => 'Practizly',
                             'description' => 'AI-powered academic planning tool for students and teachers.',
                             'technologies' => ['Side project', 'OpenAI', 'Planning', 'Studies'],
                             'link' => 'https://practizly-main-hewydj.laravel.cloud/',
                             'is_active' => true
-                        ],
-                        [
-                            'name' => 'Balo Loba',
-                            'description' => 'Photography portfolio with admin panel and MercadoPago integration.',
-                            'technologies' => ['Freelance project', 'Laravel', 'Admin panel', 'MercadoPago'],
-                            'link' => 'https://github.com/elkiki99/baloloba',
-                            'is_active' => false
                         ],
                         [
                             'name' => 'DevWebCamp',
@@ -209,18 +209,18 @@ class Resume extends Component
                     'title' => 'Proyectos recientes',
                     'projects' => [
                         [
+                            'name' => 'Tortuga',
+                            'description' => 'Plataforma e-commerce para Tortuga.uy — moda sustentable y circular.',
+                            'technologies' => ['E-commerce', 'CRM', 'Laravel', 'Livewire', 'Alpine.js'],
+                            'link' => 'https://tortuga.laravel.cloud/',
+                            'is_active' => true
+                        ],
+                        [
                             'name' => 'Practizly',
                             'description' => 'Herramienta de planificación académica con IA para estudiantes y docentes.',
                             'technologies' => ['Proyecto personal', 'OpenAI', 'Planificación', 'Estudios'],
                             'link' => 'https://practizly-main-hewydj.laravel.cloud/',
                             'is_active' => true
-                        ],
-                        [
-                            'name' => 'Balo Loba',
-                            'description' => 'Portafolio fotográfico con panel de administración e integración con MercadoPago.',
-                            'technologies' => ['Proyecto freelance', 'Laravel', 'Panel de administración', 'MercadoPago'],
-                            'link' => 'https://github.com/elkiki99/baloloba',
-                            'is_active' => false
                         ],
                         [
                             'name' => 'DevWebCamp',

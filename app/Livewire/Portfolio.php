@@ -36,22 +36,22 @@ class Portfolio extends Component
                     'subheading' => 'A list of projects I\'ve worked on and I\'m working on.'
                 ],
                 'projects' => [
-                    // [
-                    //     'title' => 'Wevelopers',
-                    //     'description' => 'Interactive web development learning platform for Spanish speakers.',
-                    //     'tags' => ['Side Project', 'PHP', 'JavaScript', 'Learning Platform'],
-                    //     'logo' => '<flux:icon.wevelopers class="size-10 no-print" />',
-                    //     'link_name' => 'github.com/elkiki99/wevelopers',
-                    //     'link' => 'https://github.com/elkiki99/wevelopers',
-                    //     'status' => 'In progress'
-                    // ],
+                    [
+                        'title' => 'Tortuga Second Hand',
+                        'description' => 'E-commerce platform for buying and selling second-hand items.',
+                        'tags' => ['Freelance job', 'Laravel', 'E-commerce', 'Payment integration'],
+                        'logo' => '<flux:icon.globe-americas class="size-8 no-print" />',
+                        'link_name' => 'tortuga.laravel.cloud',
+                        'link' => 'http://tortuga.laravel.cloud/',
+                        'status' => 'In progress'
+                    ],
                     [
                         'title' => 'Practizly',
                         'description' => 'Struggling to study? Instantly turn any text into a concise summary and quiz for smarter exam prep.',
                         'tags' => ['Side project', 'OpenAI', 'Academic planning', 'Exam preparation'],
                         'logo' => '<flux:icon.academic-cap class="size-8 no-print" />',
-                        'link_name' => 'github.com/elkiki99/practizly',
-                        'link' => 'https://practizly-main-hewydj.laravel.cloud/',
+                        'link_name' => 'practizly.laravel.cloud',
+                        'link' => 'https://practizly.laravel.cloud/',
                         'status' => 'In progress'
                     ],
                     [
@@ -86,17 +86,8 @@ class Portfolio extends Component
                         'description' => 'Netflix-inspired movie portal using TALL Stack and TMDB API.',
                         'tags' => ['Side project', 'Laravel', 'APIs', 'TALL Stack'],
                         'logo' => '<flux:icon.laraflix class="size-10 no-print" />',
-                        'link_name' => 'github.com/elkiki99/laraflix',
-                        'link' => 'https://github.com/elkiki99/laraflix',
-                        'status' => ''
-                    ],
-                    [
-                        'title' => 'Chat App',
-                        'description' => 'Web-inspired chat app built with Laravel and Reverb.',
-                        'tags' => ['Side project', 'Alpine.js', 'Websockets', 'Chat application'],
-                        'logo' => '<flux:icon.chat-app class="size-10 no-print" />',
-                        'link_name' => 'github.com/elkiki99/chat',
-                        'link' => 'https://github.com/elkiki99/Chat',
+                        'link_name' => 'laraflix.fly.dev',
+                        'link' => 'https://laraflix.fly.dev/',
                         'status' => ''
                     ],
                     [
@@ -104,8 +95,8 @@ class Portfolio extends Component
                         'description' => 'Job portal with CV management, job posts, and company profiles.',
                         'tags' => ['Side project', 'Laravel', 'Livewire', 'Job board'],
                         'logo' => '<flux:icon.jobs class="size-10 no-print" />',
-                        'link_name' => 'github.com/elkiki99/jobs',
-                        'link' => 'https://github.com/elkiki99/jobs',
+                        'link_name' => 'jobs.fly.dev',
+                        'link' => 'https://jobs-polished-meadow-3345.fly.dev/',
                         'status' => ''
                     ],
                     [
@@ -136,22 +127,22 @@ class Portfolio extends Component
                     'subheading' => 'Lista de proyectos en los que he trabajado y estoy trabajando.'
                 ],
                 'projects' => [
-                    // [
-                    //     'title' => 'Wevelopers',
-                    //     'description' => 'Plataforma interactiva de aprendizaje de desarrollo web para hispanohablantes.',
-                    //     'tags' => ['Proyecto personal', 'PHP', 'JavaScript', 'Plataforma de aprendizaje'],
-                    //     'logo' => '<flux:icon.wevelopers class="size-10 no-print" />',
-                    //     'link_name' => 'github.com/elkiki99/wevelopers',
-                    //     'link' => 'https://github.com/elkiki99/wevelopers',
-                    //     'status' => 'En progreso'
-                    // ],
+                    [
+                        'title' => 'Tortuga Second Hand',
+                        'description' => 'Plataforma de comercio electrónico para comprar y vender artículos de segunda mano.',
+                        'tags' => ['Trabajo freelance', 'Laravel', 'E-commerce', 'Integración de pagos'],
+                        'logo' => '<flux:icon.globe-americas class="size-8 no-print" />',
+                        'link_name' => 'tortuga.laravel.cloud',
+                        'link' => 'http://tortuga.laravel.cloud/',
+                        'status' => 'En progreso'
+                    ],
                     [
                         'title' => 'Practizly',
                         'description' => '¿Te está costando estudiar? Convierte cualquier texto en pruebas con IA para aprobar tu próximo examen.',
-                        'tags' => ['Proyecto personal', 'OpenAI', 'Planificación académica', 'Preparación para exámenes'],
+                        'tags' => ['Proyecto personal', 'OpenAI', 'Planificación académica', 'Preparación de exámenes'],
                         'logo' => '<flux:icon.academic-cap class="size-8 no-print" />',
-                        'link_name' => 'github.com/elkiki99/practizly',
-                        'link' => 'https://practizly-main-hewydj.laravel.cloud/',
+                        'link_name' => 'practizly.laravel.cloud',
+                        'link' => 'https://practizly.laravel.cloud/',
                         'status' => 'En progreso'
                     ],
                     [
@@ -186,25 +177,16 @@ class Portfolio extends Component
                         'description' => 'Portal de películas inspirado en Netflix usando TALL Stack y TMDB API.',
                         'tags' => ['Proyecto personal', 'Laravel', 'APIs', 'TALL Stack'],
                         'logo' => '<flux:icon.laraflix class="size-10 no-print" />',
-                        'link_name' => 'github.com/elkiki99/laraflix',
-                        'link' => 'https://github.com/elkiki99/laraflix',
-                        'status' => ''
-                    ],
-                    [
-                        'title' => 'Chat App',
-                        'description' => 'Aplicación de chat inspirada en la web construida con Laravel y Reverb.',
-                        'tags' => ['Proyecto personal', 'Alpine.js', 'Websockets', 'Aplicación de chat'],
-                        'logo' => '<flux:icon.chat-app class="size-10 no-print" />',
-                        'link_name' => 'github.com/elkiki99/chat',
-                        'link' => 'https://github.com/elkiki99/Chat',
+                        'link_name' => 'laraflix.fly.dev',
+                        'link' => 'https://laraflix.fly.dev/',
                         'status' => ''
                     ],
                     [
                         'title' => 'Jobs',
                         'description' => 'Portal de empleo con gestión de CV, ofertas de trabajo y perfiles de empresas.',
                         'tags' => ['Proyecto personal', 'Laravel', 'Livewire', 'Bolsa de trabajo'],
-                        'link_name' => 'github.com/elkiki99/jobs',
-                        'link' => 'https://github.com/elkiki99/jobs',
+                        'link_name' => 'jobs.fly.dev',
+                        'link' => 'https://jobs-polished-meadow-3345.fly.dev/',
                         'logo' => '<flux:icon.jobs class="size-10 no-print" />',
                         'status' => ''
                     ],
