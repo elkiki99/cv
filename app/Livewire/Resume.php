@@ -101,7 +101,7 @@ class Resume extends Component
                             'name' => 'Practizly',
                             'description' => 'AI-powered academic planning tool for students and teachers.',
                             'technologies' => ['Side project', 'OpenAI', 'Planning', 'Studies'],
-                            'link' => 'https://practizly-main-hewydj.laravel.cloud/',
+                            'link' => 'https://practizly.laravel.cloud/',
                             'is_active' => true
                         ],
                         [
@@ -219,7 +219,7 @@ class Resume extends Component
                             'name' => 'Practizly',
                             'description' => 'Herramienta de planificación académica con IA para estudiantes y docentes.',
                             'technologies' => ['Proyecto personal', 'OpenAI', 'Planificación', 'Estudios'],
-                            'link' => 'https://practizly-main-hewydj.laravel.cloud/',
+                            'link' => 'https://practizly.laravel.cloud/',
                             'is_active' => true
                         ],
                         [
