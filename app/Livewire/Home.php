@@ -84,7 +84,7 @@ class Home extends Component
                         [
                             'name' => 'Practizly',
                             'description' => 'An application that helps users plan their entire academic year, including subjects, deadlines, assignments, and practice sessions. It uses the OpenAI API to generate mock exams and quizzes for more efficient exam preparation.',
-                            'link' => 'https://practizly-main-hewydj.laravel.cloud/'
+                            'link' => 'https://practizly.laravel.cloud/'
                         ],
                         [
                             'name' => 'Flux UI Starter Kit',
@@ -157,7 +157,7 @@ class Home extends Component
                         [
                             'name' => 'Practizly',
                             'description' => 'Una aplicación que ayuda a los usuarios a planificar todo su año académico, incluyendo materias, plazos, tareas y prácticas. Utiliza openai API para crear exámenes de práctica y cuestionarios para una preparación más eficiente.',
-                            'link' => 'https://practizly-main-hewydj.laravel.cloud/'
+                            'link' => 'https://practizly.laravel.cloud/'
                         ],
                         [
                             'name' => 'Flux UI Starter Kit',

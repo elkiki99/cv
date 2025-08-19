@@ -30,11 +30,11 @@ class Resume extends Component
         $this->translations = [
             'en' => [
                 'title' => 'Resume • Bruno Rossani',
-                'meta_description' => 'My resume, showcasing my skills and experience as a software developer.',
+                'meta_description' => 'My resume showcasing my skills and experience as a software developer.',
                 'header' => [
                     'name' => 'Bruno Rossani',
                     'title' => 'Full Stack Software Developer',
-                    'bio' => 'Full Stack Software Developer with over 2 years of experience, primarily focused on backend development. Specializing in PHP, Laravel, and creating reliable server-side solutions. I develop web applications that prioritize performance, security, and maintainability. Currently pursuing a Computer Science degree at UTEC.',
+                    'bio' => 'Full Stack Software Developer with over 2 years of experience, mainly focused on backend development. Specialized in PHP, Laravel, C/C++, SQL and building reliable server-side solutions. I develop web applications prioritizing performance, security, and maintainability. Currently studying Higher Technologist in Computer Science at UTEC.',
                     'mail' => 'brossani23@gmail.com',
                     'phone' => '+59891845585',
                     'linkedin' => 'https://www.linkedin.com/in/brunorossani/',
@@ -47,14 +47,14 @@ class Resume extends Component
                     'title' => 'Education',
                     'careers' => [
                         [
-                            'degree' => 'Computer Science Degree - UTEC',
+                            'degree' => 'Higher Technologist in Computer Science - UTEC',
                             'years' => 'Mar 2025 - Present',
-                            'description' => 'Studying Software Engineering with a focus on architecture, efficient algorithms, and robust databases to build scalable, high-impact solutions to real-world problems.',
+                            'description' => 'Student of Higher Technologist in Computer Science with plans to continue as Systems Analyst at FING. Focused on software architecture, efficient algorithms, and databases, aiming to develop high-impact tech solutions for real-world problems.',
                         ],
                         // [
-                        //     'degree' => 'Musical Performance - UdelaR',
+                        //     'degree' => 'Musical Interpretation - UdelaR',
                         //     'years' => 'Mar 2019 - Nov 2024',
-                        //     'description' => 'Trained in musical analysis, technique, and ensemble work—enhancing discipline and creative thinking.'
+                        //     'description' => 'Training in musical analysis, instrumental technique, and ensemble work, strengthening discipline and creative thinking.'
                         // ]
                     ]
                 ],
@@ -62,37 +62,37 @@ class Resume extends Component
                     'title' => 'Experience',
                     'jobs' => [
                         [
-                            'position' => 'Full Stack Software Developer - Freelance',
+                            'position' => 'Software Developer - Freelance',
                             'years' => 'Sep 2023 - Present',
-                            'skills' => ['PHP', 'Laravel', 'Web Development'],
+                            'skills' => ['PHP', 'C/C++', 'SQL', 'JavaScript'],
                             'responsibilities' => [
-                                'Developed and maintained 4+ web applications with PHP and JavaScript, improving page load performance by up to 30% through optimized code structure and caching.',
-                                'Designed and implemented reusable components, resulting in a 30% reduction in development time for new features and a more consistent user experience.',
-                                'Strengthened application security by implementing role-based authentication and secure data practices, reducing reported vulnerabilities by 80%.',
-                                'Conducted performance audits and deployed CI/CD pipelines, decreasing deployment times by 50% and reducing error rates.',
-                                'Created tailored solutions for 3 clients, boosting internal process efficiency by 40% and automating repetitive tasks.'
-                            ]
+                                'Developed and maintained dynamic web applications with PHP and JavaScript, optimizing load performance through caching and lazy loading techniques.',
+                                'Designed and implemented a reusable component system that sped up development and improved visual consistency across product interfaces.',
+                                'Strengthened web system security through role-based authentication and best practices in handling sensitive data, increasing security by 30%.',
+                                'Analyzed application performance and improved the release process, achieving faster, more stable updates with no visible errors for users.',
+                                'Implemented custom solutions for clients, automating key tasks and increasing operational efficiency by about 40%.',
+                            ],
                         ],
                         [
                             'position' => 'Sales and Operations - eDrinks',
                             'years' => 'Mar 2023 - Present',
                             'skills' => ['Sales', 'Operations', 'Customer Service'],
                             'responsibilities' => [
-                                'Played a key role in a 5-person team, supporting the coordination and execution of workflows that enhance cross-department collaboration and service speed.',
-                                'Streamlined internal workflows and reporting procedures across teams, improving collaboration and leading to a 20% increase in efficiency.',
-                                'Improved overall customer satisfaction and loyalty, growing monthly sales by 25% through tailored customer engagement strategies.',
-                                'Optimized supplier logistics and inventory forecasting, leading to a 35% reduction in stockouts and a 20% decrease in storage costs.',
-                                'Managed daily store operations, reducing order processing time by 35% and increasing delivery accuracy.'
-                            ]
+                                'Improved customer experience through personalized strategies, boosting engagement and strengthening loyalty for greater retention and recommendations.',
+                                'Key member of a five-person team, collaborating on coordination and execution of workflows to enhance communication and operational efficiency.',
+                                'Managed daily store operations, speeding up order processing and increasing delivery accuracy to ensure consistent customer satisfaction.',
+                                'Optimized supplier logistics and inventory forecasting, reducing stockouts by 35% and storage costs by 20%, directly impacting the budget.',
+                                'Standardized internal processes and reporting between teams, improving communication and speeding up incident response by 20%.',
+                            ],
                         ],
                     ]
                 ],
                 'side_projects' => [
-                    'title' => 'Latest projects',
+                    'title' => 'Recent Projects',
                     'projects' => [
                         [
                             'name' => 'Tortuga',
-                            'description' => 'E-commerce platform for Tortuga.uy — promoting sustainable, circular fashion.',
+                            'description' => 'E-commerce platform for Tortuga.uy — sustainable and circular fashion.',
                             'technologies' => ['E-commerce', 'CRM', 'Laravel', 'Livewire', 'Alpine.js'],
                             'link' => 'https://tortuga.laravel.cloud/',
                             'is_active' => true
@@ -100,14 +100,14 @@ class Resume extends Component
                         [
                             'name' => 'Practizly',
                             'description' => 'AI-powered academic planning tool for students and teachers.',
-                            'technologies' => ['Side project', 'OpenAI', 'Planning', 'Studies'],
+                            'technologies' => ['Personal Project', 'OpenAI', 'Planning', 'Studies'],
                             'link' => 'https://practizly.laravel.cloud/',
                             'is_active' => true
                         ],
                         [
                             'name' => 'DevWebCamp',
-                            'description' => 'Event management platform with ticketing, PayPal, and email verification.',
-                            'technologies' => ['Side project', 'Laravel', 'JavaScript', 'Webinar'],
+                            'description' => 'Event management platform with ticket sales, PayPal integration, and email verification.',
+                            'technologies' => ['Personal Project', 'Laravel', 'JavaScript', 'Webinar'],
                             'link' => 'https://github.com/elkiki99/devwebcamp',
                             'is_active' => false
                         ]
@@ -152,7 +152,7 @@ class Resume extends Component
                 'header' => [
                     'name' => 'Bruno Rossani',
                     'title' => 'Desarollador de Software Full Stack',
-                    'bio' => 'Desarrollador de Software Full Stack con más de 2 años de experiencia, principalmente enfocado en desarrollo backend. Especializado en PHP, Laravel y creación de soluciones fiables del lado del servidor. Desarrollo aplicaciones web priorizando rendimiento, seguridad y mantenibilidad. Actualmente cursando la carrera de Ciencias de la Computación en UTEC.',
+                    'bio' => 'Desarrollador de Software Full Stack con más de 2 años de experiencia, principalmente enfocado en desarrollo backend. Especializado en PHP, Laravel, C/C++, SQL y creación de soluciones fiables del lado del servidor. Desarrollo aplicaciones web priorizando rendimiento, seguridad y mantenibilidad. Actualmente cursando la carrera de Tecnólogo en Informática en UTEC.',
                     'mail' => 'brossani23@gmail.com',
                     'phone' => '+59891845585',
                     'linkedin' => 'https://www.linkedin.com/in/brunorossani/',
@@ -165,9 +165,9 @@ class Resume extends Component
                     'title' => 'Educación',
                     'careers' => [
                         [
-                            'degree' => 'Licenciatura en Ciencias de la Computación - UTEC',
+                            'degree' => 'Tecnólogo en Informática - UTEC',
                             'years' => 'Mar 2025 - Presente',
-                            'description' => 'Estudio Ingeniería de Software enfocándome en arquitectura, algoritmos eficientes y bases de datos robustas, para crear soluciones escalables y de alto impacto a problemas reales.',
+                            'description' => 'Estudiante de Tecnólogo en Informática con proyección a continuar Analista en Sistemas en FING. Enfocado en arquitectura de software, algoritmos eficientes y bases de datos, con el objetivo de desarrollar soluciones tecnológicas de alto impacto para problemas reales.',
                         ],
                         // [
                         //     'degree' => 'Interpretación Musical - UdelaR',
@@ -180,28 +180,28 @@ class Resume extends Component
                     'title' => 'Experiencia',
                     'jobs' => [
                         [
-                            'position' => 'Desarollador de Software Full Stack - Freelance',
+                            'position' => 'Desarollador de Software - Freelance',
                             'years' => 'Sep 2023 - Presente',
-                            'skills' => ['PHP', 'Laravel', 'Desarrollo Web'],
+                            'skills' => ['PHP', 'C/C++', 'SQL', 'Javascript'],
                             'responsibilities' => [
-                                'Fortalecí la seguridad de la aplicación implementando autenticación basada en roles y prácticas seguras de manejo de datos, reduciendo vulnerabilidades en un 80%.',
-                                'Implementé un sistema de componentes reutilizables que optimizó el desarrollo, reduciendo en un 30% los tiempos de entrega e impulsando la coherencia visual.',
-                                'Desarrollé y mantuve más de 4 aplicaciones web con PHP y JavaScript, mejorando el rendimiento de carga hasta un 30% mediante optimización y caché.',
-                                'Realicé auditorías de rendimiento y desplegué pipelines CI/CD, disminuyendo los tiempos de despliegue en un 50% y reduciendo errores.',
-                                'Creé soluciones a medida para 3 clientes, aumentando la eficiencia interna en un 40% y automatizando tareas repetitivas.'
-                            ]
+                                'Fortalecí la seguridad de sistemas web mediante autenticación basada en roles y buenas prácticas en el manejo de datos sensibles, aumentando la seguridad en un 30%.',
+                                'Analicé el rendimiento de las aplicaciones y mejoré el proceso de publicación, logrando actualizaciones más rápidas, estables y sin errores visibles para los usuarios.',
+                                'Implementé soluciones personalizadas para clientes, automatizando tareas clave y aumentando la eficiencia operativa en aproximadamente un 40%.',
+                                'Diseñé e implementé un sistema de componentes reutilizables que aceleró el desarrollo y mejoró la coherencia visual en todas las interfaces del producto.',
+                                'Desarrollé y mantuve aplicaciones web dinámicas con PHP y JavaScript, optimizando el rendimiento de carga con técnicas como caché y carga diferida.',
+                            ],
                         ],
                         [
                             'position' => 'Ventas y Operaciones - eDrinks',
                             'years' => 'Mar 2023 - Presente',
-                            'skills' => ['Ventas', 'Operaciones', 'Atención al Cliente'],
+                            'skills' => ['Ventas', 'Operaciones', 'Atención al cliente'],
                             'responsibilities' => [
-                                'Formé parte clave de un equipo de 5 personas, apoyando la coordinación y ejecución de flujos de trabajo para mejorar la colaboración y velocidad del servicio.',
-                                'Estandaricé los flujos de trabajo internos y los procedimientos de reporte entre los equipos, logrando un incremento del 20% en la entrega de proyectos.',
-                                'Optimicé la logística de proveedores y pronóstico de inventarios, logrando una reducción del 35% en faltantes y un 20% en costos de almacenamiento.',
-                                'Mejoré la satisfacción y fidelización de clientes, aumentando las ventas mensuales en un 25% mediante estrategias personalizadas de engagement.',
-                                'Gestioné operaciones diarias de tienda, reduciendo el tiempo de procesamiento de pedidos en un 35% y aumentando la precisión en las entregas.'
-                            ]
+                                'Mejoré la experiencia del cliente con estrategias personalizadas, impulsando el compromiso y fortaleciendo la fidelización para lograr mayor retención y recomendación de los usuarios.',
+                                'Optimicé la logística y el pronóstico de inventarios, logrando reducir faltantes en un 35% y disminuir costos de almacenamiento en un 20%, con un impacto directo en el presupuesto.',
+                                'Gestioné las operaciones diarias de la tienda, agilizando el procesamiento de pedidos y elevando la precisión en las entregas para asegurar la satisfacción constante de los clientes.',
+                                'Formé parte clave de un equipo de cinco personas, colaborando en la coordinación y ejecución de flujos para mejorar la comunicación y la eficiencia operativa diaria.',
+                                'Estandaricé los procesos internos y los informes entre equipos, lo que permitió mejorar la comunicación y acelerar la respuesta ante incidencias en un 20%.',
+                            ],
                         ],
                     ]
                 ],
